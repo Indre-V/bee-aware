@@ -49,3 +49,21 @@ Users can subscribe to newsletter and contact campaign managers directly.
 - Invite users to engage in social media activities.
 
 [Back to top](#contents)
+
+## Design Choices
+
+### Typography
+
+The font family chosen for Bee-Aware was Montserrat. This font has a high readability and makes the design look clean and simple.
+
+### Colour Scheme
+
+The color scheme was used based on pollinator and plant colours. Neutral off white was chosen for backgrounds. Main accent color is saffron yellow and together with liquerish brown represent the bee. The combination of greens and pale red used throughout the website in various shades for more nature inspired looks.
+
+![Nature colour scheme](docs/nature-colour-scheme.png)
+
+I have also used contrast-grid.eightshapes.com to get inspiration for possible colour combination to make the website visually attractive.
+
+![Contrast Grid](docs/contrast-grid.png)
+
+### Logo and Images
