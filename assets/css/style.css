@@ -34,17 +34,20 @@ h4 {
 }
 
 .bee-aware-logo {
-    width: 90px;
-    height: 55px;
-    padding-left: 15px;
+    width: 60px;
+    margin-left: 1.5rem;
+    padding-left: 5px;
+    height: 3rem;
 }
 
 #top-nav {
     background-color: rgba(255, 255, 255, 0.837);
-    height: 9vh;
+    height: 5vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow: hidden;
+
 }
 
 .nav-bar {
@@ -131,12 +134,15 @@ h4 {
 }
 
 .hero-image {
-    background: url("../images/background-2.jpg") no-repeat center center;
+    background: url("../images/hero.jpg") no-repeat center center;
     background-size: cover;
-    height: 60vh;
+    height: 80vh;
     width: 100%;
 
+
+
 }
+
 
 .hero-text {
     height: 15%;
