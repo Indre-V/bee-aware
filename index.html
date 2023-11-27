@@ -11,38 +11,39 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="manifest" href="assets/favicon/site.webmanifest" />
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
-    <nav id="top-nav mobile-nav">
-        <div class="nav-bar">
-            <a href="#main-menu" class="menu-toggle" aria-label="Open main menu">
-                <span class="fa fa-bars" aria-hidden="true"></span>
-            </a>
-            <a href="index.html"><img src="assets/images/logo5.jpg" alt="Bee Logo" class="bee-aware-logo"></a>
-            <div class="main-menu">
-                <ul>
-                    <li>
-                        <a href="#home" aria-label="Link to the home screen (opens in the same tab)">Home</a>
-                    </li>
-                    <li>
-                        <a href="#about" aria-label="Link to the about section (opens in the same tab)">About</a>
-                    </li>
-                    <li>
-                        <a href="#initiatives" aria-label="Link to the initiatives section (opens in the same tab)">Initiatives</a>
-                    </li>
-                    <li>
-                        <a href="#events" aria-label="Link to the events section (opens in the same tab)">Events</a>
-                    </li>
-                    <li>
-                        <a href="#contact" aria-label="Link to the contact section (opens in the same tab)">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+
+    <header>
+        <a href="index.html"><img src="assets/images/logo5.jpg" alt="Bee Logo" class="bee-aware-logo"></a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li>
+                    <a href="#welcome" aria-label="Link to the home screen (opens in the same tab)">Home</a>
+                </li>
+                <li>
+                    <a href="#about" aria-label="Link to the about section (opens in the same tab)">About</a>
+                </li>
+                <li>
+                    <a href="#initiatives" aria-label="Link to the initiatives section (opens in the same tab)">Initiatives</a>
+                </li>
+                <li>
+                    <a href="#events" aria-label="Link to the events section (opens in the same tab)">Events</a>
+                </li>
+                <li>
+                    <a href="#contact" aria-label="Link to the contact section (opens in the same tab)">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
     <section id="home">
         <div class="hero-image">
@@ -67,7 +68,7 @@
     <section id="about">
         <div>
             <h2>Top Pollinators</h2>
-            <ul>
+            <ol>
                 <li>Bees</li>
                 <li>Wasps</li>
                 <li>Butterflies</li>
@@ -75,7 +76,7 @@
                 <li>Flies</li>
                 <li>Humming Birds</li>
                 <li>Bats</li>
-            </ul>
+            </ol>
 
             <div id=" ">
                 <h2>Importance</h2>
@@ -115,7 +116,7 @@
 
                 </p>
             </div>
-            <section id="initatives">
+            <section id="initiatives">
                 <div>
                     <h2>Initiatives</h2>
                     <p><b>Avoid using insecticides, fungicides and herbicides. </b>These powerful chemical concoctions
