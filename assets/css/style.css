@@ -42,12 +42,11 @@ h4 {
 
 #top-nav {
     background-color: rgba(255, 255, 255, 0.837);
-    height: 5vh;
+    height: 2vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
-
 }
 
 .nav-bar {
@@ -59,8 +58,6 @@ h4 {
     border-bottom: 1px solid var(--white);
     width: 100%;
 }
-
-
 
 .menu-toggle {
     margin-right: 1.5rem;
@@ -136,13 +133,10 @@ h4 {
 .hero-image {
     background: url("../images/hero.jpg") no-repeat center center;
     background-size: cover;
-    height: 80vh;
+    height: 70vh;
     width: 100%;
 
-
-
 }
-
 
 .hero-text {
     height: 15%;
@@ -167,11 +161,10 @@ h4 {
 
 @media (min-width: 992px) {
 
-    /* 3.3.1 navigation bar */
-
     .nav-bar {
         flex-direction: row;
     }
+
 
     .menu-toggle,
     .main-menu .menu-close {
@@ -209,7 +202,7 @@ h4 {
         margin-left: 2rem;
     }
 
-    .logo {
+    .bee-aware-logo {
         margin-left: 2.5rem;
         font-size: 4rem;
     }
@@ -223,14 +216,13 @@ h4 {
 
     .main-menu a:hover {
         background: none;
-        border-bottom: 3px solid var(--light-purple);
+        border-bottom: 3px solid var(--white);
         border-radius: 0;
     }
 
     .main-menu ul a:focus {
-        color: var(--light-purple);
+        color: var(--white);
     }
-
 
     .hero-text {
         height: 10rem;
@@ -240,15 +232,4 @@ h4 {
     .hero-text h1 {
         font-size: 6rem;
     }
-
-    @media (min-width: 576px) {
-
-        .hero-text {
-            height: 8rem;
-            width: 15rem;
-        }
-
-        .hero-text h1 {
-            font-size: 4rem;
-        }
-    }
+}
