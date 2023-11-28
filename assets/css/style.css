@@ -186,6 +186,54 @@ hero-text {
     line-height: 4.2;
 }
 
+.about-right {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.left-image>img {
+    width: 400px;
+}
+
+.right-info {
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.right-info>h2 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-left {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgba(239, 190, 183, 0.101);
+}
+
+.right-image>img {
+    width: 600px;
+}
+
+.left-info {
+    width: 600px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.left-info>h2 {
+    text-align: center;
+}
+
 @media screen and (min-width: 768px) {
 
     nav {
