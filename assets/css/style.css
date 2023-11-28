@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url ('https: //fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&family=Oswald:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -193,7 +193,6 @@ nav {
 .about-right {
     height: 500px;
     display: flex;
-    align-items: center;
     justify-content: space-evenly;
 }
 
@@ -215,11 +214,12 @@ nav {
 }
 
 .about-left {
-    height: 500px;
+    height: 900px;
     display: flex;
     align-items: center;
     justify-content: space-around;
     background-color: rgba(239, 190, 183, 0.101);
+
 }
 
 .right-image>img {
@@ -231,7 +231,8 @@ nav {
     height: 350px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-basis: 50%;
 }
 
 .left-info>h2 {
@@ -243,6 +244,18 @@ span {
     top: 1px;
     display: inline-block;
 
+}
+
+.ideas-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 'item-grid', repeat (auto-fit, minmax(300px, 1fr));
+
+
+}
+
+.item-grid {
+    grid-template-areas: none;
 }
 
 @media screen and (min-width: 768px) {
