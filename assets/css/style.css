@@ -246,16 +246,53 @@ span {
 
 }
 
+
+
 .ideas-grid {
     display: grid;
-    grid-gap: 1rem;
-    grid-template-columns: 'item-grid', repeat (auto-fit, minmax(300px, 1fr));
+    grid-template-columns: 1fr 1fr 1fr;
+}
 
+
+
+item-grid figure {
+    margin: 0;
+}
+
+article.item-grid {
+    width: 90%;
+    margin: 1rem auto;
+    border: 4px solid;
 
 }
 
+.item-grid img {
+    height: 10rem;
+    width: 20%;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+
+}
+
+.item-grid figcaption {
+    font-family: inherit;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0.5rem 0;
+
+}
+
+
 .item-grid {
-    grid-template-areas: none;
+
+    display: grid;
+    text-align: center;
+    font-weight: bold;
+    margin: 0.5rem 0;
+    margin: 0;
+    padding: 0 1rem 1rem 1rem;
 }
 
 @media screen and (min-width: 768px) {
