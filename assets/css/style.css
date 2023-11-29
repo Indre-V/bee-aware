@@ -108,7 +108,7 @@ nav {
 }
 
 .hero-image {
-    background: url("../images/background-3.jpg") no-repeat center center;
+    background: url("../images/hero-image2.jpg") no-repeat center center;
     height: 75vh;
     background-size: cover;
     background-color: rgba(255, 255, 255, .5);
@@ -116,20 +116,18 @@ nav {
 
 }
 
-.hero-text {
+.hero-text h1 {
+    font-size: 1.5rem;
     position: absolute;
-    top: 15%;
+    top: 60%;
     width: 100%;
     text-align: center;
 }
 
-.hero-text h1 {
-    font-size: 1rem;
-    margin-bottom: 0.7rem;
-}
 
-.hero-text p {
-    font-size: 1rem;
+.hero-text {
+
+
     width: 80vw;
     margin: 0;
     position: relative;
@@ -138,10 +136,7 @@ nav {
     transform: translate(-50%, -50%);
 }
 
-.hero-text h1 {
-    color: var(--white);
-    text-decoration: none;
-}
+
 
 .centered {
     position: relative;
@@ -153,15 +148,19 @@ nav {
 
 
 .about {
-    background-color: #edabb0;
+
+    background: url("../images/top.png") no-repeat center center;
     width: 100%;
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.822);
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
 }
 
-.row h2 {
+.row {
     display: flex;
     flex-wrap: wrap;
     margin-right: -15px;
@@ -175,14 +174,23 @@ nav {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
+
+}
+
+.columns h2 {
+
+    font-size: 5rem;
+
+
 }
 
 .text-center {
     text-align: center;
+
 }
 
 .list {
-    font-size: 2rem;
+    font-size: 3rem;
     color: #271a16;
     margin-bottom: .5rem;
     font-family: inherit;
@@ -331,7 +339,7 @@ article.item-grid {
 .events ul li .event-title {
     position: relative;
     padding: 20px;
-    background: #1e4c0b;
+    background: #606c38;
     box-sizing: border-box;
     width: 30%;
     height: 100%;
@@ -450,7 +458,7 @@ background: #afafb6;
     border: none;
     padding: 8px 3px;
     border-radius: 6px;
-    background: #1e4c0b;
+    background: #606c38;
     cursor: pointer;
 
 }
@@ -508,13 +516,13 @@ background: #afafb6;
     border: none;
     padding: 8px 16px;
     border-radius: 6px;
-    background: #1e4c0b;
+    background: #606c38;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .button input[type="button"]:hover {
-    background: #1e4c0b;
+    background: #606c38;
 }
 
 .icon-list {
