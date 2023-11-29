@@ -517,6 +517,40 @@ background: #afafb6;
     background: #1e4c0b;
 }
 
+.icon-list {
+    background-color: rgba(239, 190, 183, 0.101);
+    margin: auto;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-brands {
+
+    font-size: xx-large;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+
+}
+
+.fa-instagram {
+    color: #c32aa3;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+ul {
+
+    list-style: none;
+}
+
 
 
 @media (max-width: 950px) {
