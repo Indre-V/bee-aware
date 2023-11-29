@@ -247,39 +247,43 @@ span {
 }
 
 
+#initiatives>h3 {
+    font-size: 2rem;
+    font-style: inherit;
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
 
 .ideas-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.ideas-grid>p {
+    font-size: 20rem;
+
 }
 
 
+.item-grid img {
+    height: 20rem;
+    object-fit: fill;
+    object-position: center;
 
-item-grid figure {
-    margin: 0;
+
 }
 
 article.item-grid {
-    width: 90%;
+    width: 55%;
     margin: 1rem auto;
-    border: 4px solid;
-
-}
-
-.item-grid img {
-    height: 10rem;
-    width: 20%;
-    object-fit: cover;
-    object-position: top;
-    display: block;
-
+    border: 6px solid;
+    border-color: #ecba04;
 }
 
 .item-grid figcaption {
     font-family: inherit;
-    font-weight: bold;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 0.5rem 0;
 
 }
@@ -288,11 +292,11 @@ article.item-grid {
 .item-grid {
 
     display: grid;
-    text-align: center;
-    font-weight: bold;
-    margin: 0.5rem 0;
-    margin: 0;
-    padding: 0 1rem 1rem 1rem;
+    margin: auto;
+    margin: 9fr;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    text-align: left;
+    background-color: rgba(239, 190, 183, 0.101);
 }
 
 @media screen and (min-width: 768px) {
