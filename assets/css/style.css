@@ -63,7 +63,11 @@ li {
     color: #2c2c2c;
 }
 
+ul {
 
+    list-style: none;
+
+}
 
 /* nav bar */
 .menu {
@@ -357,7 +361,7 @@ span {
 }
 
 article.item-grid {
-    width: 80%;
+    width: 100%;
     margin: 1rem auto;
     border: 6px solid;
     border-color: #ecba04;
@@ -382,10 +386,20 @@ article.item-grid {
     background-color: rgba(239, 190, 183, 0.101);
 }
 
-#events {
-    background-color: rgba(239, 190, 183, 0.101);
-    height: 70%;
+/*events section  */
+.events {
+    display: grid;
+    position: relative;
+    width: 100%;
+    /* float: right; */
+    box-sizing: border-box;
+    /* background-color: rgba(239, 190, 183, 0.101); */
 }
+
+/* #events {
+    background-color: rgba(239, 190, 183, 0.101);
+
+} */
 
 #events h2 {
     font-size: 2rem;
@@ -395,17 +409,12 @@ article.item-grid {
 
 }
 
-.events {
-    position: relative;
-    width: 100%;
-    float: right;
-    box-sizing: border-box;
-}
+
 
 
 .events ul li {
     list-style: none;
-    background: white;
+    /* background: rgba(239, 190, 183, 0.101); */
     box-sizing: border-box;
     height: 100px;
     margin: 15px 0;
@@ -413,11 +422,12 @@ article.item-grid {
 
 .events ul li .event-title {
     position: relative;
+    margin-left: 1rem;
     padding: 20px;
     background: #606c38;
     box-sizing: border-box;
-    width: 30%;
-    height: 100%;
+    width: 20%;
+    height: 7rem;
     float: left;
     text-align: center;
 }
@@ -440,7 +450,7 @@ article.item-grid {
     background: #ecba04;
     box-sizing: border-box;
     width: 70%;
-    height: 100%;
+    height: 7rem;
     float: left;
 }
 
@@ -448,8 +458,13 @@ article.item-grid {
     position: relative;
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 15px;
 }
+
+
+
+/* contact section */
+
 
 #contact h2 {
     font-size: 2rem;
@@ -629,20 +644,18 @@ background: #afafb6;
     color: white;
 }
 
-ul {
 
-    list-style: none;
-}
 
 /* Small devices (landscape phones, 576px and up)  */
 @media (min-width: 576px) {
     .ideas-grid {
         grid-template-columns: repeat(2, 1fr);
+
     }
 
 
     article.item-grid {
-        width: 60%;
+        width: 90%;
     }
 }
 
