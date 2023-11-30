@@ -17,7 +17,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #444343;
+    color: #2c2c2c;
 }
 
 h1,
@@ -34,14 +34,66 @@ h5 {
 
 }
 
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
 .bee-aware-logo {
     width: 60px;
     margin-left: 0.5rem;
     padding-left: 1px;
     height: 3rem;
+    font-size: 32px;
 }
 
-header {
+.topnav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(239, 190, 183, 0.101);
+    color: #2c2c2c;
+}
+
+.nav-links a {
+    color: #2c2c2c;
+}
+
+
+
+/* nav bar */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    /* background-color: #d8dbdb; */
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.menu li {
+    padding: 5px 14px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+/* HAMBURGER MENU */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* header {
     background-color: #f5f5f5;
     padding: 0 1rem;
     position: fixed;
@@ -105,7 +157,7 @@ nav {
 
     overflow: hidden;
     position: relative;
-}
+} */
 
 .hero-image {
     background: url("../images/hero-image2.jpg") no-repeat center center;
@@ -559,87 +611,49 @@ ul {
     list-style: none;
 }
 
+/* Small devices (landscape phones, 576px and up)  */
+@media (min-width: 576px) {}
 
 
-@media (max-width: 950px) {
-    .container {
-        width: 90%;
-        padding: 30px 40px 40px 35px;
-    }
-
-    .container .content .right-side {
-        width: 75%;
-        margin-left: 55px;
-    }
-}
-
-@media (max-width: 820px) {
-    .container {
-        margin: 40px 0;
-        height: 100%;
-    }
-
-    .container .content {
-        flex-direction: column-reverse;
-    }
-
-    .container .content .left-side {
-        width: 100%;
-        flex-direction: row;
-        margin-top: 40px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .container .content .left-side::before {
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+    .menu {
         display: none;
+        position: absolute;
+        background-color: #f5f5f5;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
     }
 
-    .container .content .right-side {
-        width: 100%;
-        margin-left: 0;
+    .menu li:hover {
+        display: inline-block;
+        /* background-color: #eee8e8; */
+        /* transition: 0.3s ease; */
     }
-}
 
-@media screen and (min-width: 768px) {
+    .menu li+li {
+        margin-top: 12px;
+    }
 
-    nav {
+    input[type=checkbox]:checked~.menu {
         display: block;
-        position: relative;
-        box-shadow: none;
-        width: fit-content;
-        padding-right: 1rem;
     }
 
-    #menu {
-        display: flex;
-    }
-
-    #menu>li {
-        padding-left: 1rem;
-    }
-
-    .nav-toggle-label {
-        display: none;
-    }
-
-    .row {
-        justify-content: center;
-        flex-wrap: wrap-reverse;
-
-    }
-
-
-}
-
-
-
-
-
-
-/* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a33;
+    .hamburger {
+        display: block;
     }
 }
+
+
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+/* Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
