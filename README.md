@@ -54,11 +54,11 @@ Users can subscribe to newsletter and contact campaign managers directly.
 
 ### Typography
 
-The font family chosen for Bee-Aware was Montserrat. This font has a high readability and makes the design look clean and simple.
+The font family chosen for Bee-Aware was 'Libre Franklin'. This font has a high readability and makes the design look clean and simple.
 
 ### Colour Scheme
 
-The color scheme was used based on pollinator and plant colours. Neutral off white was chosen for backgrounds. Main accent color is saffron yellow and together with liquerish brown represent the bee. The combination of greens and pale red used throughout the website in various shades for more nature inspired looks.
+The color scheme was used based on pollinator and plant colours. Neutral pale red was chosen for backgrounds. Main accent color is saffron yellow and together with liquerish brown represent the bee. The combination of green and yellow used throughout the website in various shades for more nature inspired looks.
 
 ![Nature colour scheme](docs/nature-colour-scheme.png)
 
@@ -67,3 +67,30 @@ I have also used contrast-grid.eightshapes.com to get inspiration for possible c
 ![Contrast Grid](docs/contrast-grid.png)
 
 ### Logo and Images
+
+### Structure
+
+My website will be responsive and different layouts depending on the size of the viewport have been included in the CSS media queries. the breakpoints I am iusing are from Bootstrap.
+![Breakpoints](docs/media-queries.png)
+
+\
+&nbsp;
+[Back to Top](#contents)
+\
+&nbsp;
+
+# Features
+
+Bee-Aware aims to simplify information availability for users as much as possible. Layout ais easy to use and adhere to best practices in formatting and styling. The site's flow and appearance will be recognizable to users. Browsing of the entire website is encouraged by the relatable and easy to understand material.
+
+## Existing Features
+
+# Home
+
+Bee-Aware home page serves as its primary landing page. The landing page's objectives are to explain to the visitor the aim of the website in plain terms. Also inviting them to explore the site further using the navigation bar.
+
+### Navigation Bar
+
+This webpage has navigation bar which is responsive to different screen sizes. It includes the logo of the be whoch leads back to the home page.
+
+### Landing Page
