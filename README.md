@@ -2,11 +2,15 @@
 
 # Bee-Aware
 
+[Link to Live Website](https://indre-v.github.io/bee-aware/)
+
 Welcome to pollinator awareness website.
 
 This page offers free information to help you understand more about our many pollinators and what you can do to support them, along with details about our activities and campaigns.
 
 Users can subscribe to newsletter and contact campaign managers directly.
+
+![Bee-Aware](docs/bee-aware-responsive-display.png)
 
 # Contents
 
@@ -267,6 +271,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - [Bootstrap](https://getbootstrap.com "Bootstrap")
 - [Slack](https://www.icloud.com/notes/ "Slack")
 - [TOC Generator](https://ecotrust-canada.github.io/markdown-toc/ "TOC Generator")
+- [Screenshot Generator](https://ui.dev/amiresponsive "Screenshot Generator")
 
 \
 &nbsp;
