@@ -62,6 +62,12 @@ The color scheme was used based on pollinator and plant colours. Neutral pale re
 
 ![Nature colour scheme](docs/nature-colour-scheme.png)
 
+- CSS HEX
+  --saffron: #ecba04ff;
+  --tea-rose-red: #efbeb7ff;
+  --dark-moss-green: #606c38ff;
+  --licorice: #271a16ff;
+
 I have also used contrast-grid.eightshapes.com to get inspiration for possible colour combination to make the website visually attractive.
 
 ![Contrast Grid](docs/contrast-grid.png)
@@ -81,16 +87,35 @@ My website will be responsive and different layouts depending on the size of the
 
 # Features
 
-Bee-Aware aims to simplify information availability for users as much as possible. Layout ais easy to use and adhere to best practices in formatting and styling. The site's flow and appearance will be recognizable to users. Browsing of the entire website is encouraged by the relatable and easy to understand material.
+Bee-Aware aims to simplify information availability for users as much as possible. Layout  is easy to use and adhere to best practices in formatting and styling. The site's flow and appearance will be recognizable to users. Browsing of the entire website is encouraged by the relatable and easy to understand material.
 
 ## Existing Features
 
-# Home
-
-Bee-Aware home page serves as its primary landing page. The landing page's objectives are to explain to the visitor the aim of the website in plain terms. Also inviting them to explore the site further using the navigation bar.
-
 ### Navigation Bar
 
-This webpage has navigation bar which is responsive to different screen sizes. It includes the logo of the be whoch leads back to the home page.
+This webpage has navigation bar which is responsive to different screen sizes. It includes the logo of the bee which leads back to the home page.
+
+- Desktop (>=992px)
+
+![Navigation bar large screen](docs/navbar-full-screen.png)
+
+    * The navigation bar is spread out the full width of the device with all link to different sections of the webpage.  Navigation bar is fixed so it is present while browsing the page. It also has a shade of liquorish brown for :hover effect to improve user experience.
+
+![Navigation bar large screen](docs/navbar-full-screen-hover.png)
+
+- Small devices (<992px)
+  - For small devices, the desktop navigation bar is not user friendly. For this reason, it is coded to wrap into hamburger style icon. Once user clicks on the icon, the navigation options spread across the screen of the mobile device.
+
+![Navigation bar mobile screen](docs/navbar-mobile-device.png)
+
+    * Once user taps on the icon, the navigation options spread across the screen of the mobile device.
+
+![Navigation bar mobile screen](docs/navbar-mobile-device-tap.png)
+
+\
+&nbsp;
+[Back to Top](#contents)
+\
+&nbsp;
 
 ### Landing Page
