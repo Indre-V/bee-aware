@@ -164,7 +164,25 @@ Users can subscribe to newsletter and contact campaign managers directly.
 
 - To continue with the consistent appearance of the webpage, the initiative boxes a displayed in one column. The inside of each card has the same layout as in the larger screen.
 
-[Initiatives Smaller Screen ](docs/initiatives-small-screen-view.png)
+[Initiatives Smaller Screen](docs/initiatives-small-screen-view.png)
+
+\
+&nbsp;
+[Back to Top](#contents)
+\
+&nbsp;
+
+### Events
+
+- This section contains the vents throughout the year end-user may be interested take part in. The colours are used in the layout are yellow and green to represent the pollinators and nature.
+
+  _Large and Medium devices_ have the title of the event displayed on the left and details on the right using grid view.
+
+[Events Large and Medium Screen](docs/events-ml-screen-view.png)
+
+_Small Screen devices_ have title and details displayed in one column just like other sections. The details part would have been illegible otherwise.
+
+[Events Small Screen](docs/events-small-screen-view.png)
 
 \
 &nbsp;
