@@ -54,13 +54,17 @@ Users can subscribe to newsletter and contact campaign managers directly.
 
 ### Typography
 
-The font family chosen for Bee-Aware was 'Libre Franklin'. This font has a high readability and makes the design look clean and simple.
+- The font family chosen for Bee-Aware was 'Libre Franklin'. This font has a high readability and makes the design look clean and simple.
 
 ### Colour Scheme
 
-The color scheme was used based on pollinator and plant colours. Neutral pale red was chosen for backgrounds. Main accent color is saffron yellow and together with liquerish brown represent the bee. The combination of green and yellow used throughout the website in various shades for more nature inspired looks.
+- The color scheme was used based on pollinator and plant colours. Neutral pale red was chosen for backgrounds. Main accent color is saffron yellow and together with liquerish brown represent the bee. The combination of green and yellow used throughout the website in various shades for more nature inspired looks.
 
-![Nature colour scheme](docs/nature-colour-scheme.png)
+![Nature colour scheme](docs/nature-color-scheme.png)
+
+- I have also used contrast-grid.eightshapes.com to get inspiration for possible colour combination to make the website visually attractive.
+
+![Contrast Grid](docs/contrast-grid.png)
 
 - CSS HEX
   --saffron: #ecba04ff;
@@ -68,16 +72,12 @@ The color scheme was used based on pollinator and plant colours. Neutral pale re
   --dark-moss-green: #606c38ff;
   --licorice: #271a16ff;
 
-I have also used contrast-grid.eightshapes.com to get inspiration for possible colour combination to make the website visually attractive.
-
-![Contrast Grid](docs/contrast-grid.png)
-
 ### Logo and Images
 
 ### Structure
 
-My website will be responsive and different layouts depending on the size of the viewport have been included in the CSS media queries. the breakpoints I am iusing are from Bootstrap.
-![Breakpoints](docs/media-queries.png)
+- My website will be responsiveto different layouts depending on the size of the viewport have been included in the CSS media queries. the breakpoints I am using are from Bootstrap.
+  ![Breakpoints](docs/media-queries.png)
 
 \
 &nbsp;
@@ -87,15 +87,15 @@ My website will be responsive and different layouts depending on the size of the
 
 # Features
 
-Bee-Aware aims to simplify information availability for users as much as possible. Layout  is easy to use and adhere to best practices in formatting and styling. The site's flow and appearance will be recognizable to users. Browsing of the entire website is encouraged by the relatable and easy to understand material.
+- Bee-Aware aims to simplify information availability for users as much as possible. Layout  is easy to use and adhere to best practices in formatting and styling. The site's flow and appearance will be recognizable to users. Browsing of the entire website is encouraged by the relatable and easy to understand material.
 
 ## Existing Features
 
 ### Navigation Bar
 
-This webpage has navigation bar which is responsive to different screen sizes. It includes the logo of the bee which leads back to the home page.
+- This webpage has navigation bar which is responsive to different screen sizes. It includes the logo of the bee which leads back to the home page.
 
-- Desktop (>=992px)
+* Desktop (>=992px)
 
 ![Navigation bar large screen](docs/navbar-full-screen.png)
 
@@ -103,7 +103,7 @@ This webpage has navigation bar which is responsive to different screen sizes. I
 
 ![Navigation bar large screen](docs/navbar-full-screen-hover.png)
 
-- Small devices (<992px)
+- Small devices (<768px)
   - For small devices, the desktop navigation bar is not user friendly. For this reason, it is coded to wrap into hamburger style icon. Once user clicks on the icon, the navigation options spread across the screen of the mobile device.
 
 ![Navigation bar mobile screen](docs/navbar-mobile-device.png)
@@ -120,13 +120,33 @@ This webpage has navigation bar which is responsive to different screen sizes. I
 
 ### Landing Page
 
-Bee-Aware landing page serves as a primary homepage. The landing page's objectives are to explain to the visitor the aim of the website in one sentence. Also it invites them to explore the site further using the navigation bar. The background image was taken by me. The image has a faint overlay as it makes introductory paragraph legible for better UX.
+- Bee-Aware landing page serves as a primary homepage. The landing page's objectives are to explain to the visitor the aim of the website in one sentence. Also it invites them to explore the site further using the navigation bar. The background image was taken by me. The image has a faint overlay as it makes introductory paragraph legible for better UX.
 
 ![Home Page Background Image](docs/home-page-background-image.png)
 
-The second part of the home page is the list of polinators under the background imagae. The content layout is very simple and self explanatory. This part intends to educate the user and encourage them to continue reading other parts of the webpage.
+- The second part of the home page is the list of pollinators under the background imagae. The content layout is very simple and self explanatory. This part intends to educate the user and encourage them to continue reading other parts of the webpage.
 
 ![Home Page Second Part] (docs/home-page-part-two.png)
+
+\
+&nbsp;
+[Back to Top](#contents)
+\
+&nbsp;
+
+### About Section
+
+- This section contains information about the importance and issues pollinators face. The images chosen reflect the contents of the section. On the larger screens (>=992px), About section has two columns. On the right side, there is an eye catching image and on the left side I have included a consolidated version of the value pollinators provide to humans and nature. I kept the information as brief as possible in order to keep the end-users attention. Content is broken down into small paragraphs so the user can understand it better.
+
+![About Section] (docs/about-first-row.png)
+
+- The second row of the About section has the opposite layout for visual and contextual purposes. I aimed to highlight the Importance vs Issues using the flexbox layout of the section.
+
+![About Section] (docs/about-second-row.png)
+
+- For the smaller screen sizes (<992px), side by side image and text layout does not work so I have changed flex direction from row to column. It displays image first and text under which allows the content to be spaced out better to fit smaller screen sizes without looking too crowded.
+-
+- ![About Section Tablet View] (docs/about-tablet-view.png)
 
 \
 &nbsp;
