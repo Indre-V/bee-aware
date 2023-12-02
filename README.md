@@ -4,15 +4,36 @@
 
 Welcome to pollinator awareness website.
 
-This page offers free tools to help you understand more about our many pollinators and what you can do to support them, along with details about our activities and campaigns.
+This page offers free information to help you understand more about our many pollinators and what you can do to support them, along with details about our activities and campaigns.
 
 Users can subscribe to newsletter and contact campaign managers directly.
 
-![Responsive Displays](docs/different-displays.JPG)
-
 # Contents
 
-# User Experience - UX
+- [Bee-Aware](#bee-aware)
+- [Contents](#contents)
+  - [User Goals](#user-goals)
+  - [User Stories](#user-stories)
+  - [Website Goals and Objectives](#website-goals-and-objectives)
+  - [Design Choices](#design-choices)
+    - [Typography](#typography)
+    - [Colour Scheme](#colour-scheme)
+    - [Logo and Images](#logo-and-images)
+    - [Structure](#structure)
+- [Features](#features)
+  - [Existing Features](#existing-features)
+    - [Navigation Bar](#navigation-bar)
+    - [Landing Page](#landing-page)
+    - [About Section](#about-section)
+    - [Initiatives](#initiatives)
+    - [Events](#events)
+    - [Contact](#contact)
+    - [Footer](#footer)
+  - [Future Enhancements](#future-enhancements)
+- [Technologies Used](#technologies-used)
+  - [Languages](#languages)
+  - [Libraries \& Framework](#libraries--framework)
+  - [Tools](#tools)
 
 ## User Goals
 
@@ -154,17 +175,17 @@ Users can subscribe to newsletter and contact campaign managers directly.
 \
 &nbsp;
 
-### Intitiatives
+### Initiatives
 
 - Logical layout is one of my design goals for this website. After outlining importance and issues to the end user, I am now suggesting action in the Initiatives section. I have only included four actions/initiatives with relevant images and explanations in order not to overwhelm the end user with excessive information.
 
-  - On the larger screens (>=992px), the Initiatives section is displayed using grid in two columns. Each inititiave has a saffron yellow border to match the theme of the website. If end user is only browsing the website, inititive has an h3 heading to summarise the main point.
+  - On the larger screens (>=992px), the Initiatives section is displayed using grid in two columns. Each initiative has a saffron yellow border and tea rose background to match the theme of the website. If end user is only browsing the website, initiative has an h3 heading to summarise the main point.
 
-[Initiatives Desktop View](docs/initiatives-desktop-view.png)
+![Initiatives Desktop View](docs/initiatives-desktop-view.png)
 
 - To continue with the consistent appearance of the webpage, the initiative boxes a displayed in one column. The inside of each card has the same layout as in the larger screen.
 
-[Initiatives Smaller Screen](docs/initiatives-small-screen-view.png)
+![Initiatives Smaller Screen](docs/initiatives-small-screen-view.png)
 
 \
 &nbsp;
@@ -176,16 +197,79 @@ Users can subscribe to newsletter and contact campaign managers directly.
 
 - This section contains the vents throughout the year end-user may be interested take part in. The colours are used in the layout are yellow and green to represent the pollinators and nature.
 
-  _Large and Medium devices_ have the title of the event displayed on the left and details on the right using grid view.
+  _Large and Medium devices_ have title of the event displayed on the left and details on the right using grid view.
 
-[Events Large and Medium Screen](docs/events-ml-screen-view.png)
+![Events Medium and Large Screen](docs/events-ml-screen-view.png)
 
 _Small Screen devices_ have title and details displayed in one column just like other sections. The details part would have been illegible otherwise.
 
-[Events Small Screen](docs/events-small-screen-view.png)
+![Events Small Screen](docs/events-small-screen-view.png)
 
 \
 &nbsp;
 [Back to Top](#contents)
+\
+&nbsp;
+
+### Contact
+
+- The contact section has two parts in one box. For visual purposes, the lsight shadow is coded around the border. The end-user can send a message or subscribe to the newsletter. All text fields are required and would not all user to subscribe or send otherwise. The email field is validated as well. Larger view screen have subscription and message parts display in on one row. For small screens, they are displayed in one column just like other all the other sections in small screen.
+
+![Contact Medium and Large Screen](docs/ontact-ml-screen-view.png)
+![Contact Small Screen](docs/ontact-small-screen-view.png)
+
+- When end-user clicks the button to either join or send, the applicable page for one of two actions is displayed.
+
+![Contact Email Thank You](docs/contact-email-tku.png)
+![Contact Newsletter Thank You](docs/ontact-newsletter-tku.png)
+
+\
+&nbsp;
+[Back to Top](#contents)
+\
+&nbsp;
+
+### Footer
+
+- Tea rose background is used throughout the elements of the webpage and continued to the footer. Footer includes the links to social media which are coded to open in a separate tab. The three links are spread across the bottom of the page. A hover effect is added to enhance user experience.
+
+![Footer with Hover](docs/footer-hover.png)
+
+## Future Enhancements
+
+- An e-commerce element where users may buy pesticides and seeds that are friendly to pollinators could be added.
+- A separate blog page or the entire blog could be added on navigation bar. It would be beneficial to provide users with up-to-date news. Additional content, such as articles and videos, may be shown here.
+- It would be beneficial to have embedded maps for each event that don't require off-page navigation, since this would facilitate finding the events nearby and improve user experience.
+- A gallery of end user pollinator friendly gardens.
+
+# Technologies Used
+
+## Languages
+
+- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5 "HTML")
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS "CSS")
+
+## Libraries & Framework
+
+- [Google Fonts](https://fonts.google.com/ "Google Fonts")
+- [Font Awesome library](https://fontawesome.com/ "Font Awesome")
+
+## Tools
+
+- [Codeanywhere](https://app.codeanywhere.com/ "Codeanywhere")
+- [GitHub](https://github.com/ "GitHub")
+- [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq")
+- [Coolors](https://coolors.co/ "Coolors")
+- [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid")
+- [Gencraft](https://gencraft.com/generate/ "Gencraft")
+- [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
+- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
+- [Bootstrap](https://getbootstrap.com "Bootstrap")
+- [Slack](https://www.icloud.com/notes/ "Slack")
+- [TOC Generator](https://ecotrust-canada.github.io/markdown-toc/ "TOC Generator")
+
+\
+&nbsp;
+[Back to Top](#table-of-contents)
 \
 &nbsp;
