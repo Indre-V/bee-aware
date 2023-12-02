@@ -126,7 +126,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
 
 - The second part of the home page is the list of pollinators under the background imagae. The content layout is very simple and self explanatory. This part intends to educate the user and encourage them to continue reading other parts of the webpage.
 
-![Home Page Second Part] (docs/home-page-part-two.png)
+![Home Page Second Part](docs/home-page-part-two.png)
 
 \
 &nbsp;
@@ -138,15 +138,33 @@ Users can subscribe to newsletter and contact campaign managers directly.
 
 - This section contains information about the importance and issues pollinators face. The images chosen reflect the contents of the section. On the larger screens (>=992px), About section has two columns. On the right side, there is an eye catching image and on the left side I have included a consolidated version of the value pollinators provide to humans and nature. I kept the information as brief as possible in order to keep the end-users attention. Content is broken down into small paragraphs so the user can understand it better.
 
-![About Section] (docs/about-first-row.png)
+![About Section](docs/about-first-row.png)
 
 - The second row of the About section has the opposite layout for visual and contextual purposes. I aimed to highlight the Importance vs Issues using the flexbox layout of the section.
 
 ![About Section] (docs/about-second-row.png)
 
 - For the smaller screen sizes (<992px), side by side image and text layout does not work so I have changed flex direction from row to column. It displays image first and text under which allows the content to be spaced out better to fit smaller screen sizes without looking too crowded.
--
-- ![About Section Tablet View] (docs/about-tablet-view.png)
+
+![About Section Tablet View](docs/about-tablet-view.png)
+
+\
+&nbsp;
+[Back to Top](#contents)
+\
+&nbsp;
+
+### Intitiatives
+
+- Logical layout is one of my design goals for this website. After outlining importance and issues to the end user, I am now suggesting action in the Initiatives section. I have only included four actions/initiatives with relevant images and explanations in order not to overwhelm the end user with excessive information.
+
+  - On the larger screens (>=992px), the Initiatives section is displayed using grid in two columns. Each inititiave has a saffron yellow border to match the theme of the website. If end user is only browsing the website, inititive has an h3 heading to summarise the main point.
+
+[Initiatives Desktop View](docs/initiatives-desktop-view.png)
+
+- To continue with the consistent appearance of the webpage, the initiative boxes a displayed in one column. The inside of each card has the same layout as in the larger screen.
+
+[Initiatives Smaller Screen ](docs/initiatives-small-screen-view.png)
 
 \
 &nbsp;
