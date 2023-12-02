@@ -99,7 +99,7 @@ This webpage has navigation bar which is responsive to different screen sizes. I
 
 ![Navigation bar large screen](docs/navbar-full-screen.png)
 
-    * The navigation bar is spread out the full width of the device with all link to different sections of the webpage.  Navigation bar is fixed so it is present while browsing the page. It also has a shade of liquorish brown for :hover effect to improve user experience.
+- The navigation bar is spread out the full width of the device with all link to different sections of the webpage. Navigation bar is fixed so it is present while browsing the page. It also has a shade of liquorish brown for :hover effect to improve user experience.
 
 ![Navigation bar large screen](docs/navbar-full-screen-hover.png)
 
@@ -108,7 +108,7 @@ This webpage has navigation bar which is responsive to different screen sizes. I
 
 ![Navigation bar mobile screen](docs/navbar-mobile-device.png)
 
-    * Once user taps on the icon, the navigation options spread across the screen of the mobile device.
+- Once user taps on the icon, the navigation options spread across the screen of the mobile device.
 
 ![Navigation bar mobile screen](docs/navbar-mobile-device-tap.png)
 
@@ -119,3 +119,17 @@ This webpage has navigation bar which is responsive to different screen sizes. I
 &nbsp;
 
 ### Landing Page
+
+Bee-Aware landing page serves as a primary homepage. The landing page's objectives are to explain to the visitor the aim of the website in one sentence. Also it invites them to explore the site further using the navigation bar. The background image was taken by me. The image has a faint overlay as it makes introductory paragraph legible for better UX.
+
+![Home Page Background Image](docs/home-page-background-image.png)
+
+The second part of the home page is the list of polinators under the background imagae. The content layout is very simple and self explanatory. This part intends to educate the user and encourage them to continue reading other parts of the webpage.
+
+![Home Page Second Part] (docs/home-page-part-two.png)
+
+\
+&nbsp;
+[Back to Top](#contents)
+\
+&nbsp;
