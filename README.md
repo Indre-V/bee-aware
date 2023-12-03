@@ -20,7 +20,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
   - [User Stories](#user-stories)
   - [Website Goals and Objectives](#website-goals-and-objectives)
   - [Wireframes](#wireframes)
-    - [\[Mobile and Desktop Wireframes\] (docs/mobile-desktop-wireframes.pdf)](#mobile-and-desktop-wireframes-docsmobile-desktop-wireframespdf)
+    - [Mobile and Desktop Wireframes](#mobile-and-desktop-wireframes)
   - [Design Choices](#design-choices)
     - [Typography](#typography)
     - [Colour Scheme](#colour-scheme)
@@ -81,7 +81,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
 
 Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile first approach, wireframe for mobile was designed first. Naturally there is some deviation from wireframes in the live version of the website to accommodate the content. As the information is laid out in a logical sequence, the decision was made to have one-page website to enhance the end user experience.
 
-### [Mobile and Desktop Wireframes] (docs/mobile-desktop-wireframes.pdf)
+### [Mobile and Desktop Wireframes](docs/mobile-desktop-wireframes.pdf "Mobile and Desktop Wireframes")
 
 ## Design Choices
 
