@@ -27,29 +27,28 @@ li {
 }
 
 .bee-aware-logo {
-    width: 60px;
-    margin-left: 0.5rem;
-    padding-left: 1px;
-    height: 3rem;
-    font-size: 3rem;
+
+
+    display: none;
+
 }
 
 .topnav {
+
     display: flex;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
-    background-color: #ecba04;
+    padding: 0.5rem;
+    background: url("../images/top2.jpg") no-repeat center center;
 
 }
 
 .menu {
     display: none;
     background-color: #fff5ee;
-    right: 0;
-    left: 0;
-    text-align: center;
     padding: 0.5rem 2rem;
+
 }
 
 .menu li:hover {
@@ -57,13 +56,14 @@ li {
     background-color: #efbeb7;
     border-radius: 2rem;
     transition: 1s ease;
+    transform: scale(1);
+
 
 }
 
 .nav-links a {
     color: #2c2c2c;
-    display: inline-block;
-
+    font-size: large;
 }
 
 input[type=checkbox]:checked~.menu {
@@ -72,6 +72,7 @@ input[type=checkbox]:checked~.menu {
 
 .hamburger {
     display: block;
+    font-size: 2rem;
 }
 
 input[type=checkbox] {
@@ -87,9 +88,27 @@ input[type=checkbox] {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
+
+
+    .bee-aware-logo {
+        display: flex;
+        width: 4rem;
+        margin-left: 0.5rem;
+        padding-left: 1px;
+        padding-right: 2rem;
+        height: 3rem;
+        font-size: 3rem;
+    }
+
+    .topnav {
+        display: flex;
+        flex-direction: row;
+        background: none;
+        background-color: #ecba04
+    }
+
     .menu {
         display: flex;
-        gap: 1em;
         font-size: 1rem;
         text-align: center;
         background-color: #ecba04
