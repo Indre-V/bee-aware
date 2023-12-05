@@ -25,6 +25,7 @@ li {
     list-style: none;
 }
 
+
 .bee-aware-logo {
 
     display: none;
@@ -40,8 +41,9 @@ li {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding-left: 0.5rem;
+    padding: 0.5rem;
     background: url("../images/top2.jpg") no-repeat center center;
+
 }
 
 
@@ -55,11 +57,11 @@ li {
 
 .menu li:hover {
 
-    display: flex;
-    border-radius: 1rem;
+    display: inline-block;
+    background-color: #efbeb7;
+    border-radius: 2rem;
     transition: 1s ease;
     transform: scale(1);
-
 }
 
 .nav-links a {
@@ -125,7 +127,6 @@ input[type=checkbox] {
         z-index: 1;
         overflow: hidden;
         width: 100%;
-
     }
 
     .menu {
@@ -147,15 +148,13 @@ input[type=checkbox] {
         font-size: large;
     }
 
-    .menu li:hover {
 
-        background-color: #efbeb7;
-
-    }
 
     .menu li {
         padding: 1rem 2rem;
     }
+
+
 }
 
 
