@@ -2,7 +2,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;300;400;500;600&display=swap');
 
-
 * {
     margin: 0;
     padding: 0;
@@ -28,9 +27,13 @@ li {
 
 .bee-aware-logo {
 
-
     display: none;
-
+    width: 4rem;
+    margin-left: 0.5rem;
+    padding-left: 1px;
+    padding-right: 2rem;
+    height: 3rem;
+    font-size: 3rem;
 }
 
 .topnav {
@@ -39,12 +42,14 @@ li {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding-left: 0.5rem;
     background: url("../images/top2.jpg") no-repeat center center;
-
 }
 
+
+
 .menu {
+
     display: none;
     background-color: #fff5ee;
     padding: 0.5rem 2rem;
@@ -57,7 +62,6 @@ li {
     border-radius: 2rem;
     transition: 1s ease;
     transform: scale(1);
-
 
 }
 
@@ -79,6 +83,27 @@ input[type=checkbox] {
     display: none;
 }
 
+.hero-image {
+    background: url("../images/hero-image2.jpg") no-repeat center center;
+    height: 40vh;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.493);
+    background-blend-mode: overlay;
+}
+
+.text-center {
+    text-align: center;
+
+}
+
+.hero-text {
+    width: 80%;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: smaller;
+}
 
 /* Media Queries */
 
@@ -88,23 +113,19 @@ input[type=checkbox] {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
-
-
     .bee-aware-logo {
         display: flex;
-        width: 4rem;
-        margin-left: 0.5rem;
-        padding-left: 1px;
-        padding-right: 2rem;
-        height: 3rem;
-        font-size: 3rem;
+
     }
 
     .topnav {
+
         display: flex;
         flex-direction: row;
-        background: none;
-        background-color: #ecba04
+        background: #ecba04;
+        position: fixed;
+        z-index: 1;
+
     }
 
     .menu {
@@ -115,16 +136,13 @@ input[type=checkbox] {
     }
 
     .menu li:hover {
+
         display: flex;
-
-
     }
 
     .menu li {
         padding: 1rem 2rem;
     }
-
-
 
     /* HAMBURGER MENU */
     .hamburger {
@@ -132,11 +150,30 @@ input[type=checkbox] {
         font-size: 2.5rem;
 
     }
+
+    .hero-text {
+        top: 80%;
+        font-size: large;
+    }
 }
 
 
+
 /* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {}
+@media (min-width: 992px) {
+    .hero-image {
+
+        height: 75vh;
+    }
+
+
+
+
+    .topnav {
+        width: 100%;
+    }
+
+}
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
