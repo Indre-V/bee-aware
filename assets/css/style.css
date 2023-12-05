@@ -32,7 +32,6 @@ li {
     margin-left: 0.5rem;
     padding-left: 1px;
     padding-right: 2rem;
-    height: 3rem;
     font-size: 3rem;
 }
 
@@ -40,7 +39,6 @@ li {
 
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
     justify-content: space-between;
     padding-left: 0.5rem;
     background: url("../images/top2.jpg") no-repeat center center;
@@ -57,9 +55,8 @@ li {
 
 .menu li:hover {
 
-    display: none;
-    background-color: #efbeb7;
-    border-radius: 2rem;
+    display: flex;
+    border-radius: 1rem;
     transition: 1s ease;
     transform: scale(1);
 
@@ -97,6 +94,7 @@ input[type=checkbox] {
 }
 
 .hero-text {
+
     width: 80%;
     position: relative;
     top: 40%;
@@ -120,11 +118,13 @@ input[type=checkbox] {
 
     .topnav {
 
-        display: flex;
         flex-direction: row;
+        justify-content: flex-start;
         background: #ecba04;
         position: fixed;
         z-index: 1;
+        overflow: hidden;
+        width: 100%;
 
     }
 
@@ -149,7 +149,8 @@ input[type=checkbox] {
 
     .menu li:hover {
 
-        display: flex;
+        background-color: #efbeb7;
+
     }
 
     .menu li {
@@ -170,7 +171,7 @@ input[type=checkbox] {
 
 
     .topnav {
-        width: 100%;
+        justify-content: space-between;
     }
 
 }
