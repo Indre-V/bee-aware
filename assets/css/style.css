@@ -51,13 +51,13 @@ li {
 .menu {
 
     display: none;
-    background-color: #fff5ee;
-    padding: 0.5rem 2rem;
 
 }
 
+
 .menu li:hover {
-    display: inline-block;
+
+    display: none;
     background-color: #efbeb7;
     border-radius: 2rem;
     transition: 1s ease;
@@ -131,17 +131,8 @@ input[type=checkbox] {
     .menu {
         display: flex;
         font-size: 1rem;
-        text-align: center;
-        background-color: #ecba04
-    }
+        background-color: #ecba04;
 
-    .menu li:hover {
-
-        display: flex;
-    }
-
-    .menu li {
-        padding: 1rem 2rem;
     }
 
     /* HAMBURGER MENU */
@@ -154,6 +145,15 @@ input[type=checkbox] {
     .hero-text {
         top: 80%;
         font-size: large;
+    }
+
+    .menu li:hover {
+
+        display: flex;
+    }
+
+    .menu li {
+        padding: 1rem 2rem;
     }
 }
 
@@ -178,5 +178,5 @@ input[type=checkbox] {
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
 
-/* Large devices (larger desktops, 1400px and up) */
+/* Large devices (larger desktops, 1400px and up)  */
 @media (min-width: 1400px) {}
