@@ -105,6 +105,25 @@ input[type=checkbox] {
     font-size: smaller;
 }
 
+.container {
+
+
+    display: flex;
+    flex-direction: column;
+    gap: 4vh;
+    padding: 4vh;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2vh;
+
+}
+
+
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up)  */
@@ -153,6 +172,13 @@ input[type=checkbox] {
     .menu li {
         padding: 1rem 2rem;
     }
+
+    .top {
+
+
+        font-size: 2rem;
+    }
+
 
 
 }
