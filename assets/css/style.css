@@ -130,32 +130,29 @@ input[type=checkbox] {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
     margin: 1.5rem 0;
     overflow: hidden;
 }
 
 .left-image-row,
 .right-image-row {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
 
+    flex: 1 0 35rem;
 }
 
 .left-image-row img,
 .right-image-row img {
 
     width: 100%;
-    min-height: 17rem;
-
+    min-height: 25rem;
+    object-fit: cover;
 }
 
 .right-info,
 .left-info {
 
     max-width: 100%;
-    margin: 0.5rem;
+    margin: 1rem;
     flex-grow: 1;
 
 }
@@ -247,11 +244,17 @@ input[type=checkbox] {
 
     }
 
-    .right-info,
+
+    .left-container {
+        flex-direction: row-reverse;
+
+    }
+
+    /* .right-info,
     .left-info {
 
         max-width: 100%;
-    }
+    } */
 
 
 }
