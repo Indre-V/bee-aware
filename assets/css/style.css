@@ -86,7 +86,7 @@ input[type=checkbox] {
     background: url("../images/hero-image2.jpg") no-repeat center center;
     height: 40vh;
     background-size: cover;
-    background-color: rgba(255, 255, 255, 0.493);
+    background-color: #ffffff7e;
     background-blend-mode: overlay;
 }
 
@@ -112,6 +112,7 @@ input[type=checkbox] {
     flex-direction: column;
     gap: 4vh;
     padding: 4vh;
+    background-color: #efbeb71a;
 }
 
 .top {
@@ -124,19 +125,25 @@ input[type=checkbox] {
 
 }
 
+.left-container {
+    background-color:
+        #efbeb71a;
+}
+
+
 .right-container,
 .left-container {
 
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 1.5rem 0;
     overflow: hidden;
 }
 
 .left-image-row,
 .right-image-row {
 
+    display: flex;
     flex: 1 0 35rem;
 }
 
@@ -146,13 +153,14 @@ input[type=checkbox] {
     width: 100%;
     min-height: 25rem;
     object-fit: cover;
+
 }
 
 .right-info,
 .left-info {
 
     max-width: 100%;
-    margin: 1rem;
+    margin: 1rem 1rem 1rem 1rem;
     flex-grow: 1;
 
 }
@@ -250,17 +258,22 @@ input[type=checkbox] {
 
     }
 
-    /* .right-info,
-    .left-info {
 
-        max-width: 100%;
-    } */
 
 
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+
+    .right-info,
+    .left-info {
+
+        margin: 4rem;
+    }
+
+
+}
 
 /* Large devices (larger desktops, 1400px and up)  */
 @media (min-width: 1400px) {}
