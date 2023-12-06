@@ -115,6 +115,7 @@ input[type=checkbox] {
 }
 
 .top {
+
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -122,6 +123,41 @@ input[type=checkbox] {
     gap: 2vh;
 
 }
+
+
+
+.right-container,
+.left-container {
+
+    max-width: 50rem;
+    margin: 1.5rem auto;
+    overflow: hidden;
+}
+
+.left-image-row,
+.right-mage-row {
+    display: flex;
+    align-items: center;
+
+}
+
+.left-image-row img,
+.right-image-row img {
+
+    width: 100%;
+    min-height: 17rem;
+
+}
+
+.right-info,
+.left-info {
+
+
+    margin: 0.5rem;
+    /* flex-grow: 1; */
+}
+
+
 
 
 /* Media Queries */
