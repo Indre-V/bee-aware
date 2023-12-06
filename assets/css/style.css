@@ -124,19 +124,21 @@ input[type=checkbox] {
 
 }
 
-
-
 .right-container,
 .left-container {
 
-    max-width: 50rem;
-    margin: 1.5rem auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    margin: 1.5rem 0;
     overflow: hidden;
 }
 
 .left-image-row,
-.right-mage-row {
+.right-image-row {
     display: flex;
+    flex-direction: row;
     align-items: center;
 
 }
@@ -152,9 +154,10 @@ input[type=checkbox] {
 .right-info,
 .left-info {
 
-
+    max-width: 100%;
     margin: 0.5rem;
-    /* flex-grow: 1; */
+    flex-grow: 1;
+
 }
 
 
@@ -234,6 +237,22 @@ input[type=checkbox] {
     .topnav {
         justify-content: space-between;
     }
+
+    .right-container,
+    .left-container {
+
+
+        width: 100%;
+        flex-wrap: nowrap;
+
+    }
+
+    .right-info,
+    .left-info {
+
+        max-width: 100%;
+    }
+
 
 }
 
