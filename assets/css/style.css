@@ -169,6 +169,10 @@ input[type=checkbox] {
 
 /*Intitiatives section  */
 
+#title {
+    padding-top: 1rem;
+
+}
 
 .ideas-grid {
 
@@ -184,7 +188,7 @@ figure img {
 
 }
 
-article.item-grid {
+.item-grid {
 
 
     margin: 1rem auto;
@@ -298,9 +302,15 @@ figcaption {
     .ideas-grid {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        /* max-width: 1200vh; */
+        gap: 2rem;
+
     }
 
+    .item-grid {
+        padding: 4rem;
+        margin: 2 rem;
+
+    }
 
 }
 
