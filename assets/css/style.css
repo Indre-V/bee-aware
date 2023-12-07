@@ -165,6 +165,41 @@ input[type=checkbox] {
 
 }
 
+/*Intitiatives section  */
+
+
+.ideas-grid {
+
+    gap: 1rem;
+    padding: 2rem;
+}
+
+
+
+figure img {
+    width: 100%;
+    object-fit: cover;
+
+}
+
+article.item-grid {
+
+
+    margin: 1rem auto;
+    padding: 1rem;
+    box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 2px;
+    background-color: #efbeb71a;
+
+
+
+}
+
+
+figcaption {
+
+    text-align: center;
+    padding: 1rem;
+}
 
 
 
