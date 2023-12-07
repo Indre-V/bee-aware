@@ -125,6 +125,8 @@ input[type=checkbox] {
 
 }
 
+
+
 .left-container {
     background-color:
         #efbeb71a;
@@ -268,7 +270,7 @@ figcaption {
 @media (min-width: 992px) {
     .hero-image {
 
-        height: 75vh;
+        height: 80vh;
     }
 
 
@@ -293,7 +295,11 @@ figcaption {
 
     }
 
-
+    .ideas-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* max-width: 1200vh; */
+    }
 
 
 }
