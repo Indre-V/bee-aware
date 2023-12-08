@@ -213,12 +213,16 @@ figure img {
 
 }
 
-#events-box {
+/* #events-box {
     display: flex;
-    width: 100%;
+    min-width: 20rem;
     box-sizing: border-box;
-    background-color: rgba(239, 190, 183, 0.101);
-}
+    margin: 7rem;
+    box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 2px;
+
+
+
+} */
 
 .events {
     display: flex;
@@ -230,8 +234,9 @@ figure img {
 
 
     padding: 20px;
-    background: #ecba04;
-    color: #606c38;
+    color: #ecba04;
+    background: #606c38;
+
 
 }
 
@@ -315,6 +320,7 @@ figure img {
 
     }
 
+
 }
 
 
@@ -345,7 +351,15 @@ figure img {
 
 
 
+    #events-box {
+        display: flex;
+        max-width: 60rem;
+        margin: auto;
+        box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 2px;
 
+
+
+    }
 
 
 
