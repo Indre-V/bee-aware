@@ -278,6 +278,10 @@ textarea {
     padding: 1rem;
 }
 
+#info {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up)  */
@@ -349,95 +353,100 @@ textarea {
 
     }
 
+    /* *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    } */
 
-}
 
 
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .hero-image {
 
-        height: 50rem;
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+        .hero-image {
+
+            height: 50rem;
+        }
+
+
+
+
+        .topnav {
+            justify-content: space-between;
+        }
+
+
+
+        .right-container,
+        .left-container {
+
+
+            width: 100%;
+            flex-wrap: nowrap;
+
+
+        }
+
+        .left-container {
+            flex-direction: row-reverse;
+
+        }
+
+        .ideas-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2rem;
+
+        }
+
+
+
+        #events-box {
+            display: flex;
+            max-width: 60rem;
+            margin: auto;
+            box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 2px;
+
+
+
+        }
+
+
+
     }
 
+    /* X-Large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
 
 
 
-    .topnav {
-        justify-content: space-between;
+        .right-info,
+        .left-info {
+
+            margin: 4rem;
+        }
+
+
+
+        .item-grid {
+
+            padding: 4rem;
+        }
+
+        figure img {
+
+            min-height: 35vh;
+            max-height: 40vh;
+        }
     }
 
+    /* Large devices (larger desktops, 1400px and up)  */
+    @media (min-width: 1400px) {
 
+        .item-grid {
 
-    .right-container,
-    .left-container {
-
-
-        width: 100%;
-        flex-wrap: nowrap;
-
-
+            padding: 7rem;
+        }
     }
-
-    .left-container {
-        flex-direction: row-reverse;
-
-    }
-
-    .ideas-grid {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
-
-    }
-
-
-
-    #events-box {
-        display: flex;
-        max-width: 60rem;
-        margin: auto;
-        box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 2px;
-
-
-
-    }
-
-
-
-}
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
-
-
-    .right-info,
-    .left-info {
-
-        margin: 4rem;
-    }
-
-
-
-    .item-grid {
-
-        padding: 4rem;
-    }
-
-    figure img {
-
-        min-height: 35vh;
-        max-height: 40vh;
-    }
-}
-
-/* Large devices (larger desktops, 1400px and up)  */
-@media (min-width: 1400px) {
-
-    .item-grid {
-
-        padding: 7rem;
-    }
-}
