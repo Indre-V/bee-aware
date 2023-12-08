@@ -205,7 +205,7 @@
     </section>
 
     <section id="events">
-        <h2 class=>Events</h2>
+        <h2>Events</h2>
         <br>
         <div id="events-box">
             <ul>
@@ -266,42 +266,46 @@
     </section>
 
     <section id="contact">
-        <!-- <h2>Contact</h2> -->
-        <div class="container">
-            <div class="content">
-                <div class="left-side">
-                    <div class="newsletter-details">
-                        <div class="topic-text">Subscribe to our monthly newsletter</div>
-                        <form action="newsletter.html" method="get">
-                            <div class="input-box">
-                                <input type="text" placeholder="Enter your name">
-                            </div>
-                            <div class="input-box">
-                                <input type="text" placeholder="Enter your email">
-                            </div>
-                            <div class="button">
-                                <input type="button" value="Join">
-                            </div>
+        <h2>Contact</h2>
+        <div class="contact-box">
+            <div class="left-info text-center">
+                <div class="newsletter-details">
+                    <div class="topic-text">
+                        <h3>
+                            Subscribe to our monthly newsletter
+                        </h3>
                     </div>
-                </div>
-                <div class="right-side">
-                    <div class="topic-text">Send us a message</div>
-
-                    <form action="contact.html" method="get">
+                    <form action="newsletter.html" method="get">
                         <div class="input-box">
-                            <input type="text" placeholder="Enter your name" required>
+                            <input type="text" placeholder="Enter your name">
                         </div>
                         <div class="input-box">
-                            <input type="text" placeholder="Enter your email" required>
-                        </div>
-                        <div class="input-box">
-                            <textarea name=" message" required="required" placeholder="Your message to us"></textarea>
+                            <input type="text" placeholder="Enter your email">
                         </div>
                         <div class="button">
-                            <input type="button" value="Send Now">
+                            <input type="button" value="Join">
                         </div>
-                    </form>
                 </div>
+            </div>
+            <div class="right-info text-center">
+                <div class="topic-text">
+                    <h3>Send us a message</h3>
+                </div>
+                <form action="contact.html" method="get">
+                    <div class="input-box">
+                        <input type="text" placeholder="Your name...." required>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Your email..." required>
+                    </div>
+                    <div class="input-box">
+                        <textarea id="info" name="message" input type="text" placeholder="Your message to us..."
+                            required></textarea>
+                    </div>
+                    <div class="button">
+                        <input type="button" value="Send Now">
+                    </div>
+                </form>
             </div>
         </div>
     </section>
