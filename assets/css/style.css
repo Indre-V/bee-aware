@@ -17,6 +17,13 @@ body {
     color: #2c2c2c;
 }
 
+h1,
+h2,
+h3,
+h4 {
+    text-align: center;
+}
+
 a {
     text-decoration: none;
 }
@@ -182,7 +189,11 @@ input[type=checkbox] {
     padding: 2rem;
 }
 
+figcaption {
 
+    text-align: center;
+    padding: 1rem;
+}
 
 figure img {
     width: 100%;
@@ -202,14 +213,36 @@ figure img {
 
 }
 
-
-figcaption {
-
-    text-align: center;
-    padding: 1rem;
+#events-box {
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: rgba(239, 190, 183, 0.101);
 }
 
+.events {
+    display: flex;
+    flex-direction: column;
 
+}
+
+.event-title {
+
+
+    padding: 20px;
+    background: #ecba04;
+    color: #606c38;
+
+}
+
+.event-details {
+
+    padding: 2rem;
+    background: #efbeb71a;
+
+
+
+}
 
 /* Media Queries */
 
@@ -309,6 +342,10 @@ figcaption {
         gap: 2rem;
 
     }
+
+
+
+
 
 
 
