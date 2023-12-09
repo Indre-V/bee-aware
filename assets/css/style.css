@@ -112,6 +112,16 @@ input[type=checkbox] {
 
 }
 
+#hero {
+    background-color: #ffffffab;
+    width: 100%;
+    padding: 2rem;
+    overflow: hidden;
+    bottom: 10rem;
+
+
+}
+
 .hero-text {
 
     width: 80%;
@@ -203,6 +213,7 @@ figcaption {
     text-align: center;
     padding: 1rem;
 }
+
 
 figure img {
     width: 100%;
@@ -403,11 +414,13 @@ textarea {
 
 
 
+
     .hero-text {
 
         font-weight: 600;
-        top: 80%;
+        top: 70%;
         font-size: x-large;
+
     }
 
 
@@ -508,7 +521,9 @@ textarea {
 
         min-height: 35vh;
         max-height: 40vh;
+
     }
+
 }
 
 /* Large devices (larger desktops, 1400px and up)  */
