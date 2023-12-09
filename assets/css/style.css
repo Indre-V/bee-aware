@@ -288,7 +288,7 @@ textarea {
     font-family: 'Libre Franklin', sans-serif;
 }
 
-.button input[type="button"] {
+.button input[type="submit"] {
     color: #fff;
     font-size: 1rem;
     padding: 0.5rem 0.5rem;
@@ -298,7 +298,7 @@ textarea {
     cursor: pointer;
 }
 
-.button input[type="button"]:hover {
+.button input[type="submit"]:hover {
     background: #ecba04;
 }
 

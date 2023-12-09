@@ -274,7 +274,7 @@
                         Subscribe to our monthly newsletter
                     </h3>
                 </div>
-                <form method="get" action="newsletter-thank-you.html">
+                <form method="get" action="newsletter-thank-you.html" target="_blank">
                     <div class="input-box">
                         <input type="text" placeholder="Your name..." required>
                     </div>
@@ -282,7 +282,7 @@
                         <input type="text" placeholder="Your email..." required>
                     </div>
                     <div class="button">
-                        <input type="button" value="Join">
+                        <input type="submit" value="Join">
                     </div>
                 </form>
             </div>
@@ -291,22 +291,22 @@
                 <div class="topic-text">
                     <h3>Send us a message</h3>
                 </div>
-                <form action="contact-thank-you.html" method="get">
-                    <div class="input-box">
-                        <input type="text" placeholder="Your name...." required>
-                    </div>
-                    <div class="input-box">
-                        <input type="text" placeholder="Your email..." required>
-                    </div>
-                    <div class="input-box">
-                        <textarea id="info" name="message" input type="text" placeholder="Your message to us..."
-                            required></textarea>
-                    </div>
-                    <div class="button">
-                        <input type="button" value="Send Now">
-                    </div>
-                </form>
+                <form action="contact-thank-you.html" method="post" target="_blank">
+                    <div class=" input-box">
+                    <input type="text" placeholder="Your name...." required>
             </div>
+            <div class="input-box">
+                <input type="text" placeholder="Your email..." required>
+            </div>
+            <div class="input-box">
+                <textarea id="info" name="message" input type="text" placeholder="Your message to us..."
+                    required></textarea>
+            </div>
+            <div class="button">
+                <input type="submit" value="Send Now">
+            </div>
+            </form>
+        </div>
         </div>
     </section>
 </body>
