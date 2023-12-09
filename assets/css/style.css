@@ -32,6 +32,8 @@ li {
     list-style: none;
 }
 
+
+
 #events,
 #about,
 #initiatives,
@@ -302,6 +304,30 @@ textarea {
     background: #ecba04;
 }
 
+.thanks {
+
+    display: flex;
+    flex-direction: column;
+    background-color: #efbeb71a;
+    height: 90vh;
+    padding-top: 3rem;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+
+
+.thanks i {
+
+    font-size: 5rem;
+    color: #606c38;
+
+}
+
+
+
 #icon-list {
     background-color: #606c38;
     margin: auto;
@@ -329,6 +355,8 @@ textarea {
     background: #bb0000;
     color: white;
 }
+
+
 
 /* Media Queries */
 
