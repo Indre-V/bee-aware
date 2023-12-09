@@ -114,10 +114,11 @@ input[type=checkbox] {
 
     width: 80%;
     position: relative;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: smaller;
+    font-size: large;
+    color: #271a16;
 }
 
 .container {
@@ -257,6 +258,11 @@ figure img {
 
 }
 
+#email-box,
+#letter-box {
+    box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 2px;
+}
+
 .input-box input,
 textarea {
 
@@ -331,7 +337,7 @@ textarea {
 
         font-weight: 600;
         top: 80%;
-        font-size: larger;
+        font-size: x-large;
     }
 
 
