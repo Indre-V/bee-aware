@@ -302,6 +302,34 @@ textarea {
     background: #ecba04;
 }
 
+#icon-list {
+    background-color: #606c38;
+    margin: auto;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-brands {
+    font-size: xx-large;
+}
+
+.fa-facebook {
+    background: #3b5998;
+    color: white;
+}
+
+.fa-instagram {
+    background: white;
+    color: #c32aa3;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up)  */
