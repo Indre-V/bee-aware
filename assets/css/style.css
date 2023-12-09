@@ -270,6 +270,7 @@ textarea {
     background-color: #efbeb7;
     border-radius: 0.5rem;
     margin: 0.5rem 0 1rem 0;
+    outline: none;
 
 }
 
@@ -295,6 +296,10 @@ textarea {
     border-radius: 0.5rem;
     background: #606c38;
     cursor: pointer;
+}
+
+.button input[type="button"]:hover {
+    background: #ecba04;
 }
 
 /* Media Queries */
@@ -368,10 +373,6 @@ textarea {
 
     }
 }
-
-
-
-
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
