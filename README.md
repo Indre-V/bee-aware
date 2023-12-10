@@ -195,7 +195,7 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 ![Initiatives Desktop View](docs/initiatives-desktop-view.png)
 
-- To continue with the consistent appearance of the webpage, the initiative boxes a displayed in one column. The inside of each card has the same layout as in the larger screen.
+- To continue with the consistent appearance of the webpage, the initiative boxes a displayed in one column on the smaller screens. The inside of each card has the same layout as in the larger screen.
 
 ![Initiatives Smaller Screen](docs/initiatives-small-screen-view.png)
 
@@ -207,9 +207,9 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 ### Events
 
-- This section contains the vents throughout the year end-user may be interested take part in. The colours are used in the layout are yellow and green to represent the pollinators and nature.
+- This section contains the vents throughout the year end-user may be interested take part in. The colours are used in the layout are yellow and green to represent the pollinators and nature. The border colors are the same as in the previous section.
 
-  _Large and Medium devices_ have title of the event displayed on the left and details on the right using grid view.
+  _Large and Medium devices_ have title of the event displayed on the box with heading at the top and details below.
 
 ![Events Medium and Large Screen](docs/events-ml-screen-view.png)
 
@@ -225,15 +225,15 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 ### Contact
 
-- The contact section has two parts in one box. For visual purposes, the lsight shadow is coded around the border. The end-user can send a message or subscribe to the newsletter. All text fields are required and would not all user to subscribe or send otherwise. The email field is validated as well. Larger view screen have subscription and message parts display in on one row. For small screens, they are displayed in one column just like other all the other sections in small screen.
+- The contact section has two parts in one box. For visual purposes, the same shadow as other boxes is coded around the border. The end-user can send a message or subscribe to the newsletter. All text fields are required and would not all user to subscribe or send otherwise. The email field is validated as well. Larger view screen have subscription and message parts display in on one row. For small screens, they are displayed in one column just like other all the other sections in small screen.
 
-![Contact Medium and Large Screen](docs/ontact-ml-screen-view.png)
-![Contact Small Screen](docs/ontact-small-screen-view.png)
+![Contact Medium and Large Screen](docs/contact-ml-screen-view.png)
+![Contact Small Screen](docs/contact-small-screen-view.png)
 
-- When end-user clicks the button to either join or send, the applicable page for one of two actions is displayed.
+- When end-user clicks the button to either join or send, the applicable page for one of two actions is displayed. the pages contains a thank you message with the logo for large screen and home icon in green and turns yellow when hovered which brings the user back to the homepage.
 
 ![Contact Email Thank You](docs/contact-email-tku.png)
-![Contact Newsletter Thank You](docs/ontact-newsletter-tku.png)
+![Contact Newsletter Thank You](docs/contact-newsletter-tku.png)
 
 \
 &nbsp;
@@ -243,7 +243,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 ### Footer
 
-- Tea rose background is used throughout the elements of the webpage and continued to the footer. Footer includes the links to social media which are coded to open in a separate tab. The three links are spread across the bottom of the page. A hover effect is added to enhance user experience.
+- Moss green color is used throughout the elements of the webpage is continued to the footer as a background. Footer includes the links to social media which are coded to open in a separate tab. The three links are spread across the bottom of the page. A hover effect which is saffron yellow sames in contact section is added to enhance user experience.
 
 ![Footer with Hover](docs/footer-hover.png)
 

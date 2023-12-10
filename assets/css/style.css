@@ -355,8 +355,15 @@ textarea {
     align-items: center;
 }
 
+
+
 .fa-brands {
     font-size: xx-large;
+}
+
+.fa-brands:hover {
+    color: #ecba04;
+
 }
 
 .fa-facebook {
