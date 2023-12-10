@@ -63,6 +63,8 @@ li {
     overflow: hidden;
     width: 100%;
 
+
+
 }
 
 
@@ -74,6 +76,7 @@ li {
 }
 
 
+
 .menu li:hover {
 
     display: inline-block;
@@ -81,11 +84,27 @@ li {
     border-radius: 2rem;
     transition: 1s ease;
     transform: scale(1);
+    padding: 1rem;
+}
+
+
+.menu li {
+    padding-bottom: 1rem;
+    margin-left: 1rem;
+    font-weight: 600;
+
 }
 
 .nav-links a {
-    color: #2c2c2c;
+    color: #271a16;
     font-size: large;
+
+
+}
+
+.active {
+    background-color: var(--color-blue);
+    color: var(--color-light);
 }
 
 input[type=checkbox]:checked~.menu {
@@ -375,6 +394,8 @@ textarea {
 
 /* Small devices (landscape phones, 576px and up)  */
 @media (min-width: 576px) {
+
+
     .hero-image {
 
         height: 45rem;
@@ -395,6 +416,7 @@ textarea {
         justify-content: flex-start;
         background: #ecba04;
 
+
     }
 
     .menu {
@@ -407,7 +429,7 @@ textarea {
     /* HAMBURGER MENU */
     .hamburger {
         display: none;
-        font-size: 2.5rem;
+
 
     }
 
@@ -426,6 +448,8 @@ textarea {
 
     .menu li {
         padding: 1rem 2rem;
+        margin: auto;
+        font-weight: 400;
     }
 
     .top {
