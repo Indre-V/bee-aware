@@ -1,4 +1,4 @@
-![Logo](docs/logo.JPG)
+![Logo](docs/logo.png)
 
 # Bee-Aware
 

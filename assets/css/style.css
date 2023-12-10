@@ -222,7 +222,7 @@ input[type=checkbox] {
 .ideas-grid {
 
 
-    padding: 2rem 2rem 0 2rem
+    padding: 0 2rem 0 2rem
 }
 
 figcaption {
@@ -442,7 +442,7 @@ textarea {
     }
 
     .container {
-        padding: 3rem;
+        padding: 2rem;
 
     }
 
@@ -481,6 +481,7 @@ textarea {
     }
 
     .ideas-grid {
+
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
@@ -510,7 +511,7 @@ textarea {
 
     .hero-image {
 
-        height: 40rem;
+        height: 50rem;
     }
 
     .right-info,
