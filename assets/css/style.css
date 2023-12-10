@@ -320,15 +320,13 @@ textarea {
     display: flex;
     flex-direction: column;
     background-color: #efbeb71a;
-    height: 90vh;
+    min-height: 90vh;
     padding-top: 3rem;
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
     overflow: hidden;
 }
-
-
 
 .thanks i {
 
