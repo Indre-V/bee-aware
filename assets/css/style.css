@@ -158,8 +158,8 @@ input[type=checkbox] {
 
     display: flex;
     flex-direction: column;
-    gap: 4vh;
-    padding: 4vh;
+    gap: 1vh;
+    /* padding: 4vh;  */
     background-color: #efbeb71a;
 }
 
@@ -169,7 +169,8 @@ input[type=checkbox] {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    gap: 2vh;
+    gap: 1vh;
+    font-size: 3rem;
 
 }
 
@@ -385,8 +386,6 @@ textarea {
     color: white;
 }
 
-
-
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up)  */
@@ -451,9 +450,16 @@ textarea {
 
     .top {
 
-
-        font-size: 2rem;
+        font-size: 4rem;
     }
+
+    .container {
+
+
+        padding: 3rem;
+
+    }
+
 
     .item-grid {
 
