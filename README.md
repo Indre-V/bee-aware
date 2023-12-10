@@ -128,7 +128,7 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 - This webpage has navigation bar which is responsive to different screen sizes. It includes the logo of the bee which leads back to the home page.
 
-* Desktop (>=992px)
+  - Desktop (>=992px)
 
 ![Navigation bar large screen](docs/navbar-full-screen.png)
 
@@ -157,7 +157,7 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 ![Home Page Background Image](docs/home-page-background-image.png)
 
-- The second part of the home page is the list of pollinators under the background imagae. The content layout is very simple and self explanatory. This part intends to educate the user and encourage them to continue reading other parts of the webpage.
+- The second part of the home page is the list of pollinators under the background image. The content layout is very simple and self explanatory. This part intends to educate the user and encourage them to continue reading other parts of the webpage.
 
 ![Home Page Second Part](docs/home-page-part-two.png)
 
