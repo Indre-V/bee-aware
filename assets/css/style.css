@@ -68,7 +68,6 @@ li {
 }
 
 
-
 .menu {
 
     display: none;
@@ -102,14 +101,12 @@ li {
 
 }
 
-.active {
-    background-color: var(--color-blue);
-    color: var(--color-light);
-}
 
 input[type=checkbox]:checked~.menu {
-    display: inline-block;
+    display: block;
 }
+
+
 
 .hamburger {
     display: block;
