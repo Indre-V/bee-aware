@@ -339,7 +339,7 @@ textarea {
     background: #ecba04;
 }
 
-.thanks {
+#thanks {
 
     display: flex;
     flex-direction: column;
