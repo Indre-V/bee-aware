@@ -98,7 +98,7 @@ input[type=checkbox] {
 }
 
 .hero-image {
-    background: url("../images/hero-image2.jpg") no-repeat center center;
+    background: url("../images/hero-image.jpg") no-repeat center center;
     height: 40rem;
     background-size: cover;
     background-color: #ffffff6e;
@@ -373,7 +373,7 @@ textarea {
 @media (min-width: 576px) {
     .hero-image {
 
-        height: 40rem;
+        height: 45rem;
     }
 }
 
@@ -500,7 +500,10 @@ textarea {
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
+    .hero-image {
 
+        height: 40rem;
+    }
 
     .right-info,
     .left-info {
