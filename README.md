@@ -153,11 +153,11 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 ### Landing Page
 
-- Bee-Aware landing page serves as a primary homepage. The landing page's objectives are to explain to the visitor the aim of the website in one sentence. Also it invites them to explore the site further using the navigation bar. The background image was taken by me. The image has a faint overlay as it makes introductory paragraph legible for better UX.
+- Bee-Aware landing page serves as a primary homepage. The landing page's objectives are to explain to the visitor the aim of the website in one sentence. Also it invites them to explore the site further using the navigation bar. The image has a faint overlay aith the box for the hero text as it makes introductory paragraph legible for better UX.
 
 ![Home Page Background Image](docs/home-page-background-image.png)
 
-- The second part of the home page is the list of pollinators under the background image. The content layout is very simple and self explanatory. This part intends to educate the user and encourage them to continue reading other parts of the webpage.
+- The second part of the home page is the list of pollinators with the background color. The content layout is very simple and self explanatory. This part intends to educate the user and encourage them to continue reading other parts of the webpage.
 
 ![Home Page Second Part](docs/home-page-part-two.png)
 
