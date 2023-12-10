@@ -58,6 +58,10 @@ li {
     justify-content: space-between;
     padding: 0.5rem;
     background: url("../images/top2.jpg") no-repeat center center;
+    position: fixed;
+    z-index: 99999;
+    overflow: hidden;
+    width: 100%;
 
 }
 
@@ -390,10 +394,7 @@ textarea {
         flex-direction: row;
         justify-content: flex-start;
         background: #ecba04;
-        position: fixed;
-        z-index: 1;
-        overflow: hidden;
-        width: 100%;
+
     }
 
     .menu {
