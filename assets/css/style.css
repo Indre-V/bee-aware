@@ -44,6 +44,11 @@ li {
     padding-bottom: 2rem;
 }
 
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
 .bee-aware-logo {
 
     display: none;
@@ -65,9 +70,6 @@ li {
     z-index: 99999;
     overflow: hidden;
     width: 100%;
-
-
-
 }
 
 
@@ -76,8 +78,6 @@ li {
     display: none;
 
 }
-
-
 
 .menu li:hover {
 
@@ -157,12 +157,7 @@ input[type=checkbox] {
 }
 
 .container {
-
-
-    display: flex;
-    flex-direction: column;
     gap: 1vh;
-    /* padding: 4vh;  */
     background-color: #efbeb71a;
 }
 
@@ -258,12 +253,6 @@ figure img {
 }
 
 
-.events {
-    display: flex;
-    flex-direction: column;
-
-}
-
 .event-title {
 
 
@@ -284,8 +273,7 @@ figure img {
 }
 
 .contact-box {
-    display: flex;
-    flex-direction: column;
+
     max-width: 80%;
     box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 2px;
     background-color: #efbeb71a;
@@ -340,9 +328,6 @@ textarea {
 }
 
 #thanks {
-
-    display: flex;
-    flex-direction: column;
     background-color: #efbeb71a;
     min-height: 90vh;
     padding-top: 3rem;
@@ -459,8 +444,6 @@ textarea {
     }
 
     .container {
-
-
         padding: 3rem;
 
     }
@@ -481,14 +464,9 @@ textarea {
         height: 50rem;
     }
 
-
-
-
     .topnav {
         justify-content: space-between;
     }
-
-
 
     .right-container,
     .left-container {
@@ -496,7 +474,6 @@ textarea {
 
         width: 100%;
         flex-wrap: nowrap;
-
 
     }
 
