@@ -290,12 +290,8 @@ _Small Screen devices_ have title and details displayed in one column just like 
 \
 &nbsp;
 
-# Testing 
+# Testing
 
 ## Responsiveness Tests
 
-I have deployed the project a very early stage in order to test the responsivenes. I have used mobile first approach and checked all my changes on Microsoft Edge and Google Chrome browser DevTools. External website - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") was used to test deployed versions. Another external source used was [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") website to get a single view of various device breakpoints. 
-
- 
-
-
+I have deployed the project a very early stage in order to test the responsivenes. I have used mobile first approach and checked all my changes on Microsoft Edge and Google Chrome browser DevTools. External website - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") was used to test deployed versions. Another external source used was [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive") website to get a single view of various device breakpoints.
