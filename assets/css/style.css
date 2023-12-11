@@ -84,7 +84,8 @@ li {
     flex-direction: row-reverse;
     justify-content: space-between;
     padding: 0.5rem;
-    background: url("../images/top2.jpg") no-repeat center center;
+    background: url("../images/mobile-background.jpg") no-repeat center center;
+
     position: fixed;
     z-index: 99999;
     overflow: hidden;
@@ -424,6 +425,7 @@ textarea {
         flex-direction: row;
         justify-content: flex-start;
         background: var(--vivid-yellow);
+
 
 
     }
