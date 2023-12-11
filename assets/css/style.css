@@ -2,6 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;300;400;500;600&display=swap');
 
+:root {
+    --light-pink: #efbeb7;
+    --pale-gray: #ffffff6e;
+    --dark-brown: #271a16;
+    --light-gray: #ffffffab;
+    --box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 3px;
+    --vivid-yellow: #ecba04;
+    --dark-green: #606c38;
+    --soft-background: rgba(239, 190, 183, 0.101);
+    --dark-gray: #323232;
+    --white: #fff;
+    --red: #bb0000;
+    --dark-pink: #c32aa3;
+    --blue: #3b5998;
+
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +33,7 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #2c2c2c;
+    color: var(--dark-gray);
     overflow-x: hidden;
 
 }
@@ -84,7 +101,7 @@ li {
 .menu li:hover {
 
     display: inline-block;
-    background-color: #efbeb7;
+    background-color: var(--light-pink);
     border-radius: 2rem;
     transition: 1s ease;
     transform: scale(1);
@@ -100,7 +117,7 @@ li {
 }
 
 .nav-links a {
-    color: #271a16;
+    color: var(--dark-brown);
     font-size: large;
 
 
@@ -126,7 +143,7 @@ input[type=checkbox] {
     background: url("../images/hero-image.jpg") no-repeat center center;
     height: 40rem;
     background-size: cover;
-    background-color: #ffffff6e;
+    background-color: var(--pale-gray);
     background-blend-mode: overlay;
 
 
@@ -138,7 +155,7 @@ input[type=checkbox] {
 }
 
 #hero {
-    background-color: #ffffffab;
+    background-color: var(--light-gray);
     width: 100%;
     padding: 2rem;
     overflow: hidden;
@@ -155,12 +172,12 @@ input[type=checkbox] {
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: large;
-    color: #271a16;
+    color: var(--dark-brown);
 }
 
 .container {
     gap: 1vh;
-    background-color: #efbeb71a;
+    background-color: var(--soft-background);
 }
 
 .top {
@@ -178,7 +195,7 @@ input[type=checkbox] {
 
 .left-container {
     background-color:
-        #efbeb71a;
+        var(--soft-background);
 }
 
 
@@ -243,8 +260,8 @@ figure img {
 
     margin: 1rem auto;
     padding: 1rem;
-    box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 2px;
-    background-color: #efbeb71a;
+    box-shadow: var(--box-shadow);
+    background-color: var(--soft-background);
 
 
 
@@ -255,8 +272,8 @@ figure img {
 
 
     padding: 20px;
-    color: #ecba04;
-    background: #606c38;
+    color: var(--vivid-yellow);
+    background: var(--dark-green);
 
 
 }
@@ -264,7 +281,7 @@ figure img {
 .event-details {
 
     padding: 2rem;
-    background: #efbeb71a;
+    background: var(--soft-background);
 
 
 
@@ -273,15 +290,15 @@ figure img {
 .contact-box {
 
     max-width: 80%;
-    box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 2px;
-    background-color: #efbeb71a;
+    box-shadow: var(--box-shadow);
+    background-color: var(--soft-background);
     margin: 1rem auto;
 
 }
 
 #email-box,
 #letter-box {
-    box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 2px;
+    box-shadow: var(--box-shadow);
     flex: 1 1 0;
 
 }
@@ -291,7 +308,7 @@ textarea {
 
     padding: 0.8rem 1.2rem;
     min-width: 80%;
-    background-color: #efbeb7;
+    background-color: var(--light-pink);
     border-radius: 0.5rem;
     margin: 0.5rem 0 1rem 0;
     outline: none;
@@ -313,21 +330,21 @@ textarea {
 }
 
 .button input[type="submit"] {
-    color: #fff;
+    color: var(--white);
     font-size: 1rem;
     padding: 0.5rem 0.5rem;
     margin-bottom: 2rem;
     border-radius: 0.5rem;
-    background: #606c38;
+    background: var(--dark-green);
     cursor: pointer;
 }
 
 .button input[type="submit"]:hover {
-    background: #ecba04;
+    background: var(--vivid-yellow);
 }
 
 #thanks {
-    background-color: #efbeb71a;
+    background-color: var(--soft-background);
     min-height: 90vh;
     padding-top: 3rem;
     justify-content: space-evenly;
@@ -338,17 +355,17 @@ textarea {
 
 #home-icon {
     font-size: 5rem;
-    color: #606c38;
+    color: var(--dark-green);
 }
 
 #home-icon:hover {
-    color: #ecba04;
+    color: var(--vivid-yellow);
 
 }
 
 
 #icon-list {
-    background-color: #606c38;
+    background-color: var(--dark-green);
     margin: auto;
     height: 3rem;
     display: flex;
@@ -363,23 +380,23 @@ textarea {
 }
 
 .fa-brands:hover {
-    color: #ecba04;
+    color: var(--vivid-yellow);
 
 }
 
 .fa-facebook {
-    background: #3b5998;
-    color: white;
+    background: var(--blue);
+    color: var(--white);
 }
 
 .fa-instagram {
-    background: white;
-    color: #c32aa3;
+    background: var(--white);
+    color: var(--dark-pink)
 }
 
 .fa-youtube {
-    background: #bb0000;
-    color: white;
+    background: var(--red);
+    color: var(--white);
 }
 
 /* Media Queries */
@@ -406,7 +423,7 @@ textarea {
 
         flex-direction: row;
         justify-content: flex-start;
-        background: #ecba04;
+        background: var(--vivid-yellow);
 
 
     }
@@ -414,7 +431,7 @@ textarea {
     .menu {
         display: flex;
         font-size: 1rem;
-        background-color: #ecba04;
+        background-color: var(--vivid-yellow);
 
     }
 
@@ -502,10 +519,7 @@ textarea {
         display: flex;
         max-width: 60rem;
         margin: auto;
-        box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 2px;
-
-
-
+        box-shadow: var(--box-shadow);
     }
 
     .contact-box {
