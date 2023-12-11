@@ -3,17 +3,15 @@
 
 <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="a pollinator awareness and promotion to increase populations " />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="a pollinator awareness and promotion to increase populations ">
     <meta name="keywords" content="bee-aware, bees, pollinators, gardening, farming, events, plants, nature, ireland" />
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="manifest" href="assets/favicon/site.webmanifest" />
-
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Bee-Aware</title>
 </head>
 
@@ -21,7 +19,7 @@
     <nav class="topnav">
         <a href="#welcome"><img src="assets/images/logo.png" alt="Bee Logo" class="bee-aware-logo"></a>
         <div class="nav-links">
-            <input type="checkbox" id="checkbox-toggle" name="nav-toggle" />
+            <input type="checkbox" id="checkbox-toggle" name="nav-toggle">
             <label for="checkbox-toggle" class="hamburger">&#9776;</label>
             <ul class="menu">
                 <li>
@@ -56,13 +54,13 @@
         <div class="container column">
             <h2>Our Top Pollinators</h2>
             <div class="top">
-                <div>&#x1F41D</div>
-                <div>&#x1F98B</div>
-                <div>&#x1F41E</div>
-                <div>&#x1FAB0</div>
-                <div>&#x1F426</div>
-                <div>&#x1F987</div>
-                <div>&#x1F401</div>
+                <div>&#x1F41D;</div>
+                <div>&#x1F98B;</div>
+                <div>&#x1F41E;</div>
+                <div>&#x1FAB0;</div>
+                <div>&#x1F426;</div>
+                <div>&#x1F987;</div>
+                <div>&#x1F401;</div>
             </div>
         </div>
 
@@ -291,8 +289,7 @@
                         <input type="email" placeholder="Your email..." required>
                     </div>
                     <div class="input-box">
-                        <textarea id="info" name="message" input type="text" placeholder="Your message to us..."
-                            required></textarea>
+                        <textarea id="info" name="message" placeholder="Your message to us..." required></textarea>
                     </div>
                     <div class="button">
                         <input type="submit" value="Send Now">
@@ -301,41 +298,43 @@
             </div>
         </div>
     </section>
-</body>
-<footer>
-    <div id="footer-icons">
-        <ul id="icon-list">
-            <li><a href="https://www.facebook.com" target="_blank"
-                    aria-label="Go to our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a>
-            </li>
-            <li><a href="https://www.instagram.com" target="_blank"
-                    aria-label="Go to our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li><a href="https://www.youtube.com" target="_blank"
-                    aria-label="Go to our Youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-        </ul>
-    </div>
-</footer>
+
+    <footer>
+        <div id="footer-icons">
+            <ul id="icon-list">
+                <li><a href="https://www.facebook.com" target="_blank"
+                        aria-label="Go to our Facebook page (opens in new tab)"><i
+                            class="fa-brands fa-facebook"></i></a>
+                </li>
+                <li><a href="https://www.instagram.com" target="_blank"
+                        aria-label="Go to our Instagram page (opens in new tab)"><i
+                            class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li><a href="https://www.youtube.com" target="_blank"
+                        aria-label="Go to our Youtube page (opens in new tab)"><i class="fa-brands fa-youtube"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 
 
-<script src="https://kit.fontawesome.com/008ae79857.js" crossorigin="anonymous"></script>
-<script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="https://kit.fontawesome.com/008ae79857.js" crossorigin="anonymous"></script>
 
-<script>
-    // script found on Slack
-    document.addEventListener("DOMContentLoaded", function () {
-        var checkboxToggle = document.getElementById("checkbox-toggle");
-        var menuItems = document.querySelectorAll(".menu a");
+    <script>
+        // script found on Slack
+        document.addEventListener("DOMContentLoaded", function () {
+            var checkboxToggle = document.getElementById("checkbox-toggle");
+            var menuItems = document.querySelectorAll(".menu a");
 
-        function closeMenu() {
-            checkboxToggle.checked = false;
-        }
+            function closeMenu() {
+                checkboxToggle.checked = false;
+            }
 
-        menuItems.forEach(function (menuItem) {
-            menuItem.addEventListener("click", closeMenu);
+            menuItems.forEach(function (menuItem) {
+                menuItem.addEventListener("click", closeMenu);
+            });
         });
-    });
-</script>
+    </script>
+</body>
 
 </html>

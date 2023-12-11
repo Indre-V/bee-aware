@@ -40,6 +40,8 @@ Users can subscribe to newsletter and contact campaign managers directly.
   - [Languages](#languages)
   - [Libraries \& Framework](#libraries--framework)
   - [Tools](#tools)
+- [Testing](#testing)
+  - [Responsiveness Tests](#responsiveness-tests)
 
 ## User Goals
 
@@ -279,10 +281,21 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - [Bootstrap](https://getbootstrap.com "Bootstrap")
 - [Slack](https://www.icloud.com/notes/ "Slack")
 - [TOC Generator](https://ecotrust-canada.github.io/markdown-toc/ "TOC Generator")
-- [Screenshot Generator](https://ui.dev/amiresponsive "Screenshot Generator")
+- [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive")
+- [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker")
 
 \
 &nbsp;
 [Back to Top](#table-of-contents)
 \
 &nbsp;
+
+# Testing 
+
+## Responsiveness Tests
+
+I have deployed the project a very early stage in order to test the responsivenes. I have used mobile first approach and checked all my changes on Microsoft Edge and Google Chrome browser DevTools. External website - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") was used to test deployed versions. Another external source used was [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") website to get a single view of various device breakpoints. 
+
+ 
+
+
