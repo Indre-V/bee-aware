@@ -39,7 +39,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
   - [Libraries \& Framework](#libraries--framework)
-  - [Tools and Resources](#tools-and-resources)
+  - [Tools](#tools)
 - [Testing](#testing)
   - [Responsiveness Tests](#responsiveness-tests)
   - [Code Validation](#code-validation)
@@ -279,22 +279,17 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - [Google Fonts](https://fonts.google.com/ "Google Fonts")
 - [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 
-## Tools and Resources
+## Tools
 
 - [Codeanywhere](https://app.codeanywhere.com/ "Codeanywhere")
 - [GitHub](https://github.com/ "GitHub")
 - [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq")
-- [Coolors](https://coolors.co/ "Coolors")
-- [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid")
-- [Gencraft](https://gencraft.com/generate/ "Gencraft")
 - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
 - [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
 - [Bootstrap](https://getbootstrap.com "Bootstrap")
-- [Slack](https://www.icloud.com/notes/ "Slack")
 - [TOC Generator](https://ecotrust-canada.github.io/markdown-toc/ "TOC Generator")
 - [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive")
 - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker")
-- [Love Running Project](https://codeinstitute.net "Love Running Project")
 
 \
 &nbsp;
@@ -350,9 +345,35 @@ _Any changes required to the website, they can be made, commited and pushed to G
 
 # Credits
 
-For code inspiration, feedback and advice:
+- Feedback, advice and support:
 
-- [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
-- [Flexbox and Grid Tutorials by Kevin Powell](https://www.youtube.com/user/KepowOb "Kevin Powell")
-- [Project Portfolio-1 channell on Slack](https://www.icloud.com/notes "Slack")
-- [Love Running Project](https://codeinstitute.net "Love Running Project")
+  - [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+
+- Code inspiration and learning content:
+
+  - [Flexbox and Grid Tutorials by Kevin Powell](https://www.youtube.com/user/KepowOb "Kevin Powell")
+
+  * [Project Portfolio-1 channel on Slack](https://slack.com/intl/en-ie/ "Slack")
+
+  - [Love Running Project](https://codeinstitute.net "Love Running Project")
+  - [W3C Schools](https://www.w3schools.com/ "W3C Schools")
+  - [MUO](https://www.makeuseof.com/ "MUO")
+
+* Visual content:
+
+  - [Coolors](https://coolors.co/ "Coolors")
+  - [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid")
+  
+
+* Images:
+
+  - Hero image [Bee Friendly Apiary](https://beefriendlyapiary.com/gallery/614zdfmyfmsa4mlwu84vvmz6epn7at"Bee Friendly Apiary")
+  - Bee Logo [Gencraft](https://gencraft.com/generate/ "Gencraft")
+  - Image of selection of fruit and veg [Homestead and Chill](https://homesteadandchill.com/benefits-mycorrhizae-garden "Homestead and Chill")
+  - Image of tractor spraying the field [Archi Media](https://archimediatrust.org/ "Archi Media")
+  - Image of small vegetable garden [Arum Jiwa](https://urbanpollinators.blogspot.com/ "Arum Jiwa")
+  - Image of wildflower meadow [Nature Images](https://all-free-download.com/free-photos/nature-images.html "Nature Images")
+  - Image of a meadow with a sign [Seed Guide](https://www.seed.ab.ca/innovative-program-targets-native-bee-habitat/ "Seed Guide")
+  - Image of spread the word sign [DreamsTime](https://www.dreamstime.com/spread-word-round-ribbon-isolated-label-sign-sticker-image192985031 "DreamsTime")
+  - Image in the thank you note [Bay Nature](https://baynature.org/event/planting-for-pollinators/ "Bay Nature")
+  - Image for mobile top navigation [Shutterstock](https://www.shutterstock.com/ "Shutterstock")
