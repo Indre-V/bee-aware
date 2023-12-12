@@ -238,7 +238,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 ### Contact
 
-- The contact section has two parts in one box. For visual purposes, same shadow style is coded around the border as in other sections. The end-user can subscribe to newsletter or send a message. All text fields are required and would not all user to subscribe or send otherwise. The email field is validated as well. Larger view screen has subscription and message parts display the the same row. For small screens, they are displayed in one column just like other all the other sections on small screen display. Hidden labels are added to the input fields for accessibility. 
+- The contact section has two parts in one box. For visual purposes, same shadow style is coded around the border as in other sections. The end-user can subscribe to newsletter or send a message. All text fields are required and would not all user to subscribe or send otherwise. The email field is validated as well. Larger view screen has subscription and message parts display the the same row. For small screens, they are displayed in one column just like other all the other sections on small screen display. Hidden labels are added to the input fields for accessibility.
 
 ![Contact Medium and Large Screen](docs/contact-ml-screen-view.png)
 ![Contact Small Screen](docs/contact-small-screen-view.png)
@@ -290,6 +290,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - [TOC Generator](https://ecotrust-canada.github.io/markdown-toc/ "TOC Generator")
 - [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive")
 - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker")
+- [Image Resize](https://www.iloveimg.com/ "iLoveIMG")
 
 \
 &nbsp;
