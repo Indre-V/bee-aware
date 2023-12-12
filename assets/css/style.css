@@ -363,6 +363,7 @@ textarea {
     border-radius: 0.5rem;
     background: var(--dark-green);
     cursor: pointer;
+    width: 6rem;
 }
 
 .button input[type="submit"]:hover {
