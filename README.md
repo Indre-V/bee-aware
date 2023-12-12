@@ -312,14 +312,13 @@ _Small Screen devices_ have title and details displayed in one column just like 
 ### HTML
 
 - I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). I have tested 3 html files. They all came back without errors.
-- ![W3C HTML Validator](docs/html-validator-index.png "W3C HTML Validator index.html")
+  ![W3C HTML Validator](docs/html-validator-index.png "W3C HTML Validator index.html")
 
-* ![W3C HTML Validator](docs/html-validator-email-thanks.png "W3C HTML Validator email-thanks.html")
-* ![W3C HTML Validator](docs/html-validator-newsletter-thanks.png "W3C HTML Validator newsletter-thanks.html")
+![W3C HTML Validator](docs/html-validator-email-thanks.png "W3C HTML Validator email-thanks.html")
+![W3C HTML Validator](docs/html-validator-newsletter-thanks.png "W3C HTML Validator newsletter-thanks.html")
 
 ### CSS
 
 - CSS code for the webpage was validated on [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator"). It has returned no errors.
 
-- ![W3C CSS Validator](docs/css-validator-results.png "W3C CSS Validator results")
-
+  ![W3C CSS Validator](docs/css-validator-results.png "W3C CSS Validator results")
