@@ -46,6 +46,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
     - [HTML](#html)
     - [CSS](#css)
   - [Accessibility Testing](#accessibility-testing)
+  - [User Story Testing](#user-story-testing)
 - [Deployment](#deployment)
 - [Credits](#credits)
 
@@ -60,7 +61,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
 
 ## User Stories
 
-- As a user, I want the information to be resented in a easy to follow format.
+- As a user, I want the information to be presented in a easy to follow format.
 - As a user, I want navigation to be intuitive.
 - As a user, I want to be able to use website on range of devices.
 - As a user, I want the information on the website to be factual and purposeful.
@@ -291,6 +292,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - [TOC Generator](https://ecotrust-canada.github.io/markdown-toc/ "TOC Generator")
 - [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive")
 - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker")
+- [WAVE Accessibility Tool](https://wave.webaim.org/ "WAVE Accessibility Tool")
 - [Image Resize](https://www.iloveimg.com/ "iLoveIMG")
 
 \
@@ -323,12 +325,25 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
   ![W3C CSS Validator](docs/css-validator-results.png "W3C CSS Validator results")
 
-
 ## Accessibility Testing
 
-I have used web accessibility evaluation tool [WAVE Tool](https://wave.webaim.org/) which helps to determine if web content is accessible to individuals with disabilities. It highlighted the issue in the code with label id which I rectified and passed passed the test. 
+I have used web accessibility evaluation tool [WAVE Tool](https://wave.webaim.org/) which helps to determine if web content is accessible to individuals with disabilities. It highlighted the issue in the code with label id which I rectified and passed passed the test.
 
-![WAVE](docs/wave-report.pngpng "WAVE Results")
+![WAVE](docs/wave-report.png "WAVE Results")
+
+## User Story Testing
+
+| User Story                                                                                            | Result                                                              | Pass |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------- | ---- |
+| As a user, I want the information to be resented in a easy to follow format.                          | Website is on one page and easy to scroll or use the navigation tab | Yes  |
+| As a user, I want navigation to be intuitive.                                                         | Navigation bar has logical options                                  | Yes  |
+| As a user, I want to be able to use website on range of devices.                                      | All features available on all size screens and browsers             | Yes  |
+| As a user, I want the information on the website to be factual and purposeful.                        | The information is verified and obtained from reliable sources      | Yes  |
+| As a user, I want to be able to use the website a resource for ideas regarding the pollinators.       | Initiatives section has actions for the user                        | Yes  |
+| As a user, I want the images to be relevant to the content of the website.                            | Images summarize the content for visual learners                    | Yes  |
+| As a user, I want to be able to subscribe to a monthly newsletter with actions I can take that month. | Subscription option available in contact section                    | Yes  |
+| As a user, I want to be able to easily contact content creators for feedback or changes.              | Contact box available for users to contact creators                 | Yes  |
+| As a user, I want to be able to connect on social media to spread awareness                           | Social Media link available at the bottom of the page               | Yes  |
 
 # Deployment
 
