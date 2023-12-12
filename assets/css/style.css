@@ -143,6 +143,12 @@ input[type=checkbox] {
     display: none;
 }
 
+.input-box input,
+textarea {
+    max-width: 80%;
+}
+
+
 .hero-image {
     background: url("../images/hero-image.jpg") no-repeat center center;
     height: 40rem;
@@ -345,6 +351,18 @@ textarea {
 
 .button input[type="submit"]:hover {
     background: var(--vivid-yellow);
+}
+
+
+/* to hide inout labels */
+
+.search-only {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
 }
 
 #thanks {
