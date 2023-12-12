@@ -45,6 +45,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
   - [Code Validation](#code-validation)
     - [HTML](#html)
     - [CSS](#css)
+  - [Deployment](#deployment)
 
 ## User Goals
 
@@ -322,3 +323,22 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - CSS code for the webpage was validated on [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator"). It has returned no errors.
 
   ![W3C CSS Validator](docs/css-validator-results.png "W3C CSS Validator results")
+
+
+## Deployment
+
+Bee-Aware was deployed early in the process to GitHub pages via the following steps:
+  
+  - Navigate to the repository on GitHub and click on **Settings**
+
+- In the side navigation and select **Pages**
+
+- In the **None** dropdown and choose **main**
+
+- Click on the **Save** button.
+
+- The website is now live at `https://indre-v.github.io/bee-aware/`
+
+_Any changes required to the website, they can be made, commited and pushed to GitHub_
+
+
