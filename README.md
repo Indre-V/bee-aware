@@ -39,13 +39,14 @@ Users can subscribe to newsletter and contact campaign managers directly.
 - [Technologies Used](#technologies-used)
   - [Languages](#languages)
   - [Libraries \& Framework](#libraries--framework)
-  - [Tools](#tools)
+  - [Tools and Resources](#tools-and-resources)
 - [Testing](#testing)
   - [Responsiveness Tests](#responsiveness-tests)
   - [Code Validation](#code-validation)
     - [HTML](#html)
     - [CSS](#css)
   - [Deployment](#deployment)
+- [Credits](#credits)
 
 ## User Goals
 
@@ -278,7 +279,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - [Google Fonts](https://fonts.google.com/ "Google Fonts")
 - [Font Awesome library](https://fontawesome.com/ "Font Awesome")
 
-## Tools
+## Tools and Resources
 
 - [Codeanywhere](https://app.codeanywhere.com/ "Codeanywhere")
 - [GitHub](https://github.com/ "GitHub")
@@ -293,10 +294,11 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - [TOC Generator](https://ecotrust-canada.github.io/markdown-toc/ "TOC Generator")
 - [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive")
 - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker")
+- [Love Running Project](https://codeinstitute.net "Love Running Project")
 
 \
 &nbsp;
-[Back to Top](#table-of-contents)
+[Back to Top](#contents)
 \
 &nbsp;
 
@@ -324,12 +326,11 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
   ![W3C CSS Validator](docs/css-validator-results.png "W3C CSS Validator results")
 
-
 ## Deployment
 
 Bee-Aware was deployed early in the process to GitHub pages via the following steps:
-  
-  - Navigate to the repository on GitHub and click on **Settings**
+
+- Navigate to the repository on GitHub and click on **Settings**
 
 - In the side navigation and select **Pages**
 
@@ -339,6 +340,19 @@ Bee-Aware was deployed early in the process to GitHub pages via the following st
 
 - The website is now live at `https://indre-v.github.io/bee-aware/`
 
-_Any changes required to the website, they can be made, commited and pushed to GitHub_
+_Any changes required to the website, they can be made, commited and pushed to GitHub._
 
+\
+&nbsp;
+[Back to Top](#contents)
+\
+&nbsp;
 
+# Credits
+
+For code inspiration, feedback and advice:
+
+- [Simen Daehlin](https://github.com/Eventyret "Simen Daehlin")
+- [Flexbox and Grid Tutorials by Kevin Powell](https://www.youtube.com/user/KepowOb "Kevin Powell")
+- [Project Portfolio-1 channell on Slack](https://www.icloud.com/notes "Slack")
+- [Love Running Project](https://codeinstitute.net "Love Running Project")
