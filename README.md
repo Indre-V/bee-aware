@@ -45,7 +45,8 @@ Users can subscribe to newsletter and contact campaign managers directly.
   - [Code Validation](#code-validation)
     - [HTML](#html)
     - [CSS](#css)
-  - [Deployment](#deployment)
+  - [Accessibility Testing](#accessibility-testing)
+- [Deployment](#deployment)
 - [Credits](#credits)
 
 ## User Goals
@@ -322,7 +323,14 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
   ![W3C CSS Validator](docs/css-validator-results.png "W3C CSS Validator results")
 
-## Deployment
+
+## Accessibility Testing
+
+I have used web accessibility evaluation tool [WAVE Tool](https://wave.webaim.org/) which helps to determine if web content is accessible to individuals with disabilities. It highlighted the issue in the code with label id which I rectified and passed passed the test. 
+
+![WAVE](docs/wave-report.pngpng "WAVE Results")
+
+# Deployment
 
 Bee-Aware was deployed early in the process to GitHub pages via the following steps:
 
