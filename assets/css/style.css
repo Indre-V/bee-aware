@@ -317,29 +317,23 @@ textarea {
 
     padding: 0.5rem 1.2rem;
     width: 80%;
-    background-color: var(--light-pink);
+    background-color: var(--vivid-yellow);
     border-radius: 0.5rem;
     margin: 0.5rem 0 1rem 0;
-    outline: none;
+    outline: var(--light-pink);
     font: inherit;
 
 }
 
 .form label {
-
-
-    font-size: 1rem;
     display: block;
     text-align: left;
-    padding-left: 2.5rem;
-
-
-
+    padding-left: 2.5rem
 }
 
 textarea {
 
-    height: 5rem;
+    height: 7rem;
     max-width: 80%;
 
 }
@@ -401,8 +395,6 @@ textarea {
     justify-content: space-around;
     align-items: center;
 }
-
-
 
 .fa-brands {
     font-size: xx-large;
