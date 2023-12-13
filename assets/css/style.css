@@ -7,7 +7,7 @@
     --pale-gray: #ffffff6e;
     --dark-brown: #271a16;
     --light-gray: #ffffffab;
-    --box-shadow: #ecba04 0px 1px 3px, #606c38 0px 1px 3px;
+    --box-shadow: #ecba04 0 1px 3px, #606c38 0 1px 3px;
     --vivid-yellow: #ecba04;
     --dark-green: #606c38;
     --soft-background: rgba(239, 190, 183, 0.101);
@@ -23,6 +23,11 @@
     margin: 0;
     padding: 0;
     border: none;
+}
+
+html {
+    scroll-padding-top: 8rem;
+    font-size: 62.5%;
     scroll-behavior: smooth;
 }
 
@@ -30,12 +35,10 @@ body {
 
     min-height: 100vh;
     font-family: 'Libre Franklin', sans-serif;
-    font-size: 1rem;
+    font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.5;
     color: var(--dark-gray);
-    overflow-x: hidden;
-
 }
 
 h1,
