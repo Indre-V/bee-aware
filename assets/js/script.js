@@ -1,4 +1,4 @@
-// script found on Slack
+// script found and adapted from Slack
 document.addEventListener("DOMContentLoaded", function () {
     const checkboxToggle = document.getElementById("checkbox-toggle");
     const menuItems = document.querySelectorAll(".menu a");
