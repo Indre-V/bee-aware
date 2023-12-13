@@ -396,7 +396,7 @@ textarea {
 #icon-list {
     background-color: var(--dark-green);
     margin: auto;
-    height: 3rem;
+    height: 5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
