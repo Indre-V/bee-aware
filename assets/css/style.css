@@ -57,6 +57,9 @@ li {
 }
 
 
+.text-space {
+    padding: 2rem 0 2rem 0;
+}
 
 #events,
 #about,
@@ -68,7 +71,6 @@ li {
 .column {
     display: flex;
     flex-direction: column;
-    overflow: hidden;
 }
 
 .bee-aware-logo {
@@ -78,7 +80,6 @@ li {
 }
 
 .topnav {
-
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -87,18 +88,11 @@ li {
     background-size: cover;
     position: fixed;
     z-index: 99999;
-    overflow: hidden;
     width: 100%;
 }
 
-
-
-
-
 .menu {
-
     display: none;
-
 }
 
 .menu li:hover {
@@ -154,27 +148,20 @@ textarea {
     background-size: cover;
     background-color: var(--pale-gray);
     background-blend-mode: overlay;
-
-
 }
 
 .text-center {
     text-align: center;
-
 }
 
 #hero {
     background-color: var(--light-gray);
     width: 100%;
     padding: 2rem;
-    overflow: hidden;
     bottom: 10rem;
-
-
 }
 
 .hero-text {
-
     width: 80%;
     position: relative;
     top: 30%;
@@ -200,13 +187,12 @@ textarea {
 
 }
 
-
+/* About section */
 
 .left-container {
     background-color:
         var(--soft-background);
 }
-
 
 .right-container,
 .left-container {
@@ -214,7 +200,6 @@ textarea {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: hidden;
 }
 
 .left-image-row,
@@ -239,15 +224,11 @@ textarea {
     max-width: 100%;
     margin: 1rem 1rem 1rem 1rem;
     flex-grow: 1;
-
 }
 
 /*Intitiatives section  */
 
-
 .ideas-grid {
-
-
     padding: 0 2rem 0 2rem
 }
 
@@ -261,41 +242,29 @@ figcaption {
 figure img {
     width: 100%;
     object-fit: cover;
-
 }
 
 .item-grid {
-
-
     margin: 1rem auto;
     padding: 1rem;
     box-shadow: var(--box-shadow);
     background-color: var(--soft-background);
-
-
-
 }
 
 
 .event-title {
-
-
     padding: 20px;
     color: var(--vivid-yellow);
     background: var(--dark-green);
-
-
 }
 
 .event-details {
 
     padding: 2rem;
     background: var(--soft-background);
-
-
-
 }
 
+/* Contact section */
 .contact-box {
 
     max-width: 80%;
@@ -309,7 +278,6 @@ figure img {
 #letter-box {
     box-shadow: var(--box-shadow);
     flex: 1 1 0;
-
 }
 
 .input-box input,
@@ -332,13 +300,9 @@ textarea {
 }
 
 textarea {
-
     height: 7rem;
     max-width: 80%;
-
 }
-
-
 
 .topic-text {
     padding: 1rem;
@@ -363,9 +327,6 @@ textarea {
     background: var(--vivid-yellow);
 }
 
-
-
-
 #thanks {
     background-color: var(--soft-background);
     min-height: 90vh;
@@ -373,7 +334,6 @@ textarea {
     justify-content: space-evenly;
     align-items: center;
     text-align: center;
-    overflow: hidden;
 }
 
 #home-icon {
@@ -386,6 +346,7 @@ textarea {
 
 }
 
+/* Footer */
 
 #icon-list {
     background-color: var(--dark-green);
@@ -424,8 +385,6 @@ textarea {
 
 /* Small devices (landscape phones, 576px and up)  */
 @media (min-width: 576px) {
-
-
     .hero-image {
 
         height: 45rem;
