@@ -61,6 +61,15 @@ li {
     padding: 2rem 0 2rem 0;
 }
 
+.text-center {
+    text-align: center;
+}
+
+.space-around {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 #events,
 #about,
 #initiatives,
@@ -136,48 +145,36 @@ input[type=checkbox] {
     display: none;
 }
 
-.hero-image {
+/* Hero section */
+#hero-container {
     background: url("../images/hero-image.jpg") no-repeat center center;
-    height: 40rem;
+    height: 85vh;
     background-size: cover;
     background-color: var(--pale-gray);
     background-blend-mode: overlay;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.text-center {
-    text-align: center;
-}
-
-#hero {
-    background-color: var(--light-gray);
-    padding: 2rem;
-
-}
-
-.hero-text {
-    width: 80%;
-    position: relative;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: large;
+.hero h1 {
     color: var(--dark-brown);
+    font-size: 3rem;
+    padding: 3rem 0 3rem 0;
+    background-color: var(--light-gray);
+
 }
 
-.container {
-    gap: 1vh;
+#top-container {
+    height: 15vh;
     background-color: var(--soft-background);
+    padding: 0.5rem;
 }
 
 .top {
-
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
-    gap: 1vh;
-    font-size: 3rem;
-
+    font-size: 4rem;
 }
 
 /* About section */
@@ -377,12 +374,7 @@ textarea {
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up)  */
-@media (min-width: 576px) {
-    .hero-image {
-
-        height: 45rem;
-    }
-}
+@media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
@@ -392,15 +384,11 @@ textarea {
 
     }
 
-
-
     .topnav {
 
         flex-direction: row;
         justify-content: flex-start;
         background: var(--vivid-yellow);
-
-
 
     }
 
@@ -414,22 +402,7 @@ textarea {
     /* HAMBURGER MENU */
     .hamburger {
         display: none;
-
-
     }
-
-
-
-
-    .hero-text {
-
-        font-weight: 600;
-        top: 70%;
-        font-size: x-large;
-
-    }
-
-
 
     .menu li {
         padding: 1rem 2rem;
@@ -439,29 +412,19 @@ textarea {
 
     .top {
 
-        font-size: 4rem;
+        font-size: 5rem;
     }
-
-    .container {
-        padding: 2rem;
-
-    }
-
 
     .item-grid {
 
         padding: 2rem;
         margin: 2rem;
-
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    .hero-image {
 
-        height: 50rem;
-    }
 
     .topnav {
         justify-content: space-between;
@@ -507,9 +470,8 @@ textarea {
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
 
-    .hero-image {
-
-        height: 48rem;
+    .hero h1 {
+        padding: 3rem;
     }
 
     .right-info,
