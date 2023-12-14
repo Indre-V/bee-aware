@@ -92,7 +92,6 @@ li {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding-left: 0.5rem;
     background: url("../images/mobile-background.jpg") no-repeat center center;
     background-size: cover;
     position: fixed;
@@ -121,6 +120,7 @@ li {
 .nav-links a {
     color: var(--dark-brown);
     font-size: 2rem;
+
 }
 
 input[type=checkbox]:checked~.menu {
