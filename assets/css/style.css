@@ -196,9 +196,7 @@ input[type=checkbox] {
 
 }
 
-.right-info,
-.left-info {
-
+.info-box {
     max-width: 100%;
     margin: 1rem 1rem 1rem 1rem;
     flex-grow: 1;
@@ -428,7 +426,6 @@ textarea {
     .contact-box {
         flex-direction: row;
     }
-
 }
 
 /* X-Large devices (large desktops, 1200px and up) */
@@ -438,12 +435,9 @@ textarea {
         padding: 3rem;
     }
 
-    .right-info,
-    .left-info {
+    .inf-box {
         margin: 4rem;
     }
-
-
 
     .item-grid {
         padding: 4rem;
