@@ -82,17 +82,17 @@ li {
     flex-direction: column;
 }
 
-.bee-aware-logo {
-
-    display: none;
-    font-size: 3rem;
+#bee-aware-logo {
+    font-size: 4rem;
 }
+
+/* Navigation bar */
 
 .topnav {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding-left: 0.5rem;
     background: url("../images/mobile-background.jpg") no-repeat center center;
     background-size: cover;
     position: fixed;
@@ -105,8 +105,6 @@ li {
 }
 
 .menu li:hover {
-
-    display: inline-block;
     background-color: var(--light-pink);
     border-radius: 2rem;
     transition: 1s ease;
@@ -114,31 +112,23 @@ li {
     padding: 1rem;
 }
 
-
 .menu li {
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
     margin-left: 1rem;
     font-weight: 600;
-
 }
 
 .nav-links a {
     color: var(--dark-brown);
-    font-size: large;
-
-
+    font-size: 2rem;
 }
-
 
 input[type=checkbox]:checked~.menu {
     display: block;
 }
 
-
-
 .hamburger {
-    display: block;
-    font-size: 2rem;
+    font-size: 4rem;
 }
 
 input[type=checkbox] {
@@ -179,8 +169,7 @@ input[type=checkbox] {
 /* About section */
 
 .left-container {
-    background-color:
-        var(--soft-background);
+    background-color: var(--soft-background);
 }
 
 .right-container,
@@ -260,7 +249,6 @@ figure img {
     box-shadow: var(--box-shadow);
     background-color: var(--soft-background);
     margin: 1rem auto;
-
 }
 
 #email-box,
@@ -378,44 +366,34 @@ textarea {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
-    .bee-aware-logo {
-        display: flex;
 
-    }
 
     .topnav {
-
         flex-direction: row;
-        justify-content: flex-start;
         background: var(--vivid-yellow);
-
     }
 
     .menu {
         display: flex;
-        font-size: 1rem;
         background-color: var(--vivid-yellow);
-
     }
 
-    /* HAMBURGER MENU */
     .hamburger {
         display: none;
     }
 
     .menu li {
         padding: 1rem 2rem;
-        margin: auto;
+        margin: 1rem;
         font-weight: 400;
     }
 
     .top {
-
         font-size: 5rem;
+        padding-top: 2rem;
     }
 
     .item-grid {
-
         padding: 2rem;
         margin: 2rem;
     }
@@ -424,34 +402,21 @@ textarea {
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 
-
-    .topnav {
-        justify-content: space-between;
-    }
-
     .right-container,
     .left-container {
-
-
         width: 100%;
         flex-wrap: nowrap;
-
     }
 
     .left-container {
         flex-direction: row-reverse;
-
     }
 
     .ideas-grid {
-
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
-
     }
-
-
 
     #events-box {
         display: flex;
@@ -475,22 +440,18 @@ textarea {
 
     .right-info,
     .left-info {
-
         margin: 4rem;
     }
 
 
 
     .item-grid {
-
         padding: 4rem;
     }
 
     figure img {
-
         min-height: 35vh;
         max-height: 40vh;
-
     }
 
 }
