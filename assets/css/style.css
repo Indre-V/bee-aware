@@ -410,10 +410,7 @@ textarea {
         min-height: 50vh;
     }
 
-    .ideas-grid {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 3rem;
-    }
+
 
     #events-box {
         display: flex;
@@ -440,6 +437,11 @@ textarea {
 
     .container-img img {
         min-height: 40rem;
+    }
+
+    .ideas-grid {
+        grid-template-columns: repeat(2, 1fr);
+        padding: 3rem;
     }
 
     .item-grid {
