@@ -226,7 +226,6 @@ figure img {
 }
 
 .event-details {
-
     padding: 2rem;
     background: var(--soft-background);
 }
@@ -382,6 +381,8 @@ textarea {
         padding: 2rem;
         margin: 2rem;
     }
+
+
 }
 
 /* Large devices (desktops, 992px and up) */
@@ -416,7 +417,7 @@ textarea {
 
     #events-box {
         display: flex;
-        max-width: 60rem;
+        max-width: 95rem;
         margin: auto;
         box-shadow: var(--box-shadow);
     }
