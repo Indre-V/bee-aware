@@ -55,7 +55,7 @@ li {
     list-style: none;
 }
 
-
+/* To add space within the paragraphs */
 .text-space {
     padding: 2rem 0 2rem 0;
 }
@@ -146,6 +146,7 @@ input[type=checkbox] {
     background-color: var(--light-gray);
 }
 
+/* About section */
 #top-container {
     background-color: var(--soft-background);
     padding: 0.5rem;
@@ -157,8 +158,6 @@ input[type=checkbox] {
     flex-wrap: wrap;
     font-size: 4rem;
 }
-
-/* About section */
 
 .right-container,
 .left-container {
@@ -404,8 +403,6 @@ textarea {
     figure img {
         min-height: 50vh;
     }
-
-
 
     #events-box {
         display: flex;
