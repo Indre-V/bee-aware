@@ -112,7 +112,6 @@ li {
 .nav-links a {
     color: var(--dark-brown);
     font-size: 2rem;
-
 }
 
 input[type=checkbox]:checked~.menu {
@@ -345,11 +344,7 @@ textarea {
 /* Media Queries */
 
 /* Small devices (landscape phones, 576px and up)  */
-@media (min-width: 576px) {}
-
-/* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
-
+@media (min-width: 576px) {
     .topnav {
         flex-direction: row;
         background: var(--vivid-yellow);
@@ -365,9 +360,25 @@ textarea {
     }
 
     .menu li {
-        padding: 1rem 2rem;
+        padding: 1rem 1rem;
         margin: 1rem;
         font-weight: 400;
+    }
+
+    .nav-links a {
+        font-size: 1.5rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+
+    .nav-links a {
+        font-size: 2rem;
+    }
+
+    .menu li {
+        padding: 1rem 2rem;
     }
 
     .top {
