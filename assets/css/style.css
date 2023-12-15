@@ -282,13 +282,21 @@ textarea {
     background: var(--light-pink);
 }
 
-#thanks {
+.thanks {
     background-color: var(--soft-background);
-    min-height: 90vh;
-    padding-top: 3rem;
-    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    text-align: center;
+    padding: 10rem 5rem 4rem 4rem;
+    min-height: 80vh;
+}
+
+.thanks-image img {
+    margin-bottom: 5rem;
+    width: 100%;
+    max-width: 60rem;
+    height: auto;
 }
 
 #home-icon {
@@ -312,7 +320,7 @@ textarea {
 }
 
 .fa-brands {
-    font-size: xx-large;
+    font-size: 3rem;
 }
 
 .fa-brands:hover {

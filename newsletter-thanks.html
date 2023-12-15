@@ -10,23 +10,29 @@
 
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Bee-Aware</title>
 </head>
 
 <body>
+
     <nav class="topnav">
-        <a href="index.html" alt="Bee Logo" id="bee-aware-logo">🐝</a>
+        <a href="index.html" aria-label="Bee Logo" id="bee-aware-logo">🐝</a>
     </nav>
-    <main>
-        <div id="thanks" class="column">
-            <h1>Thank you for subscribing!</h1>
-            <img src="assets/images/thank-you.jpg" alt="bird and butterfly on the flower">
-            <a href="index.html"> <i id="home-icon" class='fas fa-home'></i>
-            </a>
+    <section id="thanks-background">
+        <div class="thanks">
+            <div class="thanks-content">
+                <h1 class="space-around">Thank you for subscribing!</h1>
+            </div>
+            <div class="thanks-image">
+                <img src="assets/images/thank-you.jpg" alt="bird and butterfly on the flower">
+            </div>
+            <span> <a href="index.html"> <i id="home-icon" class='fas fa-home'></i>
+                </a>
+            </span>
         </div>
-    </main>
+    </section>
     <footer>
         <div id="footer-icons">
             <ul id="icon-list">
@@ -44,9 +50,6 @@
             </ul>
         </div>
     </footer>
-    <script src="https://kit.fontawesome.com/008ae79857.js" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/sprites/brands.svg"
-        crossorigin="anonymous"></script>
 </body>
 
 </html>
