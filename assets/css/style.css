@@ -155,7 +155,6 @@ input[type=checkbox] {
 }
 
 #top-container {
-    height: 15vh;
     background-color: var(--soft-background);
     padding: 0.5rem;
 }
@@ -163,8 +162,13 @@ input[type=checkbox] {
 .top {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     font-size: 4rem;
 }
+
+/* .top>* {
+    margin: 1rem;
+} */
 
 /* About section */
 
@@ -364,8 +368,6 @@ textarea {
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) {
 
-
-
     .topnav {
         flex-direction: row;
         background: var(--vivid-yellow);
@@ -388,7 +390,7 @@ textarea {
 
     .top {
         font-size: 5rem;
-        padding-top: 2rem;
+        padding-top: 1.5rem;
     }
 
     .item-grid {
