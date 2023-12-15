@@ -16,7 +16,6 @@
     --red: #bb0000;
     --dark-pink: #c32aa3;
     --blue: #3b5998;
-
 }
 
 * {
@@ -67,13 +66,6 @@ li {
 
 .space-around {
     padding-top: 2rem;
-    padding-bottom: 2rem;
-}
-
-#events,
-#about,
-#initiatives,
-#contact {
     padding-bottom: 2rem;
 }
 
@@ -168,7 +160,6 @@ input[type=checkbox] {
 
 /* About section */
 
-
 .right-container,
 .left-container {
     display: flex;
@@ -203,6 +194,12 @@ input[type=checkbox] {
     padding: 0 2rem 0 2rem
 }
 
+.ideas-grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2rem;
+}
+
 figcaption {
     text-align: center;
     padding: 1rem;
@@ -221,7 +218,7 @@ figure img {
     background-color: var(--soft-background);
 }
 
-
+/* Events Section */
 .event-title {
     padding: 20px;
     color: var(--vivid-yellow);
@@ -408,10 +405,13 @@ textarea {
         max-height: fit-content;
     }
 
+    figure img {
+        min-height: 50vh;
+    }
+
     .ideas-grid {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        padding: 3rem;
     }
 
     #events-box {
@@ -446,14 +446,13 @@ textarea {
     }
 
     figure img {
-        min-height: 35vh;
-        max-height: 40vh;
+        max-height: 42vh;
     }
 }
 
 /* Large devices (larger desktops, 1400px and up)  */
 @media (min-width: 1400px) {
     .item-grid {
-        padding: 7rem;
+        padding: 9rem;
     }
 }
