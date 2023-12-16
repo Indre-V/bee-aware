@@ -388,9 +388,8 @@ _Any changes required to the website, they can be made, commited and pushed to G
 * Images:
 
   - Hero image [Bee Friendly Apiary](https://beefriendlyapiary.com/gallery/614zdfmyfmsa4mlwu84vvmz6epn7at"Bee Friendly Apiary")
-  - Bee Logo [Gencraft](https://gencraft.com/generate/ "Gencraft")
   - Image of selection of fruit and veg [Homestead and Chill](https://homesteadandchill.com/benefits-mycorrhizae-garden "Homestead and Chill")
-  - Image of tractor spraying the field [Archi Media](https://archimediatrust.org/ "Archi Media")
+  - Image of tractor spraying the field [Gencraft](https://gencraft.com/generate/ "Gencraft")
   - Image of small vegetable garden [Arum Jiwa](https://urbanpollinators.blogspot.com/ "Arum Jiwa")
   - Image of wildflower meadow [Nature Images](https://all-free-download.com/free-photos/nature-images.html "Nature Images")
   - Image of a meadow with a sign [Seed Guide](https://www.seed.ab.ca/innovative-program-targets-native-bee-habitat/ "Seed Guide")
@@ -398,4 +397,4 @@ _Any changes required to the website, they can be made, commited and pushed to G
   - Image in the thank you note [Bay Nature](https://baynature.org/event/planting-for-pollinators/ "Bay Nature")
   - Image for mobile top navigation [Shutterstock](https://www.shutterstock.com/ "Shutterstock")
 
-_Bee-Aware webpage provides free information only. It is not intented for monetary gains_
+_Bee-Aware webpage provides free information only. It is not intented for monetary profit. Every effort has been made to properly acknowledge and reference any images and information used in this project. Although the agreement for free usage allows photographs to be obtained by free search._

@@ -201,7 +201,7 @@ input[type=checkbox] {
 .ideas-grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 2rem;
+    gap: 5rem;
 }
 
 figcaption {
@@ -425,7 +425,12 @@ textarea {
     }
 
     figure img {
-        min-height: 50vh;
+        min-height: 25vh;
+    }
+
+    .ideas-grid {
+        grid-template-columns: repeat(auto-fill, minmax(45rem, 1fr));
+        padding: 3rem;
     }
 
     #events-box {
@@ -456,17 +461,12 @@ textarea {
         max-height: 42rem;
     }
 
-    .ideas-grid {
-        grid-template-columns: repeat(2, 1fr);
-        padding: 3rem;
-    }
-
     .item-grid {
         padding: 4rem;
     }
 
     figure img {
-        max-height: 42vh;
+        max-height: 40vh;
     }
 }
 
@@ -478,7 +478,11 @@ textarea {
     }
 
     .item-grid {
-        padding: 9rem;
+        padding: 3rem;
+    }
+
+    .ideas-grid {
+        grid-template-columns: repeat(auto-fill, minmax(60rem, 1fr));
     }
 
 }
