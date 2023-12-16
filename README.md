@@ -93,6 +93,8 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 ### [Mobile and Desktop Wireframes](docs/mobile-desktop-wireframes.pdf "Mobile and Desktop Wireframes")
 
+[Back to top](#contents)
+
 ## Design Choices
 
 ### Typography
@@ -128,11 +130,7 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 - My website will be responsive to different layouts depending on the size of the viewport have been included in the CSS media queries. the breakpoints I am using are from Bootstrap.
   ![Breakpoints](docs/media-queries.png)
 
-\
-&nbsp;
-[Back to Top](#contents)
-\
-&nbsp;
+[Back to top](#contents)
 
 # Features
 
@@ -161,11 +159,7 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
 ![Navigation bar mobile screen](docs/navbar-mobile-device-tap.png)
 
-\
-&nbsp;
-[Back to Top](#contents)
-\
-&nbsp;
+[Back to top](#contents)
 
 ### Landing Page
 
@@ -173,11 +167,7 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
 ![Home Page Background Image](docs/home-page-background-image.png)
 
-\
-&nbsp;
-[Back to Top](#contents)
-\
-&nbsp;
+[Back to top](#contents)
 
 ### About Section
 
@@ -194,11 +184,7 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
 ![About Section Tablet View](docs/about-tablet-view.png)
 
-\
-&nbsp;
-[Back to Top](#contents)
-\
-&nbsp;
+[Back to top](#contents)
 
 ### Initiatives
 
@@ -212,11 +198,7 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
 ![Initiatives Smaller Screen](docs/initiatives-small-screen-view.png)
 
-\
-&nbsp;
-[Back to Top](#contents)
-\
-&nbsp;
+[Back to top](#contents)
 
 ### Events
 
@@ -230,11 +212,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 ![Events Small Screen](docs/events-small-screen-view.png)
 
-\
-&nbsp;
-[Back to Top](#contents)
-\
-&nbsp;
+[Back to top](#contents)
 
 ### Contact
 
@@ -248,11 +226,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 ![Contact Email Thank You](docs/contact-email-tku.png)
 ![Contact Newsletter Thank You](docs/contact-newsletter-tku.png)
 
-\
-&nbsp;
-[Back to Top](#contents)
-\
-&nbsp;
+[Back to top](#contents)
 
 ### Footer
 
@@ -266,6 +240,8 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - A separate blog page or the entire blog could be added on navigation bar. It would be beneficial to provide users with up-to-date news. Additional content, such as articles and videos, may be shown here.
 - It would be beneficial to have embedded maps for each event that don't require off-page navigation, since this would facilitate finding the events nearby and improve user experience.
 - A gallery of end user pollinator friendly gardens.
+
+[Back to top](#contents)
 
 # Technologies Used
 
@@ -294,11 +270,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - [Image Resize](https://www.iloveimg.com/ "iLoveIMG")
 - [Color Contrast Accessibility Validator](https://color.a11y.com/ "Color Contrast Accessibility Validator")
 
-\
-&nbsp;
-[Back to Top](#contents)
-\
-&nbsp;
+[Back to top](#contents)
 
 # Testing
 
@@ -318,11 +290,15 @@ _Small Screen devices_ have title and details displayed in one column just like 
 ![W3C HTML Validator](docs/html-validator-email-thanks.png "W3C HTML Validator email-thanks.html")
 ![W3C HTML Validator](docs/html-validator-newsletter-thanks.png "W3C HTML Validator newsletter-thanks.html")
 
+[Back to top](#contents)
+
 ### CSS
 
 - CSS code for the webpage was validated on [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator"). It has returned no errors.
 
   ![W3C CSS Validator](docs/css-validator-results.png "W3C CSS Validator results")
+
+[Back to top](#contents)
 
 ## Accessibility Testing
 
@@ -356,15 +332,15 @@ In addition to WAVE testing, I have tested my webpage for color contrast accessi
 
 <details><summary><b>WAVE Error Message</b></summary>
 
-![WAVE Error Message] (docs/wave-error.png)
+![WAVE Error Message](docs/wave-error.png)
 
 </details><br/>
 
--Durring the Color Contrast testing, one error returned. The WCAG AA ratio has failed for the Events section headings. I have amended heading size and returned a pass.
+-During the Color Contrast testing, one error returned. The WCAG AA ratio has failed for the Events section headings. I have amended heading size and returned a pass.
 
 <details><summary><b>WAVE Error Message</b></summary>
 
-![Color Contrast Accessibility Error] (docs/a11y-bug.png)
+![Color Contrast Accessibility Error](docs/a11y-bug.png)
 
 </details><br/>
 
@@ -386,11 +362,7 @@ Bee-Aware was deployed early in the process to GitHub pages via the following st
 
 _Any changes required to the website, they can be made, commited and pushed to GitHub._
 
-\
-&nbsp;
-[Back to Top](#contents)
-\
-&nbsp;
+[Back to top](#contents)
 
 # Credits
 
