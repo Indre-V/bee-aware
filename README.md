@@ -47,6 +47,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
     - [CSS](#css)
   - [Accessibility Testing](#accessibility-testing)
   - [User Story Testing](#user-story-testing)
+  - [Bugs Fixed](#bugs-fixed)
 - [Deployment](#deployment)
 - [Credits](#credits)
 
@@ -291,6 +292,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker")
 - [WAVE Accessibility Tool](https://wave.webaim.org/ "WAVE Accessibility Tool")
 - [Image Resize](https://www.iloveimg.com/ "iLoveIMG")
+- [Color Contrast Accessibility Validator](https://color.a11y.com/ "Color Contrast Accessibility Validator")
 
 \
 &nbsp;
@@ -326,7 +328,13 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 I have used web accessibility evaluation tool [WAVE Tool](https://wave.webaim.org/) which helps to determine if web content is accessible to individuals with disabilities. It highlighted the issue in the code with label id which I rectified and passed passed the test.
 
-![WAVE](docs/wave-report.png "WAVE Results")
+![WAVE](docs/wave-report.png "WAVE Result")
+
+In addition to WAVE testing, I have tested my webpage for color contrast accessibility on [Color Contrast Accessibility Validator](https://color.a11y.com/). One error returned which I immediately fixed and then received a pass.
+
+[Color Contrast Accessibility Validator](docs/a11y-result.png "Color Contrast Accessibility Validator Result")
+
+[Back to top](#contents)
 
 ## User Story Testing
 
@@ -341,6 +349,26 @@ I have used web accessibility evaluation tool [WAVE Tool](https://wave.webaim.or
 | As a user, I want to be able to subscribe to a monthly newsletter with actions I can take that month. | Subscription option available in contact section                    | Yes  |
 | As a user, I want to be able to easily contact content creators for feedback or changes.              | Contact box available for users to contact creators                 | Yes  |
 | As a user, I want to be able to connect on social media to spread awareness                           | Social Media link available at the bottom of the page               | Yes  |
+
+## Bugs Fixed
+
+-Error popped up regarding incorrect labels in the contact form during wave testing. I rectified the label ids, however the error came up again as the label ids were used twice. I have fixed the issue and then received a pass.
+
+<details><summary><b>WAVE Error Message</b></summary>
+
+![WAVE Error Message] (docs/wave-error.png)
+
+</details><br/>
+
+-Durring the Color Contrast testing, one error returned. The WCAG AA ratio has failed for the Events section headings. I have amended heading size and returned a pass.
+
+<details><summary><b>WAVE Error Message</b></summary>
+
+![Color Contrast Accessibility Error] (docs/a11y-bug.png)
+
+</details><br/>
+
+[Back to top](#contents)
 
 # Deployment
 
@@ -374,11 +402,11 @@ _Any changes required to the website, they can be made, commited and pushed to G
 
   - [Flexbox and Grid Tutorials by Kevin Powell](https://www.youtube.com/user/KepowOb "Kevin Powell")
 
-  * [Project Portfolio-1 channel on Slack](https://slack.com/intl/en-ie/ "Slack")
+* [Project Portfolio-1 channel on Slack](https://slack.com/intl/en-ie/ "Slack")
 
-  - [Love Running Project](https://codeinstitute.net "Love Running Project")
-  - [W3C Schools](https://www.w3schools.com/ "W3C Schools")
-  - [MUO](https://www.makeuseof.com/ "MUO")
+- [Love Running Project](https://codeinstitute.net "Love Running Project")
+- [W3C Schools](https://www.w3schools.com/ "W3C Schools")
+- [MUO](https://www.makeuseof.com/ "MUO")
 
 * Visual content:
 
