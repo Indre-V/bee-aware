@@ -417,10 +417,11 @@ textarea {
     .container-img {
         display: flex;
         flex: 2 0 50rem;
+
     }
 
     .container-img img {
-        max-height: fit-content;
+        height: auto;
     }
 
     figure img {
@@ -452,7 +453,7 @@ textarea {
     }
 
     .container-img img {
-        min-height: 40rem;
+        max-height: 42rem;
     }
 
     .ideas-grid {
@@ -471,7 +472,13 @@ textarea {
 
 /* Large devices (larger desktops, 1400px and up)  */
 @media (min-width: 1400px) {
+
+    .container-img img {
+        max-height: 35rem;
+    }
+
     .item-grid {
         padding: 9rem;
     }
+
 }
