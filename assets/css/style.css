@@ -211,6 +211,7 @@ figcaption {
 
 figure img {
     width: 100%;
+    height: auto;
     object-fit: cover;
 }
 
@@ -429,7 +430,7 @@ textarea {
     }
 
     .ideas-grid {
-        grid-template-columns: repeat(auto-fill, minmax(45rem, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
         padding: 3rem;
     }
 
@@ -461,12 +462,16 @@ textarea {
         max-height: 42rem;
     }
 
+    .ideas-grid {
+        grid-template-columns: repeat(auto-fill, minmax(50rem, 1fr));
+    }
+
     .item-grid {
         padding: 4rem;
     }
 
     figure img {
-        max-height: 40vh;
+        max-height: 30vh;
     }
 }
 
@@ -478,11 +483,15 @@ textarea {
     }
 
     .item-grid {
-        padding: 3rem;
+        padding: 7rem;
     }
 
     .ideas-grid {
         grid-template-columns: repeat(auto-fill, minmax(60rem, 1fr));
+    }
+
+    figure img {
+        min-height: 35vh;
     }
 
 }
