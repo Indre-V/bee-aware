@@ -151,13 +151,17 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 ![Navigation bar large screen](docs/navbar-full-screen-hover.png)
 
 - Small devices (<576px)
-  - For small devices, the desktop navigation bar is not user friendly. For this reason, it is coded to wrap into hamburger style icon located on the left. Once user clicks on the icon, the navigation dropdown options float on left screen of the mobile device.
 
-![Navigation bar mobile screen](docs/navbar-mobile-device.png)
+  - For small devices, the desktop navigation bar is not user friendly. For this reason, it is coded to wrap into hamburger style icon located on the left. Once user clicks on the icon, the navigation dropdown options float on left screen of the mobile device.
+  - ![Navigation bar mobile screen](docs/navbar-mobile-device.png)
 
 - Once user taps on the icon, the navigation options float on left of the screen of the mobile device.
 
+<details><summary><b>Navigation bar mobile screen</b></summary>
+
 ![Navigation bar mobile screen](docs/navbar-mobile-device-tap.png)
+
+</details><br/>
 
 [Back to top](#contents)
 
@@ -178,11 +182,19 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 - This section also contains information about the importance and issues pollinators face. The images chosen reflect the contents of the section. On the larger screens (>=992px), About section has two columns. On the right side, there is an eye catching image and on the left side I have included a consolidated version of the value pollinators provide to humans and nature. I kept the information as brief as possible in order to keep the end-users attention. Content is broken down into small paragraphs so the user can understand it better.
 - The second row of the About section has the opposite layout for visual and contextual purposes. I aimed to highlight the Importance vs Issues using the flexbox layout of the section.
 
+<details><summary><b>About Section Desktop View</b></summary>
+
 ![About Section](docs/about-desktop-view.png)
+
+</details><br/>
 
 - For the smaller screen sizes (<992px), side by side image and text layout does not work so I have changed flex direction from row to column. It displays image first and text under which allows the content to be spaced out better to fit smaller screen sizes without looking too crowded.
 
+<details><summary><b>About Section Tablet View</b></summary>
+
 ![About Section Tablet View](docs/about-tablet-view.png)
+
+</details><br/>
 
 [Back to top](#contents)
 
@@ -192,11 +204,19 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
   - On the larger screens (>=992px), the Initiatives section is displayed using grid in two columns. Each initiative has a saffron yellow border and tea rose background to match the theme of the website. If end user is only browsing the website, every initiative has a heading to summarise the main point.
 
+<details><summary><b>Initiatives Desktop View</b></summary>
+
 ![Initiatives Desktop View](docs/initiatives-desktop-view.png)
+
+</details><br/>
 
 - To continue with the consistent appearance of the webpage, the initiative boxes a displayed in one column on the smaller screens. The inside of each card has the same layout as the larger screen.
 
+<details><summary><b>Initiatives Smaller Screen</b></summary>
+
 ![Initiatives Smaller Screen](docs/initiatives-small-screen-view.png)
+
+</details><br/>
 
 [Back to top](#contents)
 
@@ -206,11 +226,19 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
   _Large and Medium devices_ have title of the event displayed on the box with light shadow with heading at the top and details below.
 
+<details><summary><b>Events Medium and Large Screen</b></summary>
+
 ![Events Medium and Large Screen](docs/events-ml-screen-view.png)
+
+</details><br/>
 
 _Small Screen devices_ have title and details displayed in one column just like other sections. The box is spread accross the screen for better legibility.
 
+<details><summary><b>Events Small Screen</b></summary>
+
 ![Events Small Screen](docs/events-small-screen-view.png)
+
+</details><br/>
 
 [Back to top](#contents)
 
@@ -218,13 +246,31 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 - The contact section has two parts in one box. For visual purposes, same shadow style is coded around the border as in other sections. The end-user can subscribe to newsletter or send a message. All text fields are required and would not all user to subscribe or send otherwise. The email field is validated as well. Larger view screen has subscription and message parts display the the same row. For small screens, they are displayed in one column just like other all the other sections on small screen display. Hidden labels are added to the input fields for accessibility.
 
+<details><summary><b>Contact Medium and Large Screen</b></summary>
+
 ![Contact Medium and Large Screen](docs/contact-ml-screen-view.png)
+
+</details><br/>
+
+<details><summary><b></b>Contact Small Screen</summary>
+
 ![Contact Small Screen](docs/contact-small-screen-view.png)
+
+</details><br/>
 
 - When end-user clicks the button to either join or send, the applicable page for one of two actions is displayed. Both pages contain a thank you message with the bee logo for large screens and home icon in moss green and turns saffron yellow when hovered which brings the user back to the homepage.
 
+<details><summary><b>Contact Email Thank You</b></summary>
+
 ![Contact Email Thank You](docs/contact-email-tku.png)
+
+</details><br/>
+
+<details><summary><b>Contact Newsletter Thank You</b></summary>
+
 ![Contact Newsletter Thank You](docs/contact-newsletter-tku.png)
+
+</details><br/>
 
 [Back to top](#contents)
 
@@ -338,7 +384,7 @@ In addition to WAVE testing, I have tested my webpage for color contrast accessi
 
 -During the Color Contrast testing, one error returned. The WCAG AA ratio has failed for the Events section headings. I have amended heading size and returned a pass.
 
-<details><summary><b>WAVE Error Message</b></summary>
+<details><summary><b>a11y Error Message</b></summary>
 
 ![Color Contrast Accessibility Error](docs/a11y-bug.png)
 
