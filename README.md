@@ -49,6 +49,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
   - [User Story Testing](#user-story-testing)
   - [Lighthouse Testing](#lighthouse-testing)
   - [Browser Testing](#browser-testing)
+  - [Feature Testing](#feature-testing)
   - [Bugs Fixed](#bugs-fixed)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -327,6 +328,26 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 - I have deployed the project a very early stage in order to test the responsivenes. I have used mobile first approach and checked all my changes on Microsoft Edge and Google Chrome browser DevTools. External website - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") was used to test deployed versions. Another external source used was [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive") website to get a single view of various device breakpoints.
 
+- I have also utilised Mobile Simulator extension on Google Chrome for extra mobile device responsiveness testing. Device samples at various breakpoints were tested for navigation, element alignment, content pacement and functionality issues.
+
+Test Results:
+
+| Size | Device Example     | Navigation | Element Alignments | Content Placement | Functionality | Notes                                             |
+| ---- | ------------------ | ---------- | ------------------ | ----------------- | ------------- | ------------------------------------------------- |
+| sm   | Samsung Galaxy S20 | Good       | Good               | Good              | Good          | Mobile menu dropdown covers some of the hero text |
+| sm   | iPhone 11 PRO      | Good       | Good               | Good              | Good          |
+| sm   | iPhone 13 PRO MAX  | Good       | Good               | Good              | Good          |
+| md   | iPad MINI          | Good       | Good               | Good              | Good          |                                                   |
+| md   | Galaxy Tab S7      | Good       | Good               | Good              | Good          |                                                   |
+| md   | iPad Air           | Good       | Good               | Good              | Good          |                                                   |
+| lg   | iPad Pro           | Good       | Good               | Good              | Good          |                                                   |
+| xl   | Mackbook Air       | Good       | Good               | Good              | Good          | updated image padding                             |
+| xl   | HP Stream Laptop   | Good       | Good               | Good              | Good          |
+| xxl  | Dell Lattitude     | Good       | Good               | Good              | Good          |                                                   |
+| xxl  | Desktop            | Good       | Good               | Good              | Good          |                                                   |
+
+[Back to top](#contents)
+
 ## Code Validation
 
 - Bee-Aware has been validated via W3C HTML Validator and the W3C CSS Validation.
@@ -413,13 +434,21 @@ For extra assurance, I have also tested the contact thank you pages. This was ve
 
 ## Browser Testing
 
-Bee-Aware was tested on a range of available browsers to any issues or errors. Microsoft Edge, Google Chrome, Firefox and Opera were chosen for the explicit testing. I have also sign up for [BrowserStack](https://live.browserstack.com/) to test my page for Internet Explorer and Safari. Internet Explorer preiminary results were very poor as it is outdated. I tested Safari on Ipad and Iphone. No major issues were found on the top 4 browsers for the final version of the website.
+Bee-Aware was tested on a range of available browsers to any issues or errors. Microsoft Edge, Google Chrome, Firefox and Opera were chosen for the explicit testing. I have also signed up for [BrowserStack](https://live.browserstack.com/) to test my page for Internet Explorer and Safari. Internet Explorer preiminary results were very poor as it is outdated. I tested Safari on Ipad and Iphone. No major issues were found on the top 4 browsers for the final version of the website.
 
-![Browser Compatibility Manual Test](docs/browser-compatibility-test-results.pdf "Browser Compatibility Manual Test")
+[Browser Compatibility Manual Test](docs/browser-compatibility-test-results.pdf "Browser Compatibility Manual Test")
+
+## Feature Testing
+
+This website was extensively tested for functionality using both Chrome and Edge developer tools.
+
+[Feature Testing Results](docs/manual-testing.pdf "Feature Testing Results")
 
 ## Bugs Fixed
 
--Error popped up regarding incorrect labels in the contact form during wave testing. I rectified the label ids, however the error came up again as the label ids were used twice. I have fixed the issue and then received a pass.
+A vast amount of debugging occured during the development of the website. All changes to the code were verified using the DevTools. The whole process was a huge learning experience to me which is reflected in the git commits. I have endeavoured to test the code regularly, however some bugs still appeared in the testing of the final version of the website. 
+
+-Error popped up regarding incorrect labels in the contact form during WAVE testing. I rectified label ids, however the error came up again as the label ids were used twice. I have fixed the issue and then received a pass.
 
 <details><summary><b>WAVE Error Message</b></summary>
 
