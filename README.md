@@ -390,6 +390,14 @@ In addition to WAVE testing, I have tested my webpage for color contrast accessi
 
 </details><br/>
 
+\*While Lighthouse testing email and newsletter thank you pages on both browsers, I have noticed that the accessibility score was only 94. It has transpired that aria label was missing for Home icon on thank you pages. Once the aria label was added, the accessibility score went up to 100.
+
+<details><summary><b>Accessibility Score Issue - Lighthouse</b></summary>
+
+![Color Contrast Accessibility Error](docs/lighthouse-desktop-chrome-email-thanks.png.png)
+
+</details><br/>
+
 [Back to top](#contents)
 
 # Deployment
