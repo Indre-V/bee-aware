@@ -252,7 +252,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 </details><br/>
 
-<details><summary><b></b>Contact Small Screen</summary>
+<details><summary><b>Contact Small Screen</b></summary>
 
 ![Contact Small Screen](docs/contact-small-screen-view.png)
 
@@ -354,7 +354,7 @@ I have used web accessibility evaluation tool [WAVE Tool](https://wave.webaim.or
 
 In addition to WAVE testing, I have tested my webpage for color contrast accessibility on [Color Contrast Accessibility Validator](https://color.a11y.com/). One error returned which I immediately fixed and then received a pass.
 
-[Color Contrast Accessibility Validator](docs/a11y-result.png "Color Contrast Accessibility Validator Result")
+![Color Contrast Accessibility Validator](docs/a11y-result.png "Color Contrast Accessibility Validator Result")
 
 [Back to top](#contents)
 
