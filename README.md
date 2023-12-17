@@ -384,12 +384,12 @@ In addition to WAVE testing, I have tested my webpage for color contrast accessi
   * SEO - checks if the website is optimised for search engine result rankings.
 
 * Tests for Desktop and Mobile on Lighthouse Chrome:
-  ![Lighthouse-Desktop-Index-Chrome](docs/wave-report.png "Lighthouse-Desktop-Index-Chrome")
-  ![Lighthouse-Mobile-Index-Chrome](docs/wave-report.png "Lighthouse-Mobile-Index-Chrome")
+  ![Lighthouse-Desktop-Chrome-Index](docs/lighthouse-desktop-chrome-index.png "Lighthouse-Desktop-Chrome-Index")
+  ![Lighthouse-Mobile-Chrome-Index](docs/lighthouse-mobile-chrome-index.png "Lighthouse-Mobile-Chrome-Index")
 
 * Tests for Desktop and Mobile on Lighthouse Edge:
-  ![Lighthouse-Desktop-Index-Edge](docs/wave-report.png "Lighthouse-Desktop-Index-Edge")
-  ![Lighthouse-Desktop-Index-Chrome](docs/wave-report.png "Lighthouse-Desktop-Index-Chrome")
+  ![Lighthouse-Desktop-Edge-Index](docs/lighthouse-desktop-edge-index.png "Lighthouse-Desktop-Edge-Index")
+  ![Lighthouse-Mobile-Edge-Index](docs/lighthouse-mobile-edge-index.png "Lighthouse-Mobile-Edge-Index")
 
 For extra assurance, I have also tested the contact thank you pages. This was very beneficial as it highlighted one issue which I documented in the _Bugs Fixed_ section.
 
