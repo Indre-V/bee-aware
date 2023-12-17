@@ -47,6 +47,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
     - [CSS](#css)
   - [Accessibility Testing](#accessibility-testing)
   - [User Story Testing](#user-story-testing)
+  - [Lighthouse Testing](#lighthouse-testing)
   - [Bugs Fixed](#bugs-fixed)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -372,6 +373,42 @@ In addition to WAVE testing, I have tested my webpage for color contrast accessi
 | As a user, I want to be able to easily contact content creators for feedback or changes.              | Contact box available for users to contact creators                 | Yes  |
 | As a user, I want to be able to connect on social media to spread awareness                           | Social Media link available at the bottom of the page               | Yes  |
 
+[Back to top](#contents)
+
+## Lighthouse Testing
+
+- Bee-Aware has been tested in the [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and [Microsoft Edge Dev Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/open/?tabs=cmd-Windows) using Lighthouse Testing tool which inspects and scores the website for the following criteria:
+  - Performance - how quickly a website loads and how quickly users can access it.
+  - Accessibility - test analyzes how well people who use assistive technologies can use your website.
+  * Best Practices - checks whether thepage is built on the modern standards of web development.
+  * SEO - checks if the website is optimised for search engine result rankings.
+
+* Tests for Desktop and Mobile on Lighthouse Chrome:
+  ![Lighthouse-Desktop-Index-Chrome](docs/wave-report.png "Lighthouse-Desktop-Index-Chrome")
+  ![Lighthouse-Mobile-Index-Chrome](docs/wave-report.png "Lighthouse-Mobile-Index-Chrome")
+
+* Tests for Desktop and Mobile on Lighthouse Edge:
+  ![Lighthouse-Desktop-Index-Edge](docs/wave-report.png "Lighthouse-Desktop-Index-Edge")
+  ![Lighthouse-Desktop-Index-Chrome](docs/wave-report.png "Lighthouse-Desktop-Index-Chrome")
+
+For extra assurance, I have also tested the contact thank you pages. This was very beneficial as it highlighted one issue which I documented in the _Bugs Fixed_ section.
+
+<details><summary><b>Final Lighthouse Test Results for Contact Thank You pages</b></summary>
+
+![Lighthouse-Desktop-Chrome-Email-Thanks](docs/lighthouse-desktop-chrome-email-thanks.png)
+![Lighthouse-Mobile-Chrome-Email-Thanks](docs/lighthouse-mobile-chrome-email-thanks.png)
+![Lighthouse-Desktop-Edge-Email-Thanks](docs/lighthouse-desktop-edge-email-thanks.png)
+![Lighthouse-Mobile-Edge-Email-Thanks](docs/lighthouse-mobile-edge-email-thanks.png)
+
+![Lighthouse-Desktop-Chrome-Newsletter-Thanks](docs/lighthouse-desktop-chrome-newsletter-thanks.png)
+![Lighthouse-Mobile-Chrome-Newsletter-Thanks](docs/lighthouse-mobile-chrome-newsletter-thanks.png)
+![Lighthouse-Desktop-Edge-Newsletter-Thanks](docs/lighthouse-desktop-edge-newsletter-thanks.png)
+![Lighthouse-Mobile-Edge-Newsletter-Thanks](docs/lighthouse-mobile-edge-newsletter-thanks.png)
+
+</details><br/>
+
+[Back to top](#contents)
+
 ## Bugs Fixed
 
 -Error popped up regarding incorrect labels in the contact form during wave testing. I rectified the label ids, however the error came up again as the label ids were used twice. I have fixed the issue and then received a pass.
@@ -390,11 +427,11 @@ In addition to WAVE testing, I have tested my webpage for color contrast accessi
 
 </details><br/>
 
-\*While Lighthouse testing email and newsletter thank you pages on both browsers, I have noticed that the accessibility score was only 94. It has transpired that aria label was missing for Home icon on thank you pages. Once the aria label was added, the accessibility score went up to 100.
+- While Lighthouse testing email and newsletter thank you pages on both browsers, I have noticed that the accessibility score was only 94. It has transpired that aria label was missing for Home icon on thank you pages. Once the aria label was added, the accessibility score went up to 100.
 
 <details><summary><b>Accessibility Score Issue - Lighthouse</b></summary>
 
-![Color Contrast Accessibility Error](docs/lighthouse-desktop-chrome-email-thanks.png.png)
+![Lighthouse Accessibility Score Issue ](docs/lighthouse-desktop-chrome-email-thanks-error.png)
 
 </details><br/>
 
