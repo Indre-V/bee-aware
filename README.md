@@ -6,7 +6,7 @@
 
 Welcome to pollinator awareness website.
 
-This page offers free information to help you understand more about our many pollinators and what you can do to support them, along with details about our activities and campaigns. This website is for educational purposes.
+This page offers free information to help you understand more about our many pollinators and what you can do to support them, along with details about our activities and campaigns. This website targets environmentally conscious individuals who are looking to educate themselves about the pollinators.
 
 Users can subscribe to newsletter and contact campaign managers directly.
 
@@ -48,6 +48,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
   - [Accessibility Testing](#accessibility-testing)
   - [User Story Testing](#user-story-testing)
   - [Lighthouse Testing](#lighthouse-testing)
+  - [Browser Testing](#browser-testing)
   - [Bugs Fixed](#bugs-fixed)
 - [Deployment](#deployment)
 - [Credits](#credits)
@@ -108,7 +109,7 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 ![Nature colour scheme](docs/nature-color-scheme.png)
 
-- I have also used ![Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid") to get inspiration for possible colour combination to make the website visually attractive.
+- I have also used [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid") to get inspiration for possible colour combination to make the website visually attractive.
 
 ![Contrast Grid](docs/contrast-grid.png)
 
@@ -316,6 +317,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 - [WAVE Accessibility Tool](https://wave.webaim.org/ "WAVE Accessibility Tool")
 - [Image Resize](https://www.iloveimg.com/ "iLoveIMG")
 - [Color Contrast Accessibility Validator](https://color.a11y.com/ "Color Contrast Accessibility Validator")
+- [BrowserStack](https://live.browserstack.com/ "BrowserStack")
 
 [Back to top](#contents)
 
@@ -408,6 +410,12 @@ For extra assurance, I have also tested the contact thank you pages. This was ve
 </details><br/>
 
 [Back to top](#contents)
+
+## Browser Testing
+
+Bee-Aware was tested on a range of available browsers to any issues or errors. Microsoft Edge, Google Chrome, Firefox and Opera were chosen for the explicit testing. I have also sign up for [BrowserStack](https://live.browserstack.com/) to test my page for Internet Explorer and Safari. Internet Explorer preiminary results were very poor as it is outdated. I tested Safari on Ipad and Iphone. No major issues were found on the top 4 browsers for the final version of the website.
+
+![Browser Compatibility Manual Test](docs/browser-compatibility-test-results.pdf "Browser Compatibility Manual Test")
 
 ## Bugs Fixed
 
