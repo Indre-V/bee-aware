@@ -395,15 +395,15 @@ For extra assurance, I have also tested the contact thank you pages. This was ve
 
 <details><summary><b>Final Lighthouse Test Results for Contact Thank You pages</b></summary>
 
-![Lighthouse-Desktop-Chrome-Email-Thanks](docs/lighthouse-desktop-chrome-email-thanks.png)
-![Lighthouse-Mobile-Chrome-Email-Thanks](docs/lighthouse-mobile-chrome-email-thanks.png)
-![Lighthouse-Desktop-Edge-Email-Thanks](docs/lighthouse-desktop-edge-email-thanks.png)
-![Lighthouse-Mobile-Edge-Email-Thanks](docs/lighthouse-mobile-edge-email-thanks.png)
+![Lighthouse-Desktop-Chrome-Email-Thanks](docs/lighthouse-desktop-chrome-email-thanks.png "Lighthouse-Desktop-Chrome-Email-Thanks")
+![Lighthouse-Mobile-Chrome-Email-Thanks](docs/lighthouse-mobile-chrome-email-thanks.png "Lighthouse-Mobile-Chrome-Email-Thanks")
+![Lighthouse-Desktop-Edge-Email-Thanks](docs/lighthouse-desktop-edge-email-thanks.png "Lighthouse-Desktop-Edge-Email-Thanks")
+![Lighthouse-Mobile-Edge-Email-Thanks](docs/lighthouse-mobile-edge-email-thanks.png "Lighthouse-Mobile-Edge-Email-Thanks")
 
-![Lighthouse-Desktop-Chrome-Newsletter-Thanks](docs/lighthouse-desktop-chrome-newsletter-thanks.png)
-![Lighthouse-Mobile-Chrome-Newsletter-Thanks](docs/lighthouse-mobile-chrome-newsletter-thanks.png)
-![Lighthouse-Desktop-Edge-Newsletter-Thanks](docs/lighthouse-desktop-edge-newsletter-thanks.png)
-![Lighthouse-Mobile-Edge-Newsletter-Thanks](docs/lighthouse-mobile-edge-newsletter-thanks.png)
+![Lighthouse-Desktop-Chrome-Newsletter-Thanks](docs/lighthouse-desktop-chrome-newsletter-thanks.png "Lighthouse-Desktop-Chrome-Newsletter-Thanks")
+![Lighthouse-Mobile-Chrome-Newsletter-Thanks](docs/lighthouse-mobile-chrome-newsletter-thanks.png "Lighthouse-Mobile-Chrome-Newsletter-Thanks")
+![Lighthouse-Desktop-Edge-Newsletter-Thanks](docs/lighthouse-desktop-edge-newsletter-thanks.png "Lighthouse-Desktop-Edge-Newsletter-Thanks")
+![Lighthouse-Mobile-Edge-Newsletter-Thanks](docs/lighthouse-mobile-edge-newsletter-thanks.png "Lighthouse-Mobile-Edge-Newsletter-Thanks")
 
 </details><br/>
 
