@@ -92,7 +92,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
 
 ## Wireframes
 
-Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile first approach, wireframe for mobile was designed first. Naturally there is some deviation from wireframes in the live version of the website to accommodate the content. I have moved logo to the right and mobile menu to the left for estetic reasons. As the information is laid out in a logical sequence, the decision was made to have one-page website to enhance the end user experience.
+Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile first approach, wireframe for mobile was designed first. Naturally there is some deviation from wireframes in the live version of the website to accommodate the content. I have moved logo to the right and mobile menu to the left for aesthetic reasons. As the information is laid out in a logical sequence, the decision was made to have one-page website to enhance the end user experience.
 
 ### [Mobile and Desktop Wireframes](docs/mobile-desktop-wireframes.pdf "Mobile and Desktop Wireframes")
 
@@ -106,7 +106,7 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 ### Colour Scheme
 
-- The colour scheme was used based on pollinator and plant colours. Neutral soft pale pink was chosen for backgrounds. Main accent colour is saffron yellow and together with licorice brown represent the bee. The combination of green and yellow used throughout the website in various shades for more nature inspired looks. All the box shadows are combined of green and yellow and are the same size throughout the website which helps ato create unique and cohesive look.
+- The colour scheme was used based on pollinator and plant colours. Neutral soft pale pink was chosen for backgrounds. Main accent colour is saffron yellow and together with licorice brown represent the bee. The combination of green and yellow used throughout the website in various shades for more nature inspired looks. All the box shadows are combined of green and yellow and are the same size throughout the website which helps to create unique and cohesive look.
 
 ![Nature colour scheme](docs/nature-color-scheme.png)
 
@@ -239,7 +239,7 @@ _Large and Medium devices_ have title of the event displayed on the box with lig
 
 </details><br/>
 
-_Small Screen devices_ have title and details displayed in one column just like other sections. The box is spread accross the screen for better legibility.
+_Small Screen devices_ have title and details displayed in one column just like other sections. The box is spread across the screen for better legibility.
 
 <details><summary><b>Events Small Screen</b></summary>
 
@@ -336,9 +336,9 @@ Moss green colour is used throughout the elements of the webpage is continued to
 
 ## Responsiveness Tests
 
-I have deployed the project a very early stage in order to test the responsivenes. I have used mobile first approach and checked all my changes on Microsoft Edge and Google Chrome browser DevTools. External website - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") was used to test deployed versions. Another external source used was [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive") website to get a single view of various device breakpoints.
+I have deployed the project a very early stage in order to test the responsiveness. I have used mobile first approach and checked all my changes on Microsoft Edge and Google Chrome browser DevTools. External website - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") was used to test deployed versions. Another external source used was [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive") website to get a single view of various device breakpoints.
 
-I have also utilised Mobile Simulator extension on Google Chrome for extra specific device responsiveness testing. Device samples at various breakpoints were tested for navigation, element alignment, content pacement and functionality issues.
+I have also utilised Mobile Simulator extension on Google Chrome for extra specific device responsiveness testing. Device samples at various breakpoints were tested for navigation, element alignment, content placement and functionality issues.
 
 Test Results:
 
@@ -382,7 +382,7 @@ I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML").
 
 ## Accessibility Testing
 
-I have used web accessibility evaluation tool [WAVE Tool](https://wave.webaim.org/) which helps to determine if web content is accessible to individuals with disabilities. It highlighted the issue in the code with label id which I rectified and passed passed the test.
+I have used web accessibility evaluation tool [WAVE Tool](https://wave.webaim.org/) which helps to determine if web content is accessible to individuals with disabilities. It highlighted the issue in the code with label id which I rectified and passed the test.
 
 ![WAVE](docs/wave-report.png "WAVE Result")
 
@@ -413,9 +413,8 @@ In addition to WAVE testing, I have tested my webpage for color contrast accessi
 Bee-Aware has been tested in the [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and [Microsoft Edge Dev Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/open/?tabs=cmd-Windows) using Lighthouse Testing tool which inspects and scores the website for the following criteria:
 
 - Performance - how quickly a website loads and how quickly users can access it.
-- Accessibility - test analyzes how well people who use assistive technologies can use your website.
-
-* Best Practices - checks whether thepage is built on the modern standards of web development.
+* Accessibility - test analyses how well people who use assistive technologies can use your website.
+* Best Practices - checks whether the page is built on the modern standards of web development.
 * SEO - checks if the website is optimised for search engine result rankings.
 
 Tests for Desktop and Mobile on Lighthouse Chrome:
@@ -446,7 +445,7 @@ For extra assurance, I have also tested the contact thank you pages. This was ve
 
 ## Browser Testing
 
-Bee-Aware was tested on a range of available browsers to any issues or errors. Microsoft Edge, Google Chrome, Firefox and Opera were chosen for explicit testing. I have also signed up for [BrowserStack](https://live.browserstack.com/) to test my page for Internet Explorer and Safari. Internet Explorer preliminary results were very poor as it is outdated. I tested Safari on Ipad and Iphone. No major issues were found on the top 4 browsers for the final version of the website.
+Bee-Aware was tested on a range of available browsers to any issues or errors. Microsoft Edge, Google Chrome, Firefox and Opera were chosen for explicit testing. I have also signed up for [BrowserStack](https://live.browserstack.com/) to test my page for Internet Explorer and Safari. Internet Explorer preliminary results were very poor as it is outdated. I tested Safari on iPad and iPhone. No major issues were found on the top 4 browsers for the final version of the website.
 
 [Browser Compatibility Manual Test](docs/browser-compatibility-test-results.pdf "Browser Compatibility Manual Test")
 
@@ -462,7 +461,7 @@ This website was extensively tested for functionality using both Chrome and Edge
 
 ## Bugs Fixed
 
-A vast amount of debugging occured during the development of the website. All changes to the code were verified using the DevTools. The whole process was a huge learning experience to me which is reflected in the git commits. I have endeavoured to test the code regularly, however some bugs still appeared in the testing of the final version of the website.
+A vast amount of debugging occurred during the development of the website. All changes to the code were verified using the DevTools. The whole process was a huge learning experience to me which is reflected in the git commits. I have endeavoured to test the code regularly, however some bugs still appeared in the testing of the final version of the website.
 
 - Error popped up regarding incorrect labels in the contact form during WAVE testing. I rectified label ids, however the error came up again as the label ids were used twice. I have fixed the issue and then received a pass.
 
@@ -504,7 +503,7 @@ Bee-Aware was deployed early in the process to GitHub pages via the following st
 
 - The website is now live at `https://indre-v.github.io/bee-aware/`
 
-_Any changes required to the website, they can be made, commited and pushed to GitHub._
+_Any changes required to the website, they can be made, committed and pushed to GitHub._
 
 [Back to top](#contents)
 
