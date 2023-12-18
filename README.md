@@ -52,8 +52,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
   - [Feature Testing](#feature-testing)
   - [Bugs Fixed](#bugs-fixed)
 - [Deployment](#deployment)
-- [Cloning](#cloning)
-- [Forking](#forking)
+  - [To deploy the project](#to-deploy-the-project)
 - [Credits](#credits)
 
 ## User Goals
@@ -494,6 +493,8 @@ A vast amount of debugging occurred during the development of the website. All c
 
 # Deployment
 
+## To deploy the project
+
 Bee-Aware was deployed early in the process to GitHub pages via the following steps:
 
 - Navigate to the repository on GitHub and click on **Settings**
@@ -510,10 +511,6 @@ _Any changes required to the website, they can be made, committed and pushed to 
 
 [Back to top](#contents)
 
-# Cloning
-
-# Forking
-
 # Credits
 
 - Feedback, advice and support:
@@ -522,13 +519,14 @@ _Any changes required to the website, they can be made, committed and pushed to 
 
 - Code inspiration and learning content:
 
-  - [Flexbox and Grid Tutorials by Kevin Powell](https://www.youtube.com/user/KepowOb "Kevin Powell")
-
+* [Flexbox and Grid Tutorials by Kevin Powell](https://www.youtube.com/user/KepowOb "Kevin Powell")
 * [Project Portfolio-1 channel on Slack](https://slack.com/intl/en-ie/ "Slack")
 
 - [Love Running Project](https://codeinstitute.net "Love Running Project")
 - [W3C Schools](https://www.w3schools.com/ "W3C Schools")
 - [MUO](https://www.makeuseof.com/ "MUO")
+- [StackOverflow](https://stackoverflow.com/ "StackOverflow")
+- [CodePen](https://codepen.io/pen/ "CodePen")
 
 * Visual content:
 
