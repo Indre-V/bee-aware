@@ -52,6 +52,8 @@ Users can subscribe to newsletter and contact campaign managers directly.
   - [Feature Testing](#feature-testing)
   - [Bugs Fixed](#bugs-fixed)
 - [Deployment](#deployment)
+- [Cloning](#cloning)
+- [Forking](#forking)
 - [Credits](#credits)
 
 ## User Goals
@@ -231,19 +233,19 @@ To maintain the consistent appearance of the webpage, the initiative boxes a dis
 
 This section contains events throughout the year end-user may be interested take part in. The colours are used in the layout are yellow and green to represent pollinators and nature. The border shadow colours are the same as in the previous section for cohesive look. .
 
-_Large and Medium devices_ have title of the event displayed on the box with light shadow with heading at the top and details below.
+_Large devices_ have title of the event displayed on the box with light shadow with heading at the top and details below.
 
-<details><summary><b>Events Medium and Large Screen</b></summary>
+<details><summary><b>Events Large Screen</b></summary>
 
-![Events Medium and Large Screen](docs/events-ml-screen-view.png)
+![Events Large Screen](docs/events-ml-screen-view.png)
 
 </details><br/>
 
 _Small Screen devices_ have title and details displayed in one column just like other sections. The box is spread across the screen for better legibility.
 
-<details><summary><b>Events Small Screen</b></summary>
+<details><summary><b>Events Medium and Small Screen</b></summary>
 
-![Events Small Screen](docs/events-small-screen-view.png)
+![Events Medium and Small Screen](docs/events-small-screen-view.png)
 
 </details><br/>
 
@@ -257,15 +259,15 @@ The contact box was designed to make the process for the user as easy as possibl
 
 _Larger View Screen_ has subscription and message parts display the the same row.
 
-<details><summary><b>Contact Medium and Large Screen</b></summary>
+<details><summary><b>Contact Large Screen</b></summary>
 
-![Contact Medium and Large Screen](docs/contact-ml-screen-view.png)
+![Contact Large Screen](docs/contact-ml-screen-view.png)
 
 </details><br/>
 
-_Small Screen Devices_ have displayed in one column just like other all the other sections to maintain consistency. Labels are added to the input fields for accessibility purposes.
+_MEdium & Small Screen Devices_ have displayed in one column just like other all the other sections to maintain consistency. Labels are added to the input fields for accessibility purposes.
 
-<details><summary><b>Contact Small Screen</b></summary>
+<details><summary><b>Contact Medium and Small Screen</b></summary>
 
 ![Contact Small Screen](docs/contact-small-screen-view.png)
 
@@ -413,6 +415,7 @@ In addition to WAVE testing, I have tested my webpage for color contrast accessi
 Bee-Aware has been tested in the [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and [Microsoft Edge Dev Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/open/?tabs=cmd-Windows) using Lighthouse Testing tool which inspects and scores the website for the following criteria:
 
 - Performance - how quickly a website loads and how quickly users can access it.
+
 * Accessibility - test analyses how well people who use assistive technologies can use your website.
 * Best Practices - checks whether the page is built on the modern standards of web development.
 * SEO - checks if the website is optimised for search engine result rankings.
@@ -506,6 +509,10 @@ Bee-Aware was deployed early in the process to GitHub pages via the following st
 _Any changes required to the website, they can be made, committed and pushed to GitHub._
 
 [Back to top](#contents)
+
+# Cloning
+
+# Forking
 
 # Credits
 
