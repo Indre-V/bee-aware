@@ -6,7 +6,7 @@
 
 Welcome to pollinator awareness website.
 
-This page offers free information to help you understand more about our many pollinators and what you can do to support them, along with details about our activities and campaigns. This website targets environmentally conscious individuals who are looking to educate themselves about the pollinators.
+Our website offers information about pollinators, how to restore wildlife, provide individuals with the tools they need to protect the environment, and build an inclusive community that values the environment. This website targets environmentally conscious individuals who are looking to educate themselves.
 
 Users can subscribe to newsletter and contact campaign managers directly.
 
@@ -92,7 +92,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
 
 ## Wireframes
 
-Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile first approach, wireframe for mobile was designed first. Naturally there is some deviation from wireframes in the live version of the website to accommodate the content. I have removed the logo for the mobile version and added a background image. As the information is laid out in a logical sequence, the decision was made to have one-page website to enhance the end user experience.
+Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile first approach, wireframe for mobile was designed first. Naturally there is some deviation from wireframes in the live version of the website to accommodate the content. I have moved logo to the right and mobile menu to the left for estetic reasons. As the information is laid out in a logical sequence, the decision was made to have one-page website to enhance the end user experience.
 
 ### [Mobile and Desktop Wireframes](docs/mobile-desktop-wireframes.pdf "Mobile and Desktop Wireframes")
 
@@ -102,11 +102,11 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 ### Typography
 
-- The font family chosen for Bee-Aware was 'Libre Franklin'. This font has a high readability and makes the design look clean and simple.
+- The font family chosen for Bee-Aware was 'Libre Franklin'. This font has a high readability and makes the design look clean and easy to follow.
 
 ### Colour Scheme
 
-- The colour scheme was used based on pollinator and plant colours. Neutral soft pale pink was chosen for backgrounds. Main accent colour is saffron yellow and together with licorice brown represent the bee. The combination of green and yellow used throughout the website in various shades for more nature inspired looks. All the box shadows are combined of green and yellow and are the same size throughout the website.
+- The colour scheme was used based on pollinator and plant colours. Neutral soft pale pink was chosen for backgrounds. Main accent colour is saffron yellow and together with licorice brown represent the bee. The combination of green and yellow used throughout the website in various shades for more nature inspired looks. All the box shadows are combined of green and yellow and are the same size throughout the website which helps ato create unique and cohesive look.
 
 ![Nature colour scheme](docs/nature-color-scheme.png)
 
@@ -126,41 +126,44 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 ### Logo and Images
 
-Website logo is Microsoft Emoji of the bee. Other images were used from the internet to compliment the information on the website. All images have alt tags to comply with accessibility guidelines. I have also compressed larger images to optimise website performance.
+Website logo is Microsoft Emoji of the bee. Other images were used from the internet to compliment the information on the website. All images have alt tags to comply with accessibility guidelines. I have also compressed larger images to optimise website performance. Imagery combined with other visual elements help to provide enjoyable experience throughout the website.
 
 ### Structure
 
-- My website will be responsive to different layouts depending on the size of the viewport have been included in the CSS media queries. the breakpoints I am using are from Bootstrap.
-  ![Breakpoints](docs/media-queries.png)
+My website will be responsive to different layouts depending on the size of the viewport have been included in the CSS media queries. This allows visitors to experience the website as I intended on device types and screen sizes. The breakpoints I am using are from Bootstrap.
+
+![Breakpoints](docs/media-queries.png)
 
 [Back to top](#contents)
 
 # Features
 
-- Bee-Aware aims to simplify information availability for users as much as possible. Layout is easy to use and adheres to best practices in formatting and styling. The site's flow and appearance will be recognizable to users. Browsing of the entire website is encouraged by the relatable and easy to understand material.
+Bee-Aware aims to simplify information availability for users as much as possible. Layout is easy to use and adheres to best practices in formatting and styling. The site's flow and appearance will be recognizable to users. Browsing of the entire website is encouraged by the relatable and easy to digest material.
 
 ## Existing Features
 
 ### Navigation Bar
 
-- This webpage has navigation bar which is responsive to different screen sizes. It includes the logo of the bee which leads back to the home page.
+This webpage has navigation bar which is responsive to different screen sizes. It includes the logo of the bee which leads back to the home page.
+The navigation bar is spread out the full width of the device with all link to different sections of the webpage. A navigation bar with a hierarchical content structure makes information easier for users to understand and makes it easier for them to find what they're looking for. Navigation bar is fixed so it is present while browsing the page.
 
-  - Desktop (>=992px)
+- Desktop (>=992px)
 
 ![Navigation bar large screen](docs/navbar-full-screen.png)
 
-- The navigation bar is spread out the full width of the device with all link to different sections of the webpage. Navigation bar is fixed so it is present while browsing the page. It also has a shade of rose pink for :hover effect to improve user experience.
+It also has a shade of rose pink for :hover effect to improve user experience.
 
 ![Navigation bar large screen](docs/navbar-full-screen-hover.png)
 
 - Small devices (<576px)
 
-  - For small devices, the desktop navigation bar is not user friendly. For this reason, it is coded to wrap into hamburger style icon located on the left. Once user clicks on the icon, the navigation dropdown options float on left screen of the mobile device.
-  - ![Navigation bar mobile screen](docs/navbar-mobile-device.png)
+For small devices, the desktop navigation bar is not user friendly. For this reason, it is coded to wrap into hamburger style icon located on the left. Once user clicks on the icon, the navigation dropdown options float on left screen of the mobile device.
 
-- Once user taps on the icon, the navigation options float on left of the screen of the mobile device.
+![Navigation bar mobile screen](docs/navbar-mobile-device.png)
 
-<details><summary><b>Navigation bar mobile screen</b></summary>
+Once the user taps on the icon, the navigation options float on left of the screen of the mobile device.
+
+<details><summary><b>Navigation Bar Mobile Screen</b></summary>
 
 ![Navigation bar mobile screen](docs/navbar-mobile-device-tap.png)
 
@@ -170,7 +173,7 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
 ### Landing Page
 
-- Bee-Aware landing page serves as a primary homepage. The landing page's objectives are to explain to the visitor the aim of the website in one sentence. Also it invites them to explore the site further using the navigation bar. The image has a faint overlay with the box for the hero text as it makes introductory paragraph legible for better UX.
+Bee-Aware landing page serves as a primary homepage. The landing page's objectives are to explain to the visitor the aim of the website in one sentence. Also it invites them to explore the site further using the navigation bar. The image has a faint overlay with the box for the hero text as it makes introductory paragraph legible for better UX. The aim for simple and familiar feeling landing page is to make a clear and credible first impression to the visitor.
 
 ![Home Page Background Image](docs/home-page-background-image.png)
 
@@ -178,12 +181,13 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
 ### About Section
 
-- The first part of the about section is the list of pollinators with the soft background colour. The content layout is very simple and self explanatory. This part intends to educate the user and encourage them to continue reading other parts of the webpage. I have used emojis to generate the characters instead of writing.
+The first part of the about section is the list of pollinators with the soft background colour. The content layout is very simple and self explanatory. This part intends to educate the user and encourage them to continue reading other parts of the webpage. I have used emojis to generate the characters instead of writing. Visually it is consistent with the logo.
 
 ![Home Page Second Part](docs/about-part-one.png)
 
-- This section also contains information about the importance and issues pollinators face. The images chosen reflect the contents of the section. On the larger screens (>=992px), About section has two columns. On the right side, there is an eye catching image and on the left side I have included a consolidated version of the value pollinators provide to humans and nature. I kept the information as brief as possible in order to keep the end-users attention. Content is broken down into small paragraphs so the user can understand it better.
-- The second row of the About section has the opposite layout for visual and contextual purposes. I aimed to highlight the Importance vs Issues using the flexbox layout of the section.
+This section also contains information about the importance and issues pollinators face. The images chosen reflect the contents of the section. On the larger screens (>=992px), About section has two rows. On the right side, there is an eye catching image and on the left side I have included a consolidated version of the value pollinators provide to humans and nature. I kept the information as brief as possible in order to keep the end-users attention. Content is broken down into small paragraphs so the user can understand it better.
+
+The second row of the About section has the opposite layout for visual and contextual purposes. I aimed to highlight the Importance vs Issues in a cohesive manner incorporating visual elements.
 
 <details><summary><b>About Section Desktop View</b></summary>
 
@@ -191,7 +195,7 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
 </details><br/>
 
-- For the smaller screen sizes (<992px), side by side image and text layout does not work so I have changed flex direction from row to column. It displays image first and text under which allows the content to be spaced out better to fit smaller screen sizes without looking too crowded.
+For the smaller screen sizes (<992px), side by side image and text layout does not work so I have changed flex direction from row to column. It displays image first and text under which allows the content to be spaced out better to fit smaller screen sizes without affecting readability and legibility.
 
 <details><summary><b>About Section Tablet View</b></summary>
 
@@ -203,9 +207,9 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
 ### Initiatives
 
-- Logical layout is one of my design goals for this website. After outlining importance and issues to the end user, I am now suggesting action in the Initiatives section. I have only included four actions/initiatives with relevant images and explanations not to overwhelm the end user with excessive information.
+Meaningful and logical layout is one of my design goals for this website. After outlining importance and issues to the end user, I am now suggesting action in the Initiatives section. I have only included four actions/initiatives with relevant images and explanations not to overwhelm the end user with excessive information.
 
-  - On the larger screens (>=992px), the Initiatives section is displayed using grid in two columns. Each initiative has a saffron yellow border and tea rose background to match the theme of the website. If end user is only browsing the website, every initiative has a heading to summarise the main point.
+On the larger screens (>=992px), the Initiatives section is displayed using grid in two columns. Each initiative has a saffron yellow border and tea rose background to match the theme of the website. If end user is only browsing the website, every initiative has a heading to summarise the main point.
 
 <details><summary><b>Initiatives Desktop View</b></summary>
 
@@ -213,7 +217,7 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
 </details><br/>
 
-- To continue with the consistent appearance of the webpage, the initiative boxes a displayed in one column on the smaller screens. The inside of each card has the same layout as the larger screen.
+To maintain the consistent appearance of the webpage, the initiative boxes a displayed in one column on the smaller screens. The inside of each card has the same layout as the larger screen.
 
 <details><summary><b>Initiatives Smaller Screen</b></summary>
 
@@ -225,9 +229,9 @@ Website logo is Microsoft Emoji of the bee. Other images were used from the inte
 
 ### Events
 
-- This section contains events throughout the year end-user may be interested take part in. The colours are used in the layout are yellow and green to represent pollinators and nature. The border shadow colours are the same as in the previous section.
+This section contains events throughout the year end-user may be interested take part in. The colours are used in the layout are yellow and green to represent pollinators and nature. The border shadow colours are the same as in the previous section for cohesive look. .
 
-  _Large and Medium devices_ have title of the event displayed on the box with light shadow with heading at the top and details below.
+_Large and Medium devices_ have title of the event displayed on the box with light shadow with heading at the top and details below.
 
 <details><summary><b>Events Medium and Large Screen</b></summary>
 
@@ -247,7 +251,11 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 ### Contact
 
-- The contact section has two parts in one box. For visual purposes, same shadow style is coded around the border as in other sections. The end-user can subscribe to newsletter or send a message. All text fields are required and would not all user to subscribe or send otherwise. The email field is validated as well. Larger view screen has subscription and message parts display the the same row. For small screens, they are displayed in one column just like other all the other sections on small screen display. Hidden labels are added to the input fields for accessibility.
+The contact section has two parts in one box. For visual consistency purposes, same shadow style is coded around the border as in other sections. Visitor can subscribe to newsletter or send a message. All text fields are required and would not allow the user to subscribe or send otherwise. The email field is validated as well.
+
+The contact box was designed to make the process for the user as easy as possible without any distractions, asking for too much information or confusing labels.
+
+_Larger View Screen_ has subscription and message parts display the the same row.
 
 <details><summary><b>Contact Medium and Large Screen</b></summary>
 
@@ -255,13 +263,15 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 </details><br/>
 
+_Small Screen Devices_ have displayed in one column just like other all the other sections to maintain consistency. Labels are added to the input fields for accessibility purposes.
+
 <details><summary><b>Contact Small Screen</b></summary>
 
 ![Contact Small Screen](docs/contact-small-screen-view.png)
 
 </details><br/>
 
-- When end-user clicks the button to either join or send, the applicable page for one of two actions is displayed. Both pages contain a thank you message with the bee logo for large screens and home icon in moss green and turns saffron yellow when hovered which brings the user back to the homepage.
+When end-user clicks the button to either join or send, the applicable page for one of two actions is displayed. Both pages contain a thank you message with the bee logo for large screens and home icon in moss green and turns saffron yellow when hovered which on click brings the user back to the homepage.
 
 <details><summary><b>Contact Email Thank You</b></summary>
 
@@ -279,7 +289,7 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 ### Footer
 
-- Moss green colour is used throughout the elements of the webpage is continued to the footer as a background. Footer includes the links to social media which are coded to open in a separate tab. The three links are spread across the bottom of the page. A saffron yellow hover effect is added to the social media icons. THe hover colour is consistent with the Contact section buttons.
+Moss green colour is used throughout the elements of the webpage is continued to the footer as a background. Footer includes the links to social media which are coded to open in a separate tab. The three links are spread across the bottom of the page. A saffron yellow hover effect is added to the social media icons. The hover colour is visually consistent with the Contact section buttons.
 
 ![Footer with Hover](docs/footer-hover.png)
 
@@ -326,9 +336,9 @@ _Small Screen devices_ have title and details displayed in one column just like 
 
 ## Responsiveness Tests
 
-- I have deployed the project a very early stage in order to test the responsivenes. I have used mobile first approach and checked all my changes on Microsoft Edge and Google Chrome browser DevTools. External website - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") was used to test deployed versions. Another external source used was [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive") website to get a single view of various device breakpoints.
+I have deployed the project a very early stage in order to test the responsivenes. I have used mobile first approach and checked all my changes on Microsoft Edge and Google Chrome browser DevTools. External website - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") was used to test deployed versions. Another external source used was [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive") website to get a single view of various device breakpoints.
 
-- I have also utilised Mobile Simulator extension on Google Chrome for extra mobile device responsiveness testing. Device samples at various breakpoints were tested for navigation, element alignment, content pacement and functionality issues.
+I have also utilised Mobile Simulator extension on Google Chrome for extra specific device responsiveness testing. Device samples at various breakpoints were tested for navigation, element alignment, content pacement and functionality issues.
 
 Test Results:
 
@@ -350,12 +360,12 @@ Test Results:
 
 ## Code Validation
 
-- Bee-Aware has been validated via W3C HTML Validator and the W3C CSS Validation.
+Bee-Aware has been validated via W3C HTML Validator and the W3C CSS Validation.
 
 ### HTML
 
-- I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). I have tested 3 html files. They all came back without errors.
-  ![W3C HTML Validator](docs/html-validator-index.png "W3C HTML Validator index.html")
+I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML"). I have tested 3 html files. They all came back without errors.
+![W3C HTML Validator](docs/html-validator-index.png "W3C HTML Validator index.html")
 
 ![W3C HTML Validator](docs/html-validator-email-thanks.png "W3C HTML Validator email-thanks.html")
 ![W3C HTML Validator](docs/html-validator-newsletter-thanks.png "W3C HTML Validator newsletter-thanks.html")
@@ -400,19 +410,21 @@ In addition to WAVE testing, I have tested my webpage for color contrast accessi
 
 ## Lighthouse Testing
 
-- Bee-Aware has been tested in the [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and [Microsoft Edge Dev Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/open/?tabs=cmd-Windows) using Lighthouse Testing tool which inspects and scores the website for the following criteria:
-  - Performance - how quickly a website loads and how quickly users can access it.
-  - Accessibility - test analyzes how well people who use assistive technologies can use your website.
-  * Best Practices - checks whether thepage is built on the modern standards of web development.
-  * SEO - checks if the website is optimised for search engine result rankings.
+Bee-Aware has been tested in the [Chrome Dev Tools](https://developer.chrome.com/docs/devtools/) and [Microsoft Edge Dev Tools](https://docs.microsoft.com/en-us/microsoft-edge/devtools-guide-chromium/open/?tabs=cmd-Windows) using Lighthouse Testing tool which inspects and scores the website for the following criteria:
 
-* Tests for Desktop and Mobile on Lighthouse Chrome:
-  ![Lighthouse-Desktop-Chrome-Index](docs/lighthouse-desktop-chrome-index.png "Lighthouse-Desktop-Chrome-Index")
-  ![Lighthouse-Mobile-Chrome-Index](docs/lighthouse-mobile-chrome-index.png "Lighthouse-Mobile-Chrome-Index")
+- Performance - how quickly a website loads and how quickly users can access it.
+- Accessibility - test analyzes how well people who use assistive technologies can use your website.
 
-* Tests for Desktop and Mobile on Lighthouse Edge:
-  ![Lighthouse-Desktop-Edge-Index](docs/lighthouse-desktop-edge-index.png "Lighthouse-Desktop-Edge-Index")
-  ![Lighthouse-Mobile-Edge-Index](docs/lighthouse-mobile-edge-index.png "Lighthouse-Mobile-Edge-Index")
+* Best Practices - checks whether thepage is built on the modern standards of web development.
+* SEO - checks if the website is optimised for search engine result rankings.
+
+Tests for Desktop and Mobile on Lighthouse Chrome:
+![Lighthouse-Desktop-Chrome-Index](docs/lighthouse-desktop-chrome-index.png "Lighthouse-Desktop-Chrome-Index")
+![Lighthouse-Mobile-Chrome-Index](docs/lighthouse-mobile-chrome-index.png "Lighthouse-Mobile-Chrome-Index")
+
+Tests for Desktop and Mobile on Lighthouse Edge:
+![Lighthouse-Desktop-Edge-Index](docs/lighthouse-desktop-edge-index.png "Lighthouse-Desktop-Edge-Index")
+![Lighthouse-Mobile-Edge-Index](docs/lighthouse-mobile-edge-index.png "Lighthouse-Mobile-Edge-Index")
 
 For extra assurance, I have also tested the contact thank you pages. This was very beneficial as it highlighted one issue which I documented in the _Bugs Fixed_ section.
 
@@ -434,9 +446,11 @@ For extra assurance, I have also tested the contact thank you pages. This was ve
 
 ## Browser Testing
 
-Bee-Aware was tested on a range of available browsers to any issues or errors. Microsoft Edge, Google Chrome, Firefox and Opera were chosen for the explicit testing. I have also signed up for [BrowserStack](https://live.browserstack.com/) to test my page for Internet Explorer and Safari. Internet Explorer preiminary results were very poor as it is outdated. I tested Safari on Ipad and Iphone. No major issues were found on the top 4 browsers for the final version of the website.
+Bee-Aware was tested on a range of available browsers to any issues or errors. Microsoft Edge, Google Chrome, Firefox and Opera were chosen for explicit testing. I have also signed up for [BrowserStack](https://live.browserstack.com/) to test my page for Internet Explorer and Safari. Internet Explorer preliminary results were very poor as it is outdated. I tested Safari on Ipad and Iphone. No major issues were found on the top 4 browsers for the final version of the website.
 
 [Browser Compatibility Manual Test](docs/browser-compatibility-test-results.pdf "Browser Compatibility Manual Test")
+
+[Back to top](#contents)
 
 ## Feature Testing
 
@@ -444,11 +458,13 @@ This website was extensively tested for functionality using both Chrome and Edge
 
 [Feature Testing Results](docs/manual-testing.pdf "Feature Testing Results")
 
+[Back to top](#contents)
+
 ## Bugs Fixed
 
-A vast amount of debugging occured during the development of the website. All changes to the code were verified using the DevTools. The whole process was a huge learning experience to me which is reflected in the git commits. I have endeavoured to test the code regularly, however some bugs still appeared in the testing of the final version of the website. 
+A vast amount of debugging occured during the development of the website. All changes to the code were verified using the DevTools. The whole process was a huge learning experience to me which is reflected in the git commits. I have endeavoured to test the code regularly, however some bugs still appeared in the testing of the final version of the website.
 
--Error popped up regarding incorrect labels in the contact form during WAVE testing. I rectified label ids, however the error came up again as the label ids were used twice. I have fixed the issue and then received a pass.
+- Error popped up regarding incorrect labels in the contact form during WAVE testing. I rectified label ids, however the error came up again as the label ids were used twice. I have fixed the issue and then received a pass.
 
 <details><summary><b>WAVE Error Message</b></summary>
 
@@ -456,7 +472,7 @@ A vast amount of debugging occured during the development of the website. All ch
 
 </details><br/>
 
--During the Color Contrast testing, one error returned. The WCAG AA ratio has failed for the Events section headings. I have amended heading size and returned a pass.
+- During the Color Contrast testing, one error returned. The WCAG AA ratio has failed for the Events section headings. I have amended heading size and returned a pass.
 
 <details><summary><b>a11y Error Message</b></summary>
 
