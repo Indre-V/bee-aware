@@ -321,12 +321,12 @@ textarea {
 /* Footer */
 
 #icon-list {
-    background-color: var(--dark-green);
-    margin: auto;
-    height: 5rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: var(--dark-green);
+    margin: auto;
+    height: 5rem;
 }
 
 .fa-brands {

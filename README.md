@@ -158,7 +158,7 @@ It also has a shade of rose pink for :hover effect to improve user experience.
 
 - Small devices (<576px)
 
-For small devices, the desktop navigation bar is not user friendly. For this reason, it is coded to wrap into hamburger style icon located on the left. Once user clicks on the icon, the navigation dropdown options float on left screen of the mobile device.
+For small devices, the desktop navigation bar is not user friendly. For this reason, it is coded to wrap into hamburger style icon located on the right. Once user clicks on the icon, the navigation dropdown options display in the center of the screen of the mobile device.
 
 ![Navigation bar mobile screen](docs/navbar-mobile-device.png)
 
@@ -290,7 +290,7 @@ When end-user clicks the button to either join or send, the applicable page for 
 
 ### Footer
 
-Moss green colour is used throughout the elements of the webpage is continued to the footer as a background. Footer includes the links to social media which are coded to open in a separate tab. The three links are spread across the bottom of the page. A saffron yellow hover effect is added to the social media icons. The hover colour is visually consistent with the Contact section buttons.
+Moss green colour is used throughout the elements of the webpage is continued to the footer as a background. Footer includes the links to social media which are coded to open in a separate tab. The three links are spread across the bottom of the page. A saffron yellow hover effect is added to the social media icons. The hover colour is visually consistent with the Contact section background.
 
 ![Footer with Hover](docs/footer-hover.png)
 
