@@ -269,7 +269,7 @@ _Larger View Screen_ has subscription and message parts display the the same row
 
 </details><br/>
 
-_MEdium & Small Screen Devices_ have displayed in one column just like other all the other sections to maintain consistency. Labels are added to the input fields for accessibility purposes.
+_Medium & Small Screen Devices_ have displayed in one column just like other all the other sections to maintain consistency. Labels are added to the input fields for accessibility purposes.
 
 <details><summary><b>Contact Medium and Small Screen</b></summary>
 
