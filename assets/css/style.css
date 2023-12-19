@@ -331,25 +331,11 @@ textarea {
 
 .fa-brands {
     font-size: 3rem;
+    color: var(--white);
 }
 
 .fa-brands:hover {
     color: var(--vivid-yellow);
-}
-
-.fa-facebook {
-    background: var(--blue);
-    color: var(--white);
-}
-
-.fa-instagram {
-    background: var(--white);
-    color: var(--dark-pink);
-}
-
-.fa-youtube {
-    background: var(--red);
-    color: var(--white);
 }
 
 /* Media Queries */
