@@ -103,27 +103,31 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 ### Typography
 
-- The font family chosen for Bee-Aware was 'Libre Franklin'. This font has a high readability and makes the design look clean and easy to follow.
+The font family chosen for Bee-Aware was [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin "Libre Franklin"). This font has a high readability and makes the design look clean and easy to follow.
 
 ### Colour Scheme
 
-- The colour scheme was used based on pollinator and plant colours. Neutral soft pale pink was chosen for backgrounds. Main accent colour is saffron yellow and together with licorice brown represent the bee. The combination of green and yellow used throughout the website in various shades for more nature inspired looks. All the box shadows are combined of green and yellow and are the same size throughout the website which helps to create unique and cohesive look.
+The colour scheme was used based on pollinator and plant colours. Neutral soft pale pink was chosen for backgrounds. Main accent colour is vivid yellow and together with dark brown represent the bee. The combination of green and yellow used throughout the website in various shades for more nature inspired looks. All the box shadows are combined of green and yellow and are the same size throughout the website which helps to create unique and cohesive look.
 
 ![Nature colour scheme](docs/nature-color-scheme.png)
 
-- I have also used [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid") to get inspiration for possible colour combination to make the website visually attractive.
+I have also used [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contrast Grid") to get inspiration for possible colour combination to make the website visually attractive.
 
 ![Contrast Grid](docs/contrast-grid.png)
 
-- CSS HEX
-
-  --saffron: #ecba04ff;
-
-  --tea-rose-red: #efbeb7;
-
-  --dark-moss-green: #606c38;
-
-  --licorice: #271a16;
+Primary Colors CSS HEX                          |                                                                                                                        |
+| ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| \--vivid-yellow: #ecba04;                       | Used as Top Navigation background, in border shadow, Events titles, Contact input fields background, Footer icon hover |
+| \--dark-green: #606c38;                         | Events title box background, Contact buttons, Footer background                                                        |
+| \--dark-brown: #271a16;                         | Used as font color in Top Navigation and Hero text                                                                     |
+| \--light-pink:#efbeb7;                          | Used as hover color for Top Navigation links and Contact buttons                                                       |
+| \--soft-background: rgba(239, 190, 183, 0.101); | Used as soft background for visual flow; shade of #ebfbeb7                                                             |
+|                                                 |                                                                                                                        |
+| Other Colors CSS HEX                            |                                                                                                                        |
+| \--dark-gray: #323232;                          | Used as font color throughout the sections of the website                                                              |
+| \--white: #fff;                                 | Used as Contact button font color and Footer  icon color                                                               |
+| \--pale-gray: #ffffff6e;                        | Used as overlay color for Hero container                                                                               |
+| \--light-gray: #ffffffab;                       | Used as background color for Hero text
 
 ### Logo and Images
 
@@ -152,7 +156,7 @@ The navigation bar is spread out the full width of the device with all link to d
 
 ![Navigation bar large screen](docs/navbar-full-screen.png)
 
-It also has a shade of rose pink for :hover effect to improve user experience.
+It also has a shade of light pink for :hover effect to improve user experience.
 
 ![Navigation bar large screen](docs/navbar-full-screen-hover.png)
 
@@ -210,7 +214,7 @@ For the smaller screen sizes (<992px), side by side image and text layout does n
 
 Meaningful and logical layout is one of my design goals for this website. After outlining importance and issues to the end user, I am now suggesting action in the Initiatives section. I have only included four actions/initiatives with relevant images and explanations not to overwhelm the end user with excessive information.
 
-On the larger screens (>=992px), the Initiatives section is displayed using grid in two columns. Each initiative has a saffron yellow border and tea rose background to match the theme of the website. If end user is only browsing the website, every initiative has a heading to summarise the main point.
+On the larger screens (>=992px), the Initiatives section is displayed using grid in two columns. Each initiative has a vivid yellow border and tea rose background to match the theme of the website. If end user is only browsing the website, every initiative has a heading to summarise the main point.
 
 <details><summary><b>Initiatives Desktop View</b></summary>
 
@@ -272,7 +276,7 @@ _MEdium & Small Screen Devices_ have displayed in one column just like other all
 
 </details><br/>
 
-When end-user clicks the button to either join or send, the applicable page for one of two actions is displayed. Both pages contain a thank you message with the bee logo for large screens and home icon in moss green and turns saffron yellow when hovered which on click brings the user back to the homepage.
+When end-user clicks the button to either join or send, the applicable page for one of two actions is displayed. Both pages contain a thank you message with the bee logo for large screens and home icon in dark green and turns vivid yellow when hovered which on click brings the user back to the homepage.
 
 <details><summary><b>Contact Email Thank You</b></summary>
 
@@ -290,7 +294,7 @@ When end-user clicks the button to either join or send, the applicable page for 
 
 ### Footer
 
-Moss green colour is used throughout the elements of the webpage is continued to the footer as a background. Footer includes the links to social media which are coded to open in a separate tab. The three links are spread across the bottom of the page. A saffron yellow hover effect is added to the social media icons. The hover colour is visually consistent with the Contact section background.
+Dark green colour is used throughout the elements of the webpage is continued to the footer as a background. Footer includes the links to social media which are coded to open in a separate tab. The three links are spread across the bottom of the page. A vivid yellow hover effect is added to the social media icons. The hover colour is visually consistent with the Contact section background.
 
 ![Footer with Hover](docs/footer-hover.png)
 
