@@ -54,6 +54,8 @@ Users can subscribe to newsletter and contact campaign managers directly.
   - [Bugs Fixed](#bugs-fixed)
 - [Deployment](#deployment)
   - [To deploy the project](#to-deploy-the-project)
+  - [To fork the project](#to-fork-the-project)
+  - [To clone the project](#to-clone-the-project)
 - [Credits](#credits)
 
 ## User Goals
@@ -277,7 +279,7 @@ _Medium & Small Screen Devices_ have displayed in one column just like other all
 
 </details><br/>
 
-When end-user clicks the button to either join or send, the applicable page for one of two actions is displayed. Both pages contain a thank you message with the bee logo for large screens and home icon in dark green and turns vivid yellow when hovered which on click brings the user back to the homepage.
+When end-user clicks the button to either join or send, the applicable page for one of two actions is displayed. Both pages contain a thank you message with the bee logo for large screens and home icon in dark green and turns vivid yellow when hovered which on click brings the user back to the homepage. There is also a refresh function that redirects to homepage after 5 seconds.
 
 <details><summary><b>Contact Email Thank You</b></summary>
 
@@ -514,7 +516,7 @@ Bee-Aware was deployed early in the process to GitHub pages via the following st
 
 - In the side navigation and select **Pages**
 
-- In the **None** dropdown and choose **main**
+- In the **None** dropdown and choose **Main**
 
 - Click on the **Save** button.
 
@@ -523,6 +525,26 @@ Bee-Aware was deployed early in the process to GitHub pages via the following st
 _Any changes required to the website, they can be made, committed and pushed to GitHub._
 
 [Back to top](#contents)
+
+## To fork the project
+
+Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
+
+* Log in to GitHub.
+* Locate the repository.
+* Click to open it.
+* The fork button is located on the right side of the repository menu. 
+* To copy the repository to your GitHub account, click the button.
+
+## To clone the project
+
+* Log in to GitHub.
+* Navigate to the main page of the repository and click Code.
+* Copy the URL for the repository.
+* Open your local IDE.
+* Change the current working directory to the location where you want the cloned directory.
+* Type git clone, and then paste the URL you copied earlier.
+* Press Enter to create your local clone.
 
 # Credits
 
