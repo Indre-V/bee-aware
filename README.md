@@ -45,6 +45,7 @@ Users can subscribe to newsletter and contact campaign managers directly.
   - [Code Validation](#code-validation)
     - [HTML](#html)
     - [CSS](#css)
+    - [Javascript](#javascript)
   - [Accessibility Testing](#accessibility-testing)
   - [User Story Testing](#user-story-testing)
   - [Lighthouse Testing](#lighthouse-testing)
@@ -115,7 +116,7 @@ I have also used [Contrast Grid](https://contrast-grid.eightshapes.com/ "Contras
 
 ![Contrast Grid](docs/contrast-grid.png)
 
-Primary Colors CSS HEX                          |                                                                                                                        |
+| Primary Colors CSS HEX                          |                                                                                                                        |
 | ----------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
 | \--vivid-yellow: #ecba04;                       | Used as Top Navigation background, in border shadow, Events titles, Contact input fields background, Footer icon hover |
 | \--dark-green: #606c38;                         | Events title box background, Contact buttons, Footer background                                                        |
@@ -125,9 +126,9 @@ Primary Colors CSS HEX                          |                               
 |                                                 |                                                                                                                        |
 | Other Colors CSS HEX                            |                                                                                                                        |
 | \--dark-gray: #323232;                          | Used as font color throughout the sections of the website                                                              |
-| \--white: #fff;                                 | Used as Contact button font color and Footer  icon color                                                               |
+| \--white: #fff;                                 | Used as Contact button font color and Footer icon color                                                                |
 | \--pale-gray: #ffffff6e;                        | Used as overlay color for Hero container                                                                               |
-| \--light-gray: #ffffffab;                       | Used as background color for Hero text
+| \--light-gray: #ffffffab;                       | Used as background color for Hero text                                                                                 |
 
 ### Logo and Images
 
@@ -341,9 +342,9 @@ Dark green colour is used throughout the elements of the webpage is continued to
 
 I have deployed the project a very early stage in order to test the responsiveness. I have used mobile first approach and checked all my changes on Microsoft Edge and Google Chrome browser DevTools. External website [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") was used to test deployed versions. Another external source used was [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive") website to get a single view of various device breakpoints.
 
-I have also utilised Mobile Simulator extension on Google Chrome for extra specific device responsiveness testing. Device samples at various breakpoints were tested for navigation, element alignment, content placement and functionality issues.
+I have also utilised Mobile Simulator extension on Google Chrome for extra specific device responsiveness testing. Device samples at various breakpoints were tested for navigation, element alignment, content placement and functionality issues. As a resulys of the testing, I have changed the hamburger icon location from left to right to improve User Experience.
 
-Test Results:
+Final Test Results:
 
 | Size | Device Example     | Navigation | Element Alignments | Content Placement | Functionality | Notes                                             |
 | ---- | ------------------ | ---------- | ------------------ | ----------------- | ------------- | ------------------------------------------------- |
@@ -377,9 +378,19 @@ I have used [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML").
 
 ### CSS
 
-- CSS code for the webpage was validated on [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator"). It has returned no errors.
+CSS code for the webpage was validated on [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS Validator"). It has returned no errors.
 
-  ![W3C CSS Validator](docs/css-validator-results.png "W3C CSS Validator results")
+![W3C CSS Validator](docs/css-validator-results.png "W3C CSS Validator results")
+
+[Back to top](#contents)
+
+### Javascript
+
+<details><summary><b>JS Validation Image</b></summary>
+
+![JS Validation Image](docs/js-test-result.png)
+
+</details><br/>
 
 [Back to top](#contents)
 
