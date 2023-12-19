@@ -1,4 +1,4 @@
-![Logo](docs/logo.png)
+![Logo](docs/bee-logo.png)
 
 # Bee-Aware
 
@@ -395,6 +395,7 @@ CSS code for the webpage was validated on [W3C CSS Validation Service](https://j
 </details><br/>
 
 [Back to top](#contents)
+
 
 ## Accessibility Testing
 
