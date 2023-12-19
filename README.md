@@ -127,7 +127,7 @@ Wireframes for the website were made using Balsamiq tool. Keeping in mind mobile
 
 ### Logo and Images
 
-Website logo is Microsoft Emoji of the bee. Other images were used from the internet to compliment the information on the website. All images have alt tags to comply with accessibility guidelines. I have also compressed larger images to optimise website performance. Imagery combined with other visual elements help to provide enjoyable experience throughout the website.
+Website logo is Emoji of the bee. Other images were used from the internet to compliment the information on the website. All images have alt tags to comply with accessibility guidelines. I have also compressed larger images to optimise website performance. Imagery combined with other visual elements help to provide enjoyable experience throughout the website.
 
 ### Structure
 
@@ -307,8 +307,8 @@ Moss green colour is used throughout the elements of the webpage is continued to
 
 ## Languages
 
-- [HTML5](https://developer.mozilla.org/en-US/docs/Glossary/HTML5 "HTML")
-- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS "CSS")
+- [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML5 "HTML")
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS "CSS")
 
 ## Libraries & Framework
 
@@ -321,8 +321,6 @@ Moss green colour is used throughout the elements of the webpage is continued to
 - [GitHub](https://github.com/ "GitHub")
 - [Balsamiq](https://balsamiq.com/wireframes/ "Balsamiq")
 - [W3C HTML Validation Service](https://validator.w3.org/ "W3C HTML")
-- [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/ "W3C CSS")
-- [Bootstrap](https://getbootstrap.com "Bootstrap")
 - [TOC Generator](https://ecotrust-canada.github.io/markdown-toc/ "TOC Generator")
 - [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive")
 - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker")
@@ -337,7 +335,7 @@ Moss green colour is used throughout the elements of the webpage is continued to
 
 ## Responsiveness Tests
 
-I have deployed the project a very early stage in order to test the responsiveness. I have used mobile first approach and checked all my changes on Microsoft Edge and Google Chrome browser DevTools. External website - [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") was used to test deployed versions. Another external source used was [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive") website to get a single view of various device breakpoints.
+I have deployed the project a very early stage in order to test the responsiveness. I have used mobile first approach and checked all my changes on Microsoft Edge and Google Chrome browser DevTools. External website [Responsive Design Checker](https://responsivedesignchecker.com/ "Responsive Design Checker") was used to test deployed versions. Another external source used was [Am I Responsive](https://ui.dev/amiresponsive "Am I responsive") website to get a single view of various device breakpoints.
 
 I have also utilised Mobile Simulator extension on Google Chrome for extra specific device responsiveness testing. Device samples at various breakpoints were tested for navigation, element alignment, content placement and functionality issues.
 
@@ -535,7 +533,7 @@ _Any changes required to the website, they can be made, committed and pushed to 
 
 * Images:
 
-  - Hero image [Bee Friendly Apiary](https://beefriendlyapiary.com/gallery/614zdfmyfmsa4mlwu84vvmz6epn7at"Bee Friendly Apiary")
+  - Hero image [Bee Friendly Apiary](https://beefriendlyapiary.com/gallery/614zdfmyfmsa4mlwu84vvmz6epn7at "Bee Friendly Apiary")
   - Image of selection of fruit and veg [Homestead and Chill](https://homesteadandchill.com/benefits-mycorrhizae-garden "Homestead and Chill")
   - Image of tractor spraying the field [Gencraft](https://gencraft.com/generate/ "Gencraft")
   - Image of small vegetable garden [Arum Jiwa](https://urbanpollinators.blogspot.com/ "Arum Jiwa")

@@ -1,6 +1,6 @@
 /* Google fonts import */
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;600&display=swap');
 
 :root {
     --light-pink: #efbeb7;
@@ -31,13 +31,12 @@
 }
 
 html {
-    scroll-padding-top: 8rem;
     font-size: 62.5%;
+    scroll-padding-top: 8rem;
     scroll-behavior: smooth;
 }
 
 body {
-
     min-height: 100vh;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 1.6rem;
@@ -61,7 +60,34 @@ li {
     list-style: none;
 }
 
-/* To add space within the paragraphs */
+textarea {
+    height: 7rem;
+    max-width: 80%;
+}
+
+input[type=checkbox]:checked~.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5.5rem;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+figcaption {
+    text-align: center;
+    padding: 1rem;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
 .text-space {
     padding: 2rem 0 2rem 0;
 }
@@ -88,7 +114,6 @@ li {
 
 .topnav {
     display: flex;
-    flex-direction: row-reverse;
     justify-content: space-between;
     background: url("../images/mobile-background.jpg") no-repeat center center;
     background-size: cover;
@@ -104,9 +129,6 @@ li {
 .menu li:hover {
     background-color: var(--light-pink);
     border-radius: 2rem;
-    transition: 1s ease;
-    transform: scale(1);
-    padding: 1rem;
 }
 
 .menu li {
@@ -120,16 +142,15 @@ li {
     font-size: 2rem;
 }
 
-input[type=checkbox]:checked~.menu {
-    display: block;
+.nav-links {
+    width: 100%;
 }
 
 .hamburger {
-    font-size: 4rem;
-}
-
-input[type=checkbox] {
-    display: none;
+    font-size: 3.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 1rem;
 }
 
 /* Hero section */
@@ -204,17 +225,6 @@ input[type=checkbox] {
     gap: 5rem;
 }
 
-figcaption {
-    text-align: center;
-    padding: 1rem;
-}
-
-figure img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-
 .item-grid {
     margin: 1rem auto;
     padding: 1rem;
@@ -224,7 +234,7 @@ figure img {
 
 /* Events Section */
 .event-title {
-    padding: 20px;
+    padding: 1.5rem;
     color: var(--vivid-yellow);
     background: var(--dark-green);
 }
@@ -261,11 +271,6 @@ textarea {
 .form label {
     display: block;
     width: 60%;
-}
-
-textarea {
-    height: 7rem;
-    max-width: 80%;
 }
 
 #info {
@@ -352,13 +357,12 @@ textarea {
 /* Small devices (landscape phones, 576px and up)  */
 @media (min-width: 576px) {
     .topnav {
-        flex-direction: row;
         background: var(--vivid-yellow);
     }
 
     .menu {
         display: flex;
-        background-color: var(--vivid-yellow);
+        justify-content: flex-end;
     }
 
     .hamburger {
