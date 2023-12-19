@@ -478,7 +478,7 @@ This website was extensively tested for functionality using both Chrome and Edge
 
 ## Bugs Fixed
 
-A vast amount of debugging occurred during the development of the website. All changes to the code were verified using the DevTools. The whole process was a huge learning experience to me which is reflected in the git commits. I have endeavoured to test the code regularly, however some bugs still appeared in the testing of the final version of the website.
+A vast amount of debugging occurred during the development of the website. All changes to the code were verified using the DevTools. The whole process was a huge learning experience to me which is reflected in the git commits. I have endeavoured to test the code regularly, however some bugs still appeared in the testing of the final version of the website:
 
 - Error popped up regarding incorrect labels in the contact form during WAVE testing. I rectified label ids, however the error came up again as the label ids were used twice. I have fixed the issue and then received a pass.
 
@@ -512,15 +512,15 @@ A vast amount of debugging occurred during the development of the website. All c
 
 Bee-Aware was deployed early in the process to GitHub pages via the following steps:
 
-- Navigate to the repository on GitHub and click on **Settings**
+- Navigate to the repository on GitHub and click on **Settings**.
 
-- In the side navigation and select **Pages**
+- In the side navigation and select **Pages**.
 
-- In the **None** dropdown and choose **Main**
+- In the **None** dropdown and choose **Main**.
 
 - Click on the **Save** button.
 
-- The website is now live at `https://indre-v.github.io/bee-aware/`
+- The website is now live at `https://indre-v.github.io/bee-aware/`.
 
 _Any changes required to the website, they can be made, committed and pushed to GitHub._
 
@@ -530,21 +530,21 @@ _Any changes required to the website, they can be made, committed and pushed to 
 
 Forking the GitHub repository allows you to create a duplicate of a local repository. This is done so that modifications to the copy can be performed without compromising the original repository.
 
-* Log in to GitHub.
-* Locate the repository.
-* Click to open it.
-* The fork button is located on the right side of the repository menu. 
-* To copy the repository to your GitHub account, click the button.
+- Log in to GitHub.
+- Locate the repository.
+- Click to open it.
+- The fork button is located on the right side of the repository menu.
+- To copy the repository to your GitHub account, click the button.
 
 ## To clone the project
 
-* Log in to GitHub.
-* Navigate to the main page of the repository and click Code.
-* Copy the URL for the repository.
-* Open your local IDE.
-* Change the current working directory to the location where you want the cloned directory.
-* Type git clone, and then paste the URL you copied earlier.
-* Press Enter to create your local clone.
+- Log in to GitHub.
+- Navigate to the main page of the repository and click Code.
+- Copy the URL for the repository.
+- Open your local IDE.
+- Change the current working directory to the location where you want the cloned directory.
+- Type git clone, and then paste the URL you copied earlier.
+- Press Enter to create your local clone.
 
 # Credits
 
